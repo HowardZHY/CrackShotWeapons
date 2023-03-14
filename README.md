@@ -1,2 +1,3 @@
-# CrackShotWeapon
-Crack Shot Weapon Configs
+# CrackShotWeapons
+Weapon examples for Crack Shot plugin.
+
