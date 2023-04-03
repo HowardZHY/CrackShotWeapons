@@ -1,0 +1,373 @@
+M1897:
+    Item_Information:
+        Item_Name: "&eM1897 Shotgun"
+        Item_Type: 417
+        Item_Lore: "&fNormal Shotgun.|&fShift &7to make shooting more accurate."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Right_Click_To_Shoot: false
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 8
+        Recoil_Amount: 2
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 32
+        Projectile_Damage: 15
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 1
+        Bullet_Spread: 1.5
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 2
+        Bullet_Spread: 1.1
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Reload_Bullets_Individually: true
+        Reload_Duration: 8
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 6
+        Close_Duration: 6
+        Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-2
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true        
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152 
+        Particle_Player_Shoot: FLAMES-1      
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: NOTE_PLING-1-2-0  
+M1887:
+    Item_Information:
+        Item_Name: "&eM1887 Shotgun"
+        Item_Type: 417
+        Item_Lore: "&eAdvanced pump-action shotgun.|&eFires metal slugs that penetrate|&eall targets within 40 blocks.|&eDeals 200% damage to Zombies."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: false
+        Recoil_Amount: 1
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Projectile_Damage: 12
+        Projectile_Speed: 32
+        Bullet_Spread: 1
+        Sounds_Shoot: WITHER_SHOOT-1-2-0,EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Reload_Bullets_Individually: true
+        Reload_Duration: 10
+        Sounds_Reloading: IRONGOLEM_THROW-1-2-0
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 12
+        Close_Duration: 3
+        Sound_Open: PISTON_EXTEND-1-2-0
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Super_Effective: ZOMBIE-2
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-57
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+s12k:
+    Item_Information:
+        Item_Name: "&eSAIGA-12K"
+        Item_Type: 284
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Item_Lore: "&1Semi-Auto Shotgun with basal Scope.|&cNeeds Shotgun Ammo"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Projectile_Speed: 40
+        Projectile_Damage: 16
+        Recoil_Amount: 5
+        Bullet_Spread: 2
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 1
+        Sounds_Shoot: BAT_TAKEOFF-1-2-0,NOTE_SNARE_DRUM-3-2-0,IRONGOLEM_DEATH-3-2-1,GHAST_FIREBALL-1-1-1
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.5
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 50
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 1
+        Close_Duration: 1
+        Close_Shoot_Delay: 2
+        Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-2
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 8
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true 
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-42
+        Particle_Hit: BLOCK_BREAK-80
+    Scope:
+        Enable: true
+        Zoom_Amount: 2
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+SPAS12:
+    Item_Information:
+        Item_Name: "&eSPAS-12 Shotgun"
+        Item_Type: 256
+        Item_Lore: "&fSemi-Auto Shotgun.|&cNeeds Shotgun Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Right_Click_To_Shoot: false
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 6
+        Recoil_Amount: 2
+        Projectile_Amount: 12
+        Projectile_Type: egg
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 32
+        Projectile_Damage: 12
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 1
+        Bullet_Spread: 1.5
+        Reset_Fall_Distance: true
+        Sounds_Shoot: EXPLODE-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 7
+        Reload_Bullets_Individually: true
+        Reload_Duration: 12
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 12
+        Close_Duration: 12
+        Sound_Open: CLICK-1-1-0
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_EXTEND-1-2-4
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true        
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152 
+        Particle_Player_Shoot: FLAMES-1      
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: NOTE_PLING-1-2-0
+AA12:
+    Item_Information:
+        Item_Name: "&eAA-12"
+        Item_Type: 418
+        Item_Lore: "&eFull Automatic Shotgun."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Delay_Between_Shots: 1
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 4
+        Projectile_Amount: 15
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 15
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Bullet_Spread: 1.2
+        Sounds_Shoot: WITHER_SHOOT-1-2-0,IRONGOLEM_HIT-1-2-0,ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 4
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.5
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Reload_Bullets_Individually: false
+        Reload_Duration: 20
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+        Super_Effective: ZOMBIE-2
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+        Maximum_Damage: -4
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: FLAMES-1
+        Particle_Impact_Anything: BLOCK_BREAK-51
+S686:
+    Item_Information:
+        Item_Name: "&eS686"
+        Item_Type: 417
+        Item_Lore: "&eDouble-barreled shotgun.|&eDeadly at close range.|&eIneffective at longer ranges.|&eFires incendiary ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 2
+        Recoil_Amount: 5
+        Projectile_Amount: 8
+        Projectile_Type: egg
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 40
+        Projectile_Damage: 15
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Bullet_Spread: 1
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Bullets_Individually: true
+        Reload_Duration: 15
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+        Maximum_Damage: -2
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: FLAMES-1
+        Particle_Impact_Anything: BLOCK_BREAK-51
+dbs:
+    Item_Information:
+        Item_Name: "&eDP-12 Shotgun"
+        Item_Type: 277
+        Item_Lore: "&eDBS Shotgun|&eHigh Damage with 2 round Burst fire.|&eReloading is pain.|"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 8
+        Recoil_Amount: 4
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Projectile_Speed: 40
+        Projectile_Damage: 14
+        Bullet_Spread: 1.5
+        Sounds_Shoot: EXPLODE-1-2-0,ITEM_BREAK-1-0-1,BLAZE_HIT-1-1-2,ZOMBIE_WOOD-1-1-2,GHAST_FIREBALL-1-1-2
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.2
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 3
+    Reload:
+        Enable: true
+        Reload_Amount: 14
+        Reload_Bullets_Individually: true
+        Reload_Duration: 10
+        Sounds_Reloading: NOTE_STICKS-1-1-0
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 10
+        Close_Duration: 10
+        Sound_Open: NOTE_STICKS-1-2-4,PISTON_RETRACT-1-2-4
+        Sound_Close: NOTE_STICKS-1-1-0,PISTON_RETRACT-1-4-0
+    Scope:
+        Enable: true
+        Zoom_Amount: 3
+        Zoom_Bullet_Spread: 1
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 12
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
