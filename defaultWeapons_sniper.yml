@@ -1,0 +1,419 @@
+AS50:
+    Item_Information:
+        Item_Name: "&eArctic .50 BMG"
+        Item_Type: 369
+        Item_Lore: "&eSemi-auto rifle with very high damage.|&eEquipped with a night vision scope."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Bullet_Spread: 0.1
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 6
+        Delay_Between_Shots: 12
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 1000
+        Projectile_Damage: 296
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Sounds_Shoot: NOTE_SNARE_DRUM-3-2-0,IRONGOLEM_DEATH-3-2-0,GHAST_FIREBALL-1-1-0,EXPLODE-5-4-0,WITHER_SHOOT-1-2-0,EXPLODE-2-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s Arctic 50!"
+    Reload:
+        Enable: true
+        Reload_Amount: 12
+        Reload_Duration: 18
+        Sounds_Reloading: ZOMBIE_METAL-1-2-0,FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,HURT_FLESH-1-0-17,DOOR_CLOSE-1-2-18
+    Headshot:
+        Enable: true
+        Bonus_Damage: 256
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 1
+        Delay_Between_Shots_In_Burst: 10
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.001
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: PISTON_RETRACT-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: EXPLODE-1-2-0
+
+lynx:
+    Item_Information:
+        Item_Name: "&eLynx GM6 AMR"
+        Item_Type: 419
+        Item_Lore: "&eSemi-auto Sniper Rifle with high damage.|&eEquipped with a 5x scope."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Bullet_Spread: 0.001
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 4
+        Delay_Between_Shots: 10
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 1200
+        Projectile_Damage: 134
+        Sounds_Shoot: EXPLODE-2-1-0,NOTE_SNARE_DRUM-3-2-0,IRONGOLEM_DEATH-3-2-1,GHAST_FIREBALL-1-1-1,WITHER_SHOOT-1-2-1
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s Lynx AMR!"
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Reload_Duration: 18
+        Sounds_Reloading: ZOMBIE_METAL-1-2-0,FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,HURT_FLESH-1-0-17,DOOR_CLOSE-1-2-18
+    Headshot:
+        Enable: true
+        Bonus_Damage: 256
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 1
+        Delay_Between_Shots_In_Burst: 8
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.001
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: EXPLODE-1-2-0
+
+L115A3:
+    Item_Information:
+        Item_Name: "&eL115A3 Sniper Rifle"
+        Item_Type: 356
+        Item_Lore: "&eBolt-action rifle with high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 900
+        Projectile_Damage: 132
+        Sounds_Shoot: BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s AWM/L115A3 Sniper!"
+    Reload:
+        Enable: true
+        Starting_Amount: 8
+        Reload_Amount: 8
+        Reload_Bullets_Individually: false
+        Reload_Duration: 10
+        Sounds_Reloading: NOTE_STICKS-1-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Close_Shoot_Delay: 6
+        Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-2
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 200
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+M24:
+    Item_Information:
+        Item_Name: "&eM24 Sniper Rifle"
+        Item_Type: 419
+        Item_Lore: "&eBolt-action Sniper Rifle.|&eEquipped with night vision scope.|&eDeals more damage on headshots."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 900
+        Projectile_Damage: 84
+        Sounds_Shoot: BLAZE_HIT-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s M24 Sniper!"
+    Reload:
+        Enable: true
+        Starting_Amount: 8
+        Reload_Amount: 8
+        Reload_Bullets_Individually: false
+        Reload_Duration: 10
+        Sounds_Reloading: FIRE_IGNITE-1-1-0,NOTE_STICKS-1-1-4,FIRE_IGNITE-1-1-8
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 6
+        Close_Duration: 6
+        Close_Shoot_Delay: 6
+        Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-3-2
+        Sound_Close: PISTON_EXTEND-1-3-2
+    Headshot:
+        Enable: true
+        Bonus_Damage: 90
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 4
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.01
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.01
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+m1891:
+    Item_Information:
+        Item_Name: "&eMosin Nagant M1891"
+        Item_Type: 280
+        Item_Lore: "&3Bolt-Action Sniper Rifle|&c&oNeeds 7.62mm Ammo"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 720
+        Projectile_Damage: 78
+        Recoil_Amount: 3
+        Sounds_Shoot: BLAZE_HIT-1-1-0
+        Bullet_Spread: 0.1
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s Mosin Nagant M1891 Rifle!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 12
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 8
+        Close_Duration: 8
+        Close_Shoot_Delay: 8
+        Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-0,PISTON_EXTEND-1-2-3,PISTON_RETRACT-1-2-6
+        Sound_Close: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-2,PISTON_EXTEND-1-2-5,PISTON_RETRACT-1-2-8
+    Headshot:
+        Enable: true
+        Bonus_Damage: 78
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.01
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+kar98k:
+    Item_Information:
+        Item_Name: "&eKar 98k"
+        Item_Type: 280
+        Item_Lore: "&3&oBolt-Action Sniper Rifle|&c&oNeeds 7.62mm Ammo"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 640
+        Projectile_Damage: 78
+        Recoil_Amount: 3
+        Sounds_Shoot: IRONGOLEM_DEATH-3-1-0,BLAZE_HIT-1-2-0,EXPLODE-1-2-0
+        Bullet_Spread: 0.1
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s Kar 98K Rifle!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 12
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 8
+        Close_Duration: 8
+        Close_Shoot_Delay: 8
+        Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-2
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 78
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.01
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+win94:
+    Item_Information:
+        Item_Name: "&eWinchester M1894"
+        Item_Type: 280
+        Item_Lore: "&3Winchester M1894 Hunting Rifle"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 640
+        Projectile_Damage: 66
+        Recoil_Amount: 3
+        Sounds_Shoot: BLAZE_HIT-1-2-0
+        Bullet_Spread: 0.1
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s Win94!"
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Reload_Bullets_Individually: true
+        Reload_Duration: 10
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: NOTE_STICKS-1-1-0
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 5
+        Close_Duration: 5
+        Close_Shoot_Delay: 5
+        Sound_Open: NOTE_STICKS-1-0-0,PISTON_EXTEND-1-2-0
+        Sound_Close: PISTON_RETRACT-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 66
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Scope:
+        Enable: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.01
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
