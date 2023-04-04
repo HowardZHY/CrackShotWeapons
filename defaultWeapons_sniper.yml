@@ -12,7 +12,7 @@ AS50:
         Delay_Between_Shots: 12
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 1000
+        Projectile_Speed: 800
         Projectile_Damage: 296
         Projectile_Flames: true
         Projectile_Incendiary:
@@ -122,11 +122,11 @@ lynx:
         Enable: true
         Sounds_Shooter: EXPLODE-1-2-0
 
-L115A3:
+M200:
     Item_Information:
-        Item_Name: "&eL115A3 Sniper Rifle"
-        Item_Type: 356
-        Item_Lore: "&eBolt-action rifle with high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
+        Item_Name: "&eM200 Intervention"
+        Item_Type: 369
+        Item_Lore: "&eBolt-action Sniper with very high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
         Cancel_Left_Click_Block_Damage: true
@@ -134,11 +134,67 @@ L115A3:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 900
+        Projectile_Speed: 1200
+        Projectile_Damage: 114
+        Sounds_Shoot: NOTE_SNARE_DRUM-3-2-0,IRONGOLEM_DEATH-3-2-1,BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s M200 Sniper!"
+    Reload:
+        Enable: true
+        Starting_Amount: 6
+        Reload_Amount: 6
+        Reload_Bullets_Individually: false
+        Reload_Duration: 10
+        Sounds_Reloading: NOTE_STICKS-1-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Close_Shoot_Delay: 6
+        Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-0
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 171
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.001
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+AWM:
+    Item_Information:
+        Item_Name: "&eAWM Sniper Rifle"
+        Item_Type: 356
+        Item_Lore: "&eBolt-action Sniper with high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 960
         Projectile_Damage: 132
         Sounds_Shoot: BLAZE_HIT-1-1-0,EXPLODE-1-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s AWM/L115A3 Sniper!"
+        Normal: "&e<victim> was sniped by <shooter>'s AWM Sniper!"
     Reload:
         Enable: true
         Starting_Amount: 8
@@ -173,7 +229,7 @@ L115A3:
         Night_Vision: true
         Zoom_Amount: 10
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
-        Zoom_Bullet_Spread: 0
+        Zoom_Bullet_Spread: 0.001
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -190,7 +246,7 @@ M24:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 900
+        Projectile_Speed: 840
         Projectile_Damage: 84
         Sounds_Shoot: BLAZE_HIT-1-1-0
     Custom_Death_Message:
@@ -373,7 +429,7 @@ win94:
         Cancel_Right_Click_Interactions: true
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 640
+        Projectile_Speed: 560
         Projectile_Damage: 66
         Recoil_Amount: 3
         Sounds_Shoot: BLAZE_HIT-1-2-0
