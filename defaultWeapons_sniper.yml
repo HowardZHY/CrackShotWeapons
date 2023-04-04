@@ -24,8 +24,8 @@ AS50:
     Reload:
         Enable: true
         Reload_Amount: 12
-        Reload_Duration: 18
-        Sounds_Reloading: ZOMBIE_METAL-1-2-0,FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,HURT_FLESH-1-0-17,DOOR_CLOSE-1-2-18
+        Reload_Duration: 36
+        Sounds_Reloading: ZOMBIE_METAL-1-2-0,FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-8,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-30
     Headshot:
         Enable: true
         Bonus_Damage: 256
@@ -84,8 +84,8 @@ lynx:
     Reload:
         Enable: true
         Reload_Amount: 6
-        Reload_Duration: 18
-        Sounds_Reloading: ZOMBIE_METAL-1-2-0,FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,HURT_FLESH-1-0-17,DOOR_CLOSE-1-2-18
+        Reload_Duration: 36
+        Sounds_Reloading: ZOMBIE_METAL-1-2-0,FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-8,HURT_FLESH-1-0-30,DOOR_CLOSE-1-2-32
     Headshot:
         Enable: true
         Bonus_Damage: 256
