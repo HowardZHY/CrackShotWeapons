@@ -1,0 +1,237 @@
+m249:
+    Item_Information:
+        Item_Name: "&eM249"
+        Item_Type: 419
+        Item_Lore: "&eFull Auto LMG with 4x scope"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 960
+        Projectile_Damage: 44
+        Bullet_Spread: 0.5
+        Sounds_Shoot: NOTE_SNARE_DRUM-3-2-0,ZOMBIE_WOOD-1-2-0,ORB_PICKUP-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.05
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 80
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-8,DOOR_OPEN-1-2-10,CHEST_OPEN-1-2-20,FIRE_IGNITE-1-1-40,HURT_FLESH-1-0-50,DOOR_CLOSE-1-2-60,NOTE_STICKS-1-0-70,PISTON_RETRACT-1-2-72,PISTON_EXTEND-1-2-78
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 66
+        Sounds_Shooter: NOTE_PLING-1-2-0    
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.05
+
+mg3:
+    Item_Information:
+        Item_Name: "&eMG3"
+        Item_Type: 278
+        Item_Lore: "&eFull Auto MG with Very High Fire Rate.|&cUse 7.62mm Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 720
+        Projectile_Damage: 40
+        Bullet_Spread: 0.5
+        Sounds_Shoot: NOTE_SNARE_DRUM-3-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.05
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Hit: BLOCK_BREAK-80
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 75
+        Reload_Duration: 100
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: PISTON_RETRACT-1-2-4,FIRE_IGNITE-1-1-10,DOOR_OPEN-1-2-12,FIRE_IGNITE-1-1-20,FIRE_IGNITE-1-1-50,HURT_FLESH-1-0-50,DOOR_CLOSE-1-2-70,NOTE_STICKS-1-0-80,PISTON_EXTEND-1-2-90
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0   
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-6
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0    
+    Scope:
+        Enable: true
+        Zoom_Amount: 3
+        Night_Vision: true
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.05
+
+dp28:
+    Item_Information:
+        Item_Name: "&eDP-28 Machine Gun"
+        Item_Type: 285
+        Item_Lore: "&fStable WW2 Machine Gun.|&cUse 7.62mm Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 600
+        Projectile_Damage: 49
+        Bullet_Spread: 0.4
+        Sounds_Shoot: NOTE_PLING-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 8
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.05
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152 
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
+    Reload:
+        Enable: true
+        Reload_Amount: 47
+        Reload_Duration: 64
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-10,FIRE_IGNITE-1-1-14,FIRE_IGNITE-1-1-40,HURT_FLESH-1-0-47,DOOR_CLOSE-1-2-48
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-6
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true  
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 72
+        Sounds_Shooter: NOTE_PLING-1-2-0
+
+pkm:
+    Item_Information:
+        Item_Name: "&ePKM"
+        Item_Type: 257
+        Item_Lore: "&eFull Auto Heavy Machine Gun with scope.|&cUse 7.62mm Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 640
+        Projectile_Damage: 43
+        Bullet_Spread: 0.5
+        Sounds_Shoot: NOTE_SNARE_DRUM-3-2-0,IRONGOLEM_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.05
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 8
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 150
+        Reload_Duration: 100
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: PISTON_RETRACT-1-2-4,PISTON_EXTEND-1-2-8,FIRE_IGNITE-1-1-10,DOOR_OPEN-1-2-12,CHEST_OPEN-1-2-20,FIRE_IGNITE-1-1-40,HURT_FLESH-1-0-50,DOOR_CLOSE-1-2-70,NOTE_STICKS-1-0-80,PISTON_RETRACT-1-2-90,PISTON_EXTEND-1-2-96
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0   
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-6
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 64
+        Sounds_Shooter: NOTE_PLING-1-2-0    
+    Scope:
+        Enable: true
+        Zoom_Amount: 6
+        Night_Vision: true
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.05
