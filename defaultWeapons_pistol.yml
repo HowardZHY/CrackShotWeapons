@@ -45,7 +45,7 @@ m1911:
         No_Recoil: true
         Zoom_Amount: 2
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
-        Bullet_Spread: 0
+        Zoom_Bullet_Spread: 0.05
 
 m92:
     Item_Information:
@@ -79,7 +79,7 @@ m92:
         No_Recoil: true
         Zoom_Amount: 2
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
-        Zoom_Bullet_Spread: 0.1
+        Zoom_Bullet_Spread: 0.05
     Headshot:
         Enable: true
         Bonus_Damage: 30
@@ -113,7 +113,7 @@ g18:
         Projectile_Amount: 1
         Projectile_Type: snowball
         Projectile_Speed: 40
-        Projectile_Damage: 16
+        Projectile_Damage: 20
         Bullet_Spread: 0.5
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
     Sneak:
@@ -130,10 +130,10 @@ g18:
         No_Recoil: true
         Zoom_Amount: 2
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
-        Zoom_Bullet_Spread: 0.1
+        Zoom_Bullet_Spread: 0.05
     Headshot:
         Enable: true
-        Bonus_Damage: 16
+        Bonus_Damage: 20
         Sounds_Shooter: NOTE_PLING-1-2-0
     Abilities:
         No_Vertical_Recoil: true
@@ -208,7 +208,7 @@ de:
         Recoil_Amount: 3
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 400
+        Projectile_Speed: 300
         Projectile_Damage: 60
         Bullet_Spread: 0.2
         Sounds_Shoot: CLICK-1-2-0,ZOMBIE_WOOD-1-2-0,NOTE_SNARE_DRUM-3-2-0,IRONGOLEM_DEATH-3-1-0,GHAST_FIREBALL-1-1-0,WITHER_SHOOT-1-2-0
@@ -238,7 +238,7 @@ de:
         Enable: true
         Zoom_Amount: 4
         Sounds_Toggle_Zoom: CLICK-1-1-0
-        Zoom_Bullet_Spread: 0.1
+        Zoom_Bullet_Spread: 0.05
     Headshot:
         Enable: true
         Bonus_Damage: 60
@@ -274,6 +274,11 @@ M1895:
         Reload_Amount: 7
         Reload_Duration: 10
         Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Scope:
+        Enable: true
+        Zoom_Amount: 2
+        Sounds_Toggle_Zoom: CLICK-1-1-0
+        Zoom_Bullet_Spread: 0.1
     Sneak:
         Enable: true
         No_Recoil: true

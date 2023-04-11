@@ -18,14 +18,14 @@ M1897:
         Projectile_Incendiary:
             Enable: true
             Duration: 1
-        Bullet_Spread: 1.5
+        Bullet_Spread: 1.2
         Reset_Fall_Distance: true
         Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
     Sneak:
         Enable: true
         No_Recoil: true
         Zoom_Amount: 2
-        Bullet_Spread: 1.1
+        Bullet_Spread: 1
     Reload:
         Enable: true
         Reload_Amount: 6
@@ -52,7 +52,8 @@ M1897:
     Headshot:
         Enable: true
         Bonus_Damage: 10
-        Sounds_Shooter: NOTE_PLING-1-2-0  
+        Sounds_Shooter: NOTE_PLING-1-2-0
+
 M1887:
     Item_Information:
         Item_Name: "&eM1887 Shotgun"
@@ -90,6 +91,7 @@ M1887:
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
+
 s12k:
     Item_Information:
         Item_Name: "&eSAIGA-12K"
@@ -152,6 +154,7 @@ s12k:
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
+
 SPAS12:
     Item_Information:
         Item_Name: "&eSPAS-12 Shotgun"
@@ -261,6 +264,7 @@ AA12:
         Enable: true
         Particle_Player_Shoot: FLAMES-1
         Particle_Impact_Anything: BLOCK_BREAK-51
+
 S686:
     Item_Information:
         Item_Name: "&eS686"
@@ -314,6 +318,7 @@ S686:
         Enable: true
         Particle_Player_Shoot: FLAMES-1
         Particle_Impact_Anything: BLOCK_BREAK-51
+
 dbs:
     Item_Information:
         Item_Name: "&eDP-12 Shotgun"

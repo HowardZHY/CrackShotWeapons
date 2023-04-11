@@ -1,26 +1,19 @@
-mp5:
+uzi:
     Item_Information:
-        Item_Name: "&eMP5"
-        Item_Type: 293
-        Item_Lore: "&1Normal Submachine Gun. Requires Ammo For Shooting."
+        Item_Name: "&eUZI"
+        Item_Type: 292
+        Item_Lore: "&eNormal SMG with high fire rate.|&cUse 9mm Ammo."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Right_Click_To_Shoot: false
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: snowball
         Projectile_Speed: 40
-        Projectile_Damage: 30
-        Bullet_Spread: 0.4
+        Projectile_Damage: 24
+        Bullet_Spread: 0.3
         Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ORB_PICKUP-1-2-0
-    Scope:
-        Enable: true
-        No_Recoil: true
-        Zoom_Amount: 3
-        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
-        Zoom_Bullet_Spread: 0.05
     Sneak:
         Enable: true
         No_Recoil: true
@@ -35,7 +28,7 @@ mp5:
         Fire_Rate: 16
     Reload:
         Enable: true
-        Reload_Amount: 45
+        Reload_Amount: 35
         Reload_Duration: 40
         Take_Ammo_On_Reload: true
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -43,22 +36,22 @@ mp5:
     Firearm_Action:
         Type: slide
         Close_Duration: 10
-        Close_Shoot_Delay: 10
+        Close_Shoot_Delay: 12
         Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0    
     Headshot:
         Enable: true
-        Bonus_Damage: 10
+        Bonus_Damage: 5
         Sounds_Shooter: NOTE_PLING-1-2-0    
     Abilities:
         No_Vertical_Recoil: true 
         Reset_Hit_Cooldown: true
     Particles:
         Enable: true
-        Particle_Impact_Anything: BLOCK_BREAK-13
-        Particle_Hit: BLOCK_BREAK-13
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152 
 
 pp19:
     Item_Information:
@@ -183,3 +176,286 @@ vector:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
+
+mp5:
+    Item_Information:
+        Item_Name: "&eMP5"
+        Item_Type: 293
+        Item_Lore: "&1Normal Submachine Gun. Requires Ammo For Shooting."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 30
+        Bullet_Spread: 0.4
+        Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ORB_PICKUP-1-2-0
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~14
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Reload:
+        Enable: true
+        Reload_Amount: 45
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: NOTE_PLING-1-2-0    
+    Abilities:
+        No_Vertical_Recoil: true 
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-13
+        Particle_Hit: BLOCK_BREAK-13
+
+ump9:
+    Item_Information:
+        Item_Name: "&eUMP9"
+        Item_Type: 293
+        Item_Lore: "&aStable Submachine Gun. &cRequires Ammo For Shooting."
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 38
+        Bullet_Spread: 0.4
+        Sounds_Shoot: FIRE_IGNITE-1-1-0,CLICK-1-1-0,BLAZE_HIT-1-2-0
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~14
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: NOTE_PLING-1-2-0    
+    Abilities:
+        No_Vertical_Recoil: true 
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-13
+        Particle_Hit: BLOCK_BREAK-13
+
+ump45:
+    Item_Information:
+        Item_Name: "&eUMP45"
+        Item_Type: 293
+        Item_Lore: "&bStable Submachine Gun."
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 40
+        Bullet_Spread: 0.4
+        Sounds_Shoot: CLICK-1-1-0,BLAZE_HIT-1-3-0
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Reload:
+        Enable: true
+        Reload_Amount: 35
+        Reload_Duration: 40
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Abilities:
+        No_Vertical_Recoil: true 
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-13
+        Particle_Hit: BLOCK_BREAK-13
+
+tom:
+    Item_Information:
+        Item_Name: "&eTommy Gun"
+        Item_Type: 280
+        Item_Lore: "&eFull Auto SMG with 50 round magezine."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 40
+        Projectile_Damage: 38
+        Bullet_Spread: 0.4
+        Sounds_Shoot: CLICK-1-1-0,FIRE_IGNITE-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-2-36,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 12
+        Sounds_Shooter: NOTE_PLING-1-2-0    
+    Abilities:
+        No_Vertical_Recoil: true 
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+
+p90:
+    Item_Information:
+        Item_Name: "&eP90"
+        Item_Type: 279
+        Item_Lore: "&5Special SMG with 50 round magezine and 3x scope."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 200
+        Projectile_Damage: 35
+        Bullet_Spread: 0.3
+        Sounds_Shoot: BLAZE_HIT-1-2-0,CLICK-1-1-0,FIRE_IGNITE-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 50
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-4,FIRE_IGNITE-1-2-38,DOOR_CLOSE-1-2-39
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: NOTE_PLING-1-2-0    
+    Abilities:
+        No_Vertical_Recoil: true 
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 4
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.02
