@@ -334,7 +334,7 @@ m1891:
         Sound_Close: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-2,PISTON_EXTEND-1-2-5,PISTON_RETRACT-1-2-8
     Headshot:
         Enable: true
-        Bonus_Damage: 78
+        Bonus_Damage: 88
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: VILLAGER_DEATH-1-1-0
     Abilities:
@@ -396,7 +396,7 @@ kar98k:
         Sound_Close: PISTON_EXTEND-1-2-0
     Headshot:
         Enable: true
-        Bonus_Damage: 78
+        Bonus_Damage: 88
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: VILLAGER_DEATH-1-1-0
     Abilities:
@@ -444,7 +444,7 @@ win94:
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
         Sounds_Reloading: NOTE_STICKS-1-1-0
     Firearm_Action:
-        Type: pump
+        Type: lever
         Open_Duration: 5
         Close_Duration: 5
         Close_Shoot_Delay: 5

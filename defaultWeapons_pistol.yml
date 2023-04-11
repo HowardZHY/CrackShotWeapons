@@ -1,0 +1,349 @@
+m1911:
+    Item_Information:
+        Item_Name: "&eM1911 Pistol"
+        Item_Type: 292
+        Item_Lore: "&2Normal Pistol with moderate damage."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Recoil_Amount: 1
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 35
+        Bullet_Spread: 0.2
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-1-0,ZOMBIE_WOOD-1-1-0 
+    Reload:
+        Enable: true
+        Reload_Amount: 12
+        Reload_Duration: 20
+        Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-23
+    Headshot:
+        Enable: true
+        Bonus_Damage: 35
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 10
+        Close_Duration: 10
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0  
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-42
+        Particle_Hit: BLOCK_BREAK-42
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 2
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Bullet_Spread: 0
+
+m92:
+    Item_Information:
+        Item_Name: "&eBeretta Pistol M92" 
+        Item_Type: 294
+        Item_Lore: "&eSemi Auto Pistol with more ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Recoil_Amount: 1
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 30
+        Bullet_Spread: 0.2
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-1-0 
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Duration: 25
+        Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-22
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 2
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.1
+    Headshot:
+        Enable: true
+        Bonus_Damage: 30
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0  
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-82
+        Particle_Hit: BLOCK_BREAK-82
+
+g18:
+    Item_Information:
+        Item_Name: "&eGlock Pistol 18C" 
+        Item_Type: 294
+        Item_Lore: "Full Auto Pistol"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Shooting:
+        Recoil_Amount: 1
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 16
+        Bullet_Spread: 0.5
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.3
+    Reload:
+        Enable: true
+        Reload_Amount: 25
+        Reload_Duration: 25
+        Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-22
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 2
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.1
+    Headshot:
+        Enable: true
+        Bonus_Damage: 16
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0  
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-82
+        Particle_Hit: BLOCK_BREAK-82
+
+Deagle:
+    Item_Information:
+        Item_Name: "&eDual Desert Eagle"
+        Item_Type: 417
+        Item_Lore: "&eDual pistols.|&eLeft/right click to shoot.|&eShoot enemies in the back|&efor bonus backstab damage."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Dual_Wield: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 2
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 40
+        Projectile_Damage: 60
+        Bullet_Spread: 0.5
+        Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ZOMBIE_WOOD-1-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Reload:
+        Enable: true
+        Reload_Amount: 7
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-23,DOOR_CLOSE-1-2-38
+        Dual_Wield:
+            Single_Reload_Duration: 25
+            Sounds_Single_Reload: DOOR_OPEN-1-2-4,DOOR_CLOSE-1-2-23
+            Sounds_Shoot_With_No_Ammo: CLICK-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Backstab:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Backstab: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 50
+        Sounds_Shooter: NOTE_PLING-1-2-0
+
+de:
+    Item_Information:
+        Item_Name: "&eDesert Eagle"
+        Item_Type: 292
+        Item_Lore: "&eHigh damage pistol with scope. &eShoot enemies in the back|&efor bonus backstab damage."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 3
+        Recoil_Amount: 3
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 400
+        Projectile_Damage: 60
+        Bullet_Spread: 0.2
+        Sounds_Shoot: CLICK-1-2-0,ZOMBIE_WOOD-1-2-0,NOTE_SNARE_DRUM-3-2-0,IRONGOLEM_DEATH-3-1-0,GHAST_FIREBALL-1-1-0,WITHER_SHOOT-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Reload:
+        Enable: true
+        Reload_Amount: 12
+        Reload_Duration: 25
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: DOOR_OPEN-1-2-2,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-18,DOOR_CLOSE-1-2-24
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Backstab:
+        Enable: true
+        Bonus_Damage: 4
+        Sounds_Shooter: ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Backstab: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Sounds_Toggle_Zoom: CLICK-1-1-0
+        Zoom_Bullet_Spread: 0.1
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+
+M1895:
+    Item_Information:
+        Item_Name: "&eNagant Revolver M1895"
+        Item_Type: 417
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Item_Lore: "&eHigh Damage WWII Revolver|&cUse 7.62 Ammo."
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Delay_Between_Shots: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 200
+        Projectile_Damage: 46
+        Bullet_Spread: 0.2
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-1-0,ZOMBIE_WOOD-1-1-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0    
+    Reload:
+        Enable: true
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true        
+        Reload_Amount: 7
+        Reload_Duration: 10
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Headshot:
+        Enable: true
+        Bonus_Damage: 46
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 10
+        Close_Duration: 10
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0   
+
+Python:
+    Item_Information:
+        Item_Name: "&ePython &l/&e Knife"
+        Item_Type: 417
+        Item_Lore: "&eRevolver with high power.|&eLeft click to melee enemies|&ewith the tactical knife."
+        Melee_Attachment: Tactical_Knife
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 200
+        Projectile_Damage: 60
+        Bullet_Spread: 0.5
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 9
+        Reload_Duration: 35
+        Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-28
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 90
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+
+Shield:
+    Item_Information:
+        Item_Name: "&eShield"
+        Item_Type: 307
+        Item_Lore: "&eBlocks all melee and ranged attacks.|&eIneffective against attacks from behind."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: false
+    Riot_Shield:
+        Enable: true
+        Durability_Loss_Per_Hit: 1
+        Sounds_Blocked: GLASS-2-2-0
+        Sounds_Break: ITEM_BREAK-2-1-0
