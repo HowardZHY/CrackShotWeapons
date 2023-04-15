@@ -1,0 +1,748 @@
+
+M4A1:
+    Item_Information:
+        Item_Name: "&eM4A1 Carbine"
+        Item_Type: 275
+        Item_Lore: "&aStandard Carbine Rifle|&eRight click to open 2x scope.|&cNeed 5.56 Ammo"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 720
+        Projectile_Damage: 40
+        Bullet_Spread: 0.4
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 40
+        Reload_Duration: 30
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-23,DOOR_CLOSE-1-2-25
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0      
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 3
+        Sound_Close: CLICK-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Critical_Hits:
+        Enable: false
+        Bonus_Damage: 40
+        Chance: 10
+        Sounds_Shooter: ORB_PICKUP-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+
+M16:
+    Item_Information:
+        Item_Name: "&eM16A4"
+        Item_Type: 275
+        Item_Lore: "&eAR with three round burst fire."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 8
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 800
+        Projectile_Damage: 42
+        Bullet_Spread: 0.2
+        Sounds_Shoot: ITEM_BREAK-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.01
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 30
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-23,DOOR_CLOSE-1-2-25
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-2
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.01
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 63
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+
+MK12:
+    Item_Information:
+        Item_Name: "&eMK12 DMR"
+        Item_Type: 275
+        Item_Lore: "&aCarbine DMR Rifle|&eRight click to open 4x scope.|&cUse 5.56 Ammo"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 800
+        Projectile_Damage: 50
+        Bullet_Spread: 0.3
+        Sounds_Shoot: CLICK-1-1-0,IRONGOLEM_HIT-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.02
+    Scope:
+        Enable: true
+        Zoom_No_Recoil: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-0-0
+        Zoom_Bullet_Spread: 0.02
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 30
+        Reload_Duration: 36
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-7,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-32
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0      
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 4
+        Sound_Close: CLICK-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 75
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+
+M416:
+    Item_Information:
+        Item_Name: "&eHK M416"
+        Item_Type: 258
+        Item_Lore: "&aStable Assault Rifle with 4x Scope.|&cNeed 5.56 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Delay_Between_Shots: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 720
+        Projectile_Damage: 40
+        Bullet_Spread: 0.3
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 30
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,DOOR_CLOSE-1-2-28
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-52 
+        Particle_Hit: BLOCK_BREAK-52
+
+ScarL:
+    Item_Information:
+        Item_Name: "&eSCAR-L"
+        Item_Type: 286
+        Item_Lore: "&e5.56 Light Assault Rifle.|&2Right click to open night vision 2x scope."
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 720
+        Projectile_Damage: 40
+        Bullet_Spread: 0.4
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Night_Vision: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Reload:
+        Enable: true
+        Reload_Amount: 44
+        Reload_Duration: 30
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-23,DOOR_CLOSE-1-2-25
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 3
+        Sound_Close: CLICK-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+
+g36:
+    Item_Information:
+        Item_Name: "&eG36"
+        Item_Type: 258
+        Item_Lore: "&e5.56 Assault Rifle.|&2Right click to open night vision 4x scope."
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 720
+        Projectile_Damage: 40
+        Bullet_Spread: 0.4
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,FIRE_IGNITE-1-1-1
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 45
+        Sounds_Reloading: FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-40,HURT_FLESH-1-0-43,DOOR_CLOSE-1-2-45
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 10
+        Sound_Close: PISTON_RETRACT-1-2-5
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+
+aug:
+    Item_Information:
+        Item_Name: "&eAUG"
+        Item_Type: 279
+        Item_Lore: "&5LMG Rifle with Scope.|&cNeed 5.56 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 800
+        Projectile_Damage: 42
+        Bullet_Spread: 0.3
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,EXPLODE-1-2-0,ZOMBIE_WOOD-1-1-0,SKELETON_HURT-1-2-1
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0   
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 3
+        Zoom_Bullet_Spread: 0.02
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0        
+    Reload:
+        Enable: true
+        Reload_Amount: 60
+        Reload_Duration: 45
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,PISTON_RETRACT-1-2-10,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38,PISTON_RETRACT-1-2-40
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 63
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-13
+        Particle_Hit: BLOCK_BREAK-13
+
+famas:
+    Item_Information:
+        Item_Name: "&eFAMAS"
+        Item_Type: 279
+        Item_Lore: "&5High fire rate AR with Scope.|&cNeed 5.56 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 800
+        Projectile_Damage: 40
+        Bullet_Spread: 0.3
+        Sounds_Shoot: FIRE_IGNITE-1-1-0,CLICK-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0   
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.05
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0        
+    Reload:
+        Enable: true
+        Reload_Amount: 25
+        Reload_Duration: 45
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-13
+        Particle_Hit: BLOCK_BREAK-13
+
+Type95:
+    Item_Information:
+        Item_Name: "&eType 95"
+        Item_Type: 293
+        Item_Lore: "QBZ-95 &eFull-automatic LMG/AR. With 3x night vision scope"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    SignShops:
+        Enable: true
+        Price: 266-10
+        Sign_Gun_ID: 95
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 600
+        Projectile_Damage: 43
+        Bullet_Spread: 0.3
+        Sounds_Shoot: ITEM_BREAK-1-2-2,NOTE_SNARE_DRUM-1-0-2
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Ammo:
+        Enable: false
+        Ammo_Item_ID: 370
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Take_Ammo_On_Reload: false
+        Reload_Duration: 40
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.01
+        Night_Vision: true
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 64
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+
+Mini14:
+    Item_Information:
+        Item_Name: "&eMini-14"
+        Item_Type: 275
+        Item_Lore: "&aLight DMR Rifle|&eRight click to open 4x scope.|&cUse 5.56 Ammo"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 960
+        Projectile_Damage: 46
+        Bullet_Spread: 0.3
+        Sounds_Shoot: CLICK-1-1-0,NOTE_PLING-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.02
+    Scope:
+        Enable: true
+        Zoom_No_Recoil: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-0-0
+        Zoom_Bullet_Spread: 0.02
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 30
+        Reload_Duration: 36
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-7,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-32
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0      
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 4
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 69
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+
+Type88:
+    Item_Information:
+        Item_Name: "&eType 88"
+        Item_Type: 293
+        Item_Lore: "QBU-88 &eSemi Auto Sniper/DMR.|&eWith 4x night vision scope"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 960
+        Projectile_Damage: 54
+        Bullet_Spread: 0.2
+        Sounds_Shoot: ITEM_BREAK-1-2-0,NOTE_SNARE_DRUM-1-0-0,NOTE_PLING-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.01
+    Scope:
+        Enable: true
+        Zoom_No_Recoil: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-0-0
+        Zoom_Bullet_Spread: 0.01
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Duration: 36
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-7,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-32
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 6
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 81
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+
+vss:
+    Item_Information:
+        Item_Name: "&eVSS"
+        Item_Type: 294
+        Item_Lore: "Full Auto Slient Sniper with 4X Scope"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: false
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 320
+        Projectile_Damage: 40
+        Recoil_Amount: 0.5
+        Bullet_Spread: 0.1
+        Sounds_Shoot: BLAZE_HIT-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s VSS !"
+    Reload:
+        Enable: true
+        Reload_Amount: 24
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 25
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-18,HURT_FLESH-1-0-20,DOOR_CLOSE-1-2-23
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 1
+        Close_Shoot_Delay: 1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.01
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+m27:
+    Item_Information:
+        Item_Name: "&eM27-IAR"
+        Item_Type: 419
+        Item_Lore: "&eFull Auto LMG DMR Rifle with 4x Scope and High Accuracy"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 0.2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 960
+        Projectile_Damage: 42
+        Bullet_Spread: 0.1
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.001
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-23,DOOR_CLOSE-1-2-25
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 1
+    Hit_Events:
+        Enable: true
+    Headshot:
+        Enable: true
+        Bonus_Damage: 64
+        Sounds_Shooter: NOTE_PLING-1-2-0    
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.001

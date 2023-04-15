@@ -445,10 +445,7 @@ p90:
     Headshot:
         Enable: true
         Bonus_Damage: 10
-        Sounds_Shooter: NOTE_PLING-1-2-0    
-    Abilities:
-        No_Vertical_Recoil: true 
-        Reset_Hit_Cooldown: true
+        Sounds_Shooter: NOTE_PLING-1-2-0
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-173 
@@ -459,3 +456,6 @@ p90:
         Zoom_Amount: 4
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
         Zoom_Bullet_Spread: 0.02
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true

@@ -92,6 +92,7 @@ M762:
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -147,6 +148,7 @@ AKM:
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -406,7 +408,7 @@ MK14EBRLMG:
         Bullet_Spread: 0.001
     Fully_Automatic:
         Enable: true
-        Fire_Rate: 11
+        Fire_Rate: 12
     Reload:
         Enable: true
         Reload_Amount: 100
@@ -456,10 +458,10 @@ MK14EBR:
         Bullet_Spread: 0.01
     Fully_Automatic:
         Enable: true
-        Fire_Rate: 11
+        Fire_Rate: 12
     Reload:
         Enable: true
-        Reload_Amount: 30
+        Reload_Amount: 32
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
@@ -488,7 +490,7 @@ MK14:
     Item_Information:
         Item_Name: "&eMK14"
         Item_Type: 369
-        Item_Lore: "&eSemi automatic with high power.|&eEffective at far range.|&eControls are inverted."
+        Item_Lore: "&eFully automatic with high power.|&eEffective at far range.|&eControls are inverted."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
         Cancel_Left_Click_Block_Damage: true
@@ -505,7 +507,7 @@ MK14:
         No_Recoil: true
         Bullet_Spread: 0.01
     Fully_Automatic:
-        Enable: false
+        Enable: true
         Fire_Rate: 8
     Reload:
         Enable: true
@@ -538,12 +540,13 @@ M14EBR:
     Item_Information:
         Item_Name: "&eM14&b-EBR"
         Item_Type: 369
-        Item_Lore: "&eFully automatic with high power.|&eEffective at far range.|&eControls are inverted."
+        Item_Lore: "&eSemi automatic with high power.|&eEffective at far range.|&eControls are inverted."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 2
+        Delay_Between_Shots: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 800
@@ -554,9 +557,6 @@ M14EBR:
         Enable: true
         No_Recoil: true
         Bullet_Spread: 0.01
-    Fully_Automatic:
-        Enable: true
-        Fire_Rate: 8
     Reload:
         Enable: true
         Reload_Amount: 30
@@ -683,6 +683,7 @@ mk47:
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -733,10 +734,12 @@ mk17:
         Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-6,NOTE_STICKS-1-2-12,FIRE_IGNITE-1-1-18,HURT_FLESH-1-0-22,DOOR_CLOSE-1-2-24
     Firearm_Action:
         Type: slide
-        Close_Duration: 3
-        Sound_Close: CLICK-1-1-0
+        Close_Duration: 10
+        Close_Shoot_Delay: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,CLICK-1-1-2
     Abilities:
         Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
@@ -746,4 +749,57 @@ mk17:
     Headshot:
         Enable: true
         Bonus_Damage: 66
+        Sounds_Shooter: NOTE_PLING-1-2-0
+
+mk20:
+    Item_Information:
+        Item_Name: "&eMK20-H"
+        Item_Type: 369
+        Item_Lore: "&eHigh damage DMR with scope."
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 660
+        Projectile_Damage: 64
+        Bullet_Spread: 0.1
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s MK20 Sniper !"
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.01
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.01
+        Night_Vision: true
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Duration: 30
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-6,NOTE_STICKS-1-2-12,FIRE_IGNITE-1-1-18,HURT_FLESH-1-0-22,DOOR_CLOSE-1-2-24
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,CLICK-1-1-2
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-87
+    Hit_Events:
+        Enable: true
+    Headshot:
+        Enable: true
+        Bonus_Damage: 96
         Sounds_Shooter: NOTE_PLING-1-2-0
