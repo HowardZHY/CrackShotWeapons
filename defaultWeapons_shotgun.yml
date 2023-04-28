@@ -64,7 +64,7 @@ M1887:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: false
         Recoil_Amount: 1
-        Projectile_Amount: 10
+        Projectile_Amount: 15
         Projectile_Type: egg
         Projectile_Damage: 12
         Projectile_Speed: 32
@@ -78,7 +78,7 @@ M1887:
         Sounds_Reloading: IRONGOLEM_THROW-1-2-0
     Firearm_Action:
         Type: pump
-        Open_Duration: 12
+        Open_Duration: 10
         Close_Duration: 3
         Sound_Open: PISTON_EXTEND-1-2-0
         Sound_Close: PISTON_EXTEND-1-2-0
@@ -91,6 +91,10 @@ M1887:
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 6
+        Sounds_Shooter: NOTE_PLING-1-2-0
 
 s12k:
     Item_Information:
@@ -101,6 +105,7 @@ s12k:
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
         Projectile_Amount: 10
         Projectile_Type: egg
         Projectile_Speed: 40
@@ -150,7 +155,7 @@ s12k:
         Enable: true
         Zoom_Amount: 2
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
-        Zoom_Bullet_Spread: 1
+        Zoom_Bullet_Spread: 1.2
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -300,7 +305,7 @@ S686:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 1
+        Bullet_Spread: 0.8
     Reload:
         Enable: true
         Reload_Amount: 2

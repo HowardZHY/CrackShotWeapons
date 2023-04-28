@@ -106,6 +106,60 @@ M762:
         Particle_Impact_Anything: BLOCK_BREAK-80
         Particle_Critical: BLOCK_BREAK-55
 
+Groza:
+    Item_Information:
+        Item_Name: "&eGroza"
+        Item_Type: 369
+        Item_Lore: "&eFully automatic with high power.|&eEffective at close range.|&eControls are inverted."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 600
+        Projectile_Damage: 49
+        Bullet_Spread: 0.4
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.05
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 72
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
 
 AKM:
     Item_Information:
@@ -343,7 +397,7 @@ SLR:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 59
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.3
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ITEM_BREAK-1-2-0,BLAZE_HIT-1-2-0
     Custom_Death_Message:
         Normal: "&e<victim> was sniped by <shooter>'s SLR Sniper !"
