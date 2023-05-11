@@ -5,6 +5,7 @@ uzi:
         Item_Lore: "&eNormal SMG with high fire rate.|&cUse 9mm Ammo."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
+        Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 1
@@ -363,6 +364,7 @@ tom:
         Item_Lore: "&eFull Auto SMG with 50 round magezine."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
+        Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 1
@@ -371,7 +373,7 @@ tom:
         Projectile_Speed: 40
         Projectile_Damage: 38
         Bullet_Spread: 0.4
-        Sounds_Shoot: CLICK-1-1-0,FIRE_IGNITE-1-1-0
+        Sounds_Shoot: FIRE_IGNITE-1-1-0,CLICK-1-1-0
     Sneak:
         Enable: true
         No_Recoil: true

@@ -115,13 +115,13 @@ Groza:
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 1
+        Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 600
         Projectile_Damage: 49
         Bullet_Spread: 0.4
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: BLAZE_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -170,7 +170,7 @@ AKM:
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 1
+        Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 600
@@ -857,3 +857,57 @@ mk20:
         Enable: true
         Bonus_Damage: 96
         Sounds_Shooter: NOTE_PLING-1-2-0
+
+AAC:
+    Item_Information:
+        Item_Name: "&eAAC Honey Badger"
+        Item_Type: 369
+        Item_Lore: "&eFully automatic with medium power.|&eEffective at close range.|&cUse 7.62 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 300
+        Projectile_Damage: 43
+        Bullet_Spread: 0.25
+        Sounds_Shoot: NOTE_PLING-1-2-0,FIRE_IGNITE-1-1-0,CLICK-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 30
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,DOOR_CLOSE-1-2-28
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Scope:
+        Enable: true
+        Zoom_Amount: 3
+        Zoom_Bullet_Spread: 0.05
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+    Headshot:
+        Enable: true
+        Bonus_Damage: 64
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
