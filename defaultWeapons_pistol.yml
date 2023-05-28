@@ -339,16 +339,3 @@ Python:
         Bonus_Damage: 90
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
-
-Shield:
-    Item_Information:
-        Item_Name: "&eShield"
-        Item_Type: 307
-        Item_Lore: "&eBlocks all melee and ranged attacks.|&eIneffective against attacks from behind."
-        Sounds_Acquired: BAT_TAKEOFF-1-1-0
-        Remove_Unused_Tag: false
-    Riot_Shield:
-        Enable: true
-        Durability_Loss_Per_Hit: 1
-        Sounds_Blocked: GLASS-2-2-0
-        Sounds_Break: ITEM_BREAK-2-1-0
