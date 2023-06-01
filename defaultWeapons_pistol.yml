@@ -146,6 +146,57 @@ g18:
         Particle_Impact_Anything: BLOCK_BREAK-82
         Particle_Hit: BLOCK_BREAK-82
 
+vz61:
+    Item_Information:
+        Item_Name: "&eVz.61 Scorpion" 
+        Item_Type: 294
+        Item_Lore: "Full Auto Machine Pistol"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Shooting:
+        Recoil_Amount: 1
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 22
+        Bullet_Spread: 0.5
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 25
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-16,HURT_FLESH-1-0-17,DOOR_CLOSE-1-2-18
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Headshot:
+        Enable: true
+        Bonus_Damage: 20
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0  
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-82
+        Particle_Hit: BLOCK_BREAK-82
+
 Deagle:
     Item_Information:
         Item_Name: "&eDual Desert Eagle"
@@ -298,7 +349,56 @@ M1895:
         Reset_Hit_Cooldown: true
     Hit_Events:
         Enable: true
-        Sounds_Shooter: SHOOT_ARROW-1-2-0   
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+R45:
+    Item_Information:
+        Item_Name: "&eChiappa Rhino Revolver 45"
+        Item_Type: 417
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Item_Lore: "&eHigh Damage Revolver"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Delay_Between_Shots: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 200
+        Projectile_Damage: 50
+        Bullet_Spread: 0.2
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-1-0,ZOMBIE_WOOD-1-1-0
+    Reload:
+        Enable: true
+        Reload_Bullets_Individually: true     
+        Reload_Amount: 6
+        Reload_Duration: 10
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Scope:
+        Enable: true
+        Zoom_Amount: 2
+        Sounds_Toggle_Zoom: CLICK-1-1-0
+        Zoom_Bullet_Spread: 0.1
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Headshot:
+        Enable: true
+        Bonus_Damage: 50
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 10
+        Close_Duration: 10
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
 
 Python:
     Item_Information:
@@ -314,7 +414,7 @@ Python:
         Delay_Between_Shots: 2
         Projectile_Amount: 1
         Projectile_Type: snowball
-        Projectile_Speed: 200
+        Projectile_Speed: 40
         Projectile_Damage: 60
         Bullet_Spread: 0.5
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
