@@ -71,7 +71,7 @@ Pan:
         Item_Type: 267
         Item_Lore: "&eLevel 4 Armor. Not for cooking."
         Melee_Mode: true
-        Sounds_Acquired: BLOCK_ANVIL_PLACE-1-0-0
+        Sounds_Acquired: BLOCK_ANVIL_LAND-1-2-0
         Hidden_From_List: false
     Shooting:
         Cancel_Left_Click_Block_Damage: true
@@ -143,3 +143,203 @@ Crowbar:
     Hit_Events:
         Enable: true
         Sounds_Shooter:  ITEM_BREAK-2-1-0
+
+FHJ18:
+    Item_Information:
+        Item_Name: "&eFHJ-18"
+        Item_Type: 369
+        Item_Lore: "&eRocket launcher"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> was boomed by <shooter>'s Rocket Launcher!"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 3
+        Projectile_Amount: 1
+        Bullet_Spread: 0.05
+        Projectile_Type: splash
+        Projectile_Subtype: 373~8204
+        Projectile_Speed: 40
+        Projectile_Damage: 200
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 40
+        Sounds_Shoot: ZOMBIE_WOOD-4-0-0,FIZZ-4-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 4
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 30
+        Sounds_Reloading: SKELETON_IDLE-1-0-1,PISTON_EXTEND-1-0-8,SKELETON_WALK-1-0-30
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: SMOKE, BLOCK_BREAK-35
+        Particle_Impact_Anything: SMOKE, BLOCK_BREAK-55
+        Particle_Critical: BLOCK_BREAK-55
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 32
+        Speed: 6
+    Explosions:
+        Enable: true
+        Knockback: 5
+        Damage_Multiplier: 50
+        Explosion_No_Grief: true
+        Explosion_Radius: 10
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        Sounds_Explode: EXPLODE-1-4-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: BLINDNESS-20-20, WITHER-20-20
+
+M32:
+    Item_Information:
+        Item_Name: "&eM32 MGL"
+        Item_Type: 369
+        Item_Lore: "&eSemi-Auto Grenade Launcher."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> was boomed by <shooter>'s M32!"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Delay_Between_Shots: 5
+        Projectile_Amount: 1
+        Bullet_Spread: 0.1
+        Projectile_Type: splash
+        Projectile_Subtype: 373~8204
+        Projectile_Speed: 40
+        Projectile_Damage: 120
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 40
+        Sounds_Shoot: CLICK-2-0-0,ZOMBIE_WOOD-2-0-0,FIZZ-2-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 4
+        Close_Duration: 4
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Bullets_Individually: true
+        Reload_Amount: 8
+        Reload_Duration: 10
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: CLICK-1-1-0
+        Zoom_Bullet_Spread: 0.01
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-35
+        Particle_Impact_Anything: SMOKE, BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 16
+        Speed: 3
+    Explosions:
+        Enable: true
+        Knockback: 5
+        Damage_Multiplier: 50
+        Explosion_No_Grief: true
+        Explosion_Radius: 8
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        Sounds_Explode: EXPLODE-2-1-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: BLINDNESS-5-5, WITHER-5-5
+
+M79:
+    Item_Information:
+        Item_Name: "&eM79 Thumper"
+        Item_Type: 369
+        Item_Lore: "&eSingle-Shot Grenade Launcher."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> was boomed by <shooter>'s M79!"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Bullet_Spread: 0.1
+        Projectile_Type: splash
+        Projectile_Subtype: 373~8204
+        Projectile_Speed: 40
+        Projectile_Damage: 150
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 40
+        Sounds_Shoot: CLICK-2-0-0,ZOMBIE_WOOD-2-0-0,FIZZ-2-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 4
+        Close_Duration: 4
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Bullets_Individually: true
+        Reload_Amount: 1
+        Reload_Duration: 16
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 2
+        Sounds_Toggle_Zoom: CLICK-1-1-0
+        Zoom_Bullet_Spread: 0.01
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-35
+        Particle_Impact_Anything: SMOKE, BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 16
+        Speed: 3
+    Explosions:
+        Enable: true
+        Knockback: 5
+        Damage_Multiplier: 50
+        Explosion_No_Grief: true
+        Explosion_Radius: 8
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+        Sounds_Explode: EXPLODE-2-1-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: BLINDNESS-5-5, WITHER-5-5

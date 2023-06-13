@@ -14,7 +14,7 @@ Type81:
         Projectile_Speed: 600
         Projectile_Damage: 45
         Bullet_Spread: 0.5
-        Sounds_Shoot: ITEM_BREAK-1-2-2,IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: ITEM_BREAK-4-2-2,IRONGOLEM_HIT-4-2-0,SKELETON_HURT-4-2-0,ZOMBIE_WOOD-4-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -66,7 +66,7 @@ M762:
         Projectile_Speed: 600
         Projectile_Damage: 46
         Bullet_Spread: 0.4
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-4-2-0,SKELETON_HURT-4-2-0,ZOMBIE_WOOD-4-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -176,7 +176,7 @@ AKM:
         Projectile_Speed: 600
         Projectile_Damage: 49
         Bullet_Spread: 0.5
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -231,7 +231,7 @@ AK47:
         Projectile_Speed: 600
         Projectile_Damage: 48
         Bullet_Spread: 0.5
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-1
@@ -291,7 +291,7 @@ SKS:
         Projectile_Damage: 55
         Recoil_Amount: 2
         Bullet_Spread: 0.4
-        Sounds_Shoot: BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+        Sounds_Shoot: BLAZE_HIT-6-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> was shot by <shooter>'s SKS!"
     Reload:
@@ -345,7 +345,7 @@ SVD:
         Projectile_Damage: 80
         Recoil_Amount: 3
         Bullet_Spread: 0.3
-        Sounds_Shoot: NOTE_SNARE_DRUM-3-2-0,IRONGOLEM_DEATH-1-1-0,BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+        Sounds_Shoot: NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-1-0,BLAZE_HIT-1-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> was sniped by <shooter>'s SVD!"
     Reload:
@@ -398,7 +398,7 @@ SLR:
         Projectile_Speed: 720
         Projectile_Damage: 59
         Bullet_Spread: 0.3
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ITEM_BREAK-1-2-0,BLAZE_HIT-1-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-5-2-0,SKELETON_HURT-5-2-0,ITEM_BREAK-5-2-0,BLAZE_HIT-5-2-0
     Custom_Death_Message:
         Normal: "&e<victim> was sniped by <shooter>'s SLR Sniper !"
     Sneak:
@@ -452,7 +452,7 @@ MK14EBRLMG:
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 720
         Projectile_Damage: 60
         Bullet_Spread: 0.001
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
@@ -502,7 +502,7 @@ MK14EBR:
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 720
         Projectile_Damage: 60
         Bullet_Spread: 0.1
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
@@ -552,7 +552,7 @@ MK14:
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 720
         Projectile_Damage: 60
         Bullet_Spread: 0.1
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
@@ -603,10 +603,10 @@ M14EBR:
         Delay_Between_Shots: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 720
         Projectile_Damage: 60
         Bullet_Spread: 0.2
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-5-2-0,SKELETON_HURT-5-2-0,ZOMBIE_WOOD-5-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -711,7 +711,7 @@ mk47:
         Projectile_Speed: 600
         Projectile_Damage: 49
         Bullet_Spread: 0.2
-        Sounds_Shoot:  IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ITEM_BREAK-1-2-2,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot:  IRONGOLEM_HIT-4-2-0,SKELETON_HURT-4-2-0,ITEM_BREAK-4-2-2,BLAZE_HIT-4-2-0,ZOMBIE_WOOD-4-2-0
     Burstfire:
         Enable: true
         Shots_Per_Burst: 2
@@ -820,7 +820,7 @@ mk20:
         Projectile_Speed: 660
         Projectile_Damage: 64
         Bullet_Spread: 0.1
-        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: BLAZE_HIT-2-2-0,ZOMBIE_WOOD-2-2-0
     Custom_Death_Message:
         Normal: "&e<victim> was sniped by <shooter>'s MK20 Sniper !"
     Sneak:
@@ -870,7 +870,7 @@ AAC:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 300
+        Projectile_Speed: 450
         Projectile_Damage: 43
         Bullet_Spread: 0.25
         Sounds_Shoot: NOTE_PLING-1-2-0,FIRE_IGNITE-1-1-0,CLICK-1-1-0

@@ -11,10 +11,10 @@ M4A1:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 660
         Projectile_Damage: 40
         Bullet_Spread: 0.4
-        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: BLAZE_HIT-4-2-0,ZOMBIE_WOOD-4-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -74,14 +74,14 @@ M16:
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Delay_Between_Shots: 8
+        Delay_Between_Shots: 6
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 660
         Projectile_Damage: 42
         Bullet_Spread: 0.2
-        Sounds_Shoot: ITEM_BREAK-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: ITEM_BREAK-4-2-0,BLAZE_HIT-4-2-0,ZOMBIE_WOOD-4-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -89,7 +89,7 @@ M16:
     Burstfire:
         Enable: true
         Shots_Per_Burst: 3
-        Delay_Between_Shots_In_Burst: 2
+        Delay_Between_Shots_In_Burst: 1
     Reload:
         Enable: true
         Reload_Amount: 30
@@ -133,7 +133,7 @@ MK12:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 720
         Projectile_Damage: 50
         Bullet_Spread: 0.3
         Sounds_Shoot: CLICK-1-1-0,IRONGOLEM_HIT-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
@@ -192,7 +192,7 @@ M416:
         Projectile_Amount: 1
         Delay_Between_Shots: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 660
         Projectile_Damage: 40
         Bullet_Spread: 0.3
         Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
@@ -253,7 +253,7 @@ ScarL:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 660
         Projectile_Damage: 40
         Bullet_Spread: 0.4
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-1-0
@@ -307,7 +307,7 @@ g36:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 660
         Projectile_Damage: 40
         Bullet_Spread: 0.4
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,FIRE_IGNITE-1-1-1
@@ -362,7 +362,7 @@ aug:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 660
         Projectile_Damage: 42
         Bullet_Spread: 0.3
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,EXPLODE-1-2-0,ZOMBIE_WOOD-1-1-0,SKELETON_HURT-1-2-1
@@ -423,7 +423,7 @@ famas:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 660
         Projectile_Damage: 40
         Bullet_Spread: 0.3
         Sounds_Shoot: FIRE_IGNITE-1-1-0,CLICK-1-1-0
@@ -543,7 +543,7 @@ Mini14:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 960
+        Projectile_Speed: 720
         Projectile_Damage: 46
         Bullet_Spread: 0.3
         Sounds_Shoot: CLICK-1-1-0,NOTE_PLING-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
@@ -601,7 +601,7 @@ Type88:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 960
+        Projectile_Speed: 720
         Projectile_Damage: 54
         Bullet_Spread: 0.2
         Sounds_Shoot: ITEM_BREAK-1-2-0,NOTE_SNARE_DRUM-1-0-0,NOTE_PLING-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
@@ -756,7 +756,7 @@ m27:
         Recoil_Amount: 0.2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 960
+        Projectile_Speed: 720
         Projectile_Damage: 42
         Bullet_Spread: 0.1
         Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0

@@ -262,7 +262,7 @@ de:
         Projectile_Speed: 300
         Projectile_Damage: 60
         Bullet_Spread: 0.2
-        Sounds_Shoot: CLICK-1-2-0,ZOMBIE_WOOD-1-2-0,NOTE_SNARE_DRUM-3-2-0,IRONGOLEM_DEATH-3-1-0,GHAST_FIREBALL-1-1-0,WITHER_SHOOT-1-2-0
+        Sounds_Shoot: CLICK-4-2-0,ZOMBIE_WOOD-4-2-0,NOTE_SNARE_DRUM-4-2-0,IRONGOLEM_DEATH-4-1-0,GHAST_FIREBALL-4-1-0,WITHER_SHOOT-4-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -367,7 +367,7 @@ R45:
         Projectile_Speed: 200
         Projectile_Damage: 50
         Bullet_Spread: 0.2
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-1-0,ZOMBIE_WOOD-1-1-0
+        Sounds_Shoot: IRONGOLEM_HIT-3-2-0,ZOMBIE_METAL-3-1-0,ZOMBIE_WOOD-3-1-0
     Reload:
         Enable: true
         Reload_Bullets_Individually: true     
@@ -417,7 +417,7 @@ Python:
         Projectile_Speed: 40
         Projectile_Damage: 60
         Bullet_Spread: 0.5
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-3-2-0,ZOMBIE_METAL-3-2-0
     Reload:
         Enable: true
         Reload_Amount: 9
@@ -439,3 +439,53 @@ Python:
         Bonus_Damage: 90
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+
+Sawed:
+    Item_Information:
+        Item_Name: "&eSawed-Off"
+        Item_Type: 417
+        Item_Lore: "&eDouble-barreled shotgun pistol.|&eIneffective at longer ranges."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 2
+        Recoil_Amount: 3
+        Projectile_Amount: 9
+        Projectile_Type: egg
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 36
+        Projectile_Damage: 15
+        Bullet_Spread: 0.8
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ZOMBIE_WOOD-4-1-0,EXPLODE-4-2-0,GHAST_FIREBALL-4-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.6
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Bullets_Individually: true
+        Reload_Duration: 15
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+        Maximum_Damage: -4
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: SMOKE-1
+        Particle_Impact_Anything: BLOCK_BREAK-51
