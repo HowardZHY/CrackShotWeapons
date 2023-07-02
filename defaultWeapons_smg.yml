@@ -461,3 +461,54 @@ p90:
     Abilities:
         No_Vertical_Recoil: true
         Reset_Hit_Cooldown: true
+
+mp9:
+    Item_Information:
+        Item_Name: "&eMP9"
+        Item_Type: 294
+        Item_Lore: "&eFull Auto Machine Pistol with Attachments"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Shooting:
+        Recoil_Amount: 1
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 30
+        Bullet_Spread: 0.3
+        Sounds_Shoot: BLAZE_HIT-1-2-0,CLICK-1-1-0,FIRE_IGNITE-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Reload:
+        Enable: true
+        Reload_Amount: 36
+        Reload_Duration: 25
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-16,HURT_FLESH-1-0-17,DOOR_CLOSE-1-2-18
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.02
+    Headshot:
+        Enable: true
+        Bonus_Damage: 20
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0  
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-82
+        Particle_Hit: BLOCK_BREAK-82

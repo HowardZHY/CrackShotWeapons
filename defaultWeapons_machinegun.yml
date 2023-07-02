@@ -238,3 +238,55 @@ pkm:
         Night_Vision: true
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.05
+
+M134:
+    Item_Information:
+        Item_Name: "&eM134 Gatlin Minigun"
+        Item_Type: 369
+        Item_Lore: "&eHeavy Machine Gun with Extreme Fire Rate."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-1
+    Custom_Death_Message:
+        Normal: "&e<victim> was shot by <shooter>'s M134!"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Delay_Between_Shots: 1
+        Projectile_Amount: 3
+        Bullet_Spread: 0.4
+        Projectile_Type: arrow
+        Projectile_Speed: 40
+        Projectile_Damage: 20
+        Projectile_Flames: true
+        Sounds_Shoot: CLICK-6-1-0, ZOMBIE_WOOD-6-1-0,IRONGOLEM_HIT-6-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+        Knockback: 2
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 20
+        Close_Duration: 20
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Reload:
+        Enable: true
+        Reload_Amount: 150
+        Reload_Duration: 100
+        Sounds_Reloading: FIRE_IGNITE-1-1-8,CHEST_OPEN-1-2-15,LEVEL_UP-1-1-30,FIRE_IGNITE-1-1-60,HURT_FLESH-1-0-64,CHEST_CLOSE-1-2-68,NOTE_STICKS-1-0-75,PISTON_RETRACT-1-2-85,NOTE_STICKS-1-0-85, BAT_TAKEOFF-1-1-100
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: SMOKE, FLAMES-6
+        Particle_Impact_Anything: SMOKE, BLOCK_BREAK-52
+        Particle_Critical: BLOCK_BREAK-55
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: SLOW-100-4

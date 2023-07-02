@@ -285,6 +285,7 @@ AA12:
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
         Delay_Between_Shots: 1
+        Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 4
