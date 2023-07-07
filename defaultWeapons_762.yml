@@ -11,7 +11,7 @@ Type81:
         Recoil_Amount: 3
         Projectile_Amount: 3
         Projectile_Type: arrow
-        Projectile_Speed: 600
+        Projectile_Speed: 540
         Projectile_Damage: 45
         Bullet_Spread: 0.5
         Sounds_Shoot: ITEM_BREAK-4-2-2,IRONGOLEM_HIT-4-2-0,SKELETON_HURT-4-2-0,ZOMBIE_WOOD-4-2-0
@@ -43,7 +43,7 @@ Type81:
         Sounds_Shooter: SHOOT_ARROW-1-2-0
     Headshot:
         Enable: true
-        Bonus_Damage: 66
+        Bonus_Damage: 70
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Particles:
@@ -293,7 +293,7 @@ SKS:
         Bullet_Spread: 0.4
         Sounds_Shoot: BLAZE_HIT-6-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was shot by <shooter>'s SKS!"
+        Normal: "&e<victim> 被 <shooter> 使用 SKS 狙杀 !"
     Reload:
         Enable: true
         Reload_Amount: 20
@@ -347,7 +347,7 @@ SVD:
         Bullet_Spread: 0.3
         Sounds_Shoot: NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-1-0,BLAZE_HIT-1-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s SVD!"
+        Normal: "&e<victim> 被 <shooter> 使用 SVD 狙击枪 狙杀!"
     Reload:
         Enable: true
         Reload_Amount: 20
@@ -400,7 +400,7 @@ SLR:
         Bullet_Spread: 0.3
         Sounds_Shoot: IRONGOLEM_HIT-5-2-0,SKELETON_HURT-5-2-0,ITEM_BREAK-5-2-0,BLAZE_HIT-5-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s SLR Sniper !"
+        Normal: "&e<victim> 被 <shooter> 使用 SLR 射手步枪狙杀 !"
     Sneak:
         Enable: true
         No_Recoil: true
@@ -804,6 +804,8 @@ mk17:
         Enable: true
         Bonus_Damage: 66
         Sounds_Shooter: NOTE_PLING-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 MK17-CQC 自动步枪 狙杀!"
 
 mk20:
     Item_Information:
@@ -822,7 +824,7 @@ mk20:
         Bullet_Spread: 0.1
         Sounds_Shoot: BLAZE_HIT-2-2-0,ZOMBIE_WOOD-2-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s MK20 Sniper !"
+        Normal: "&e<victim> 被 <shooter> 使用 MK20 精确射手步枪 狙杀!"
     Sneak:
         Enable: true
         No_Recoil: true

@@ -17,7 +17,7 @@ crossbow:
         Sounds_Shoot: SHOOT_ARROW-1-2-0
         Bullet_Spread: 0.1
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s Crossbow!"
+        Normal: "&e<victim> 被 <shooter> 使用 十字弩 狙杀!"
     Firearm_Action:
         Type: slide
         Open_Duration: 10
@@ -50,7 +50,7 @@ crossbow:
         Sounds_Shooter: SHOOT_ARROW-1-2-0
     Potion_Effects:
         Activation: hit
-        Potion_Effect_Victim: BLINDNESS-5-5, WITHER-5-5
+        Potion_Effect_Victim: BLINDNESS-20-20, WITHER-20-20
 
 Shield:
     Item_Information:
@@ -89,6 +89,8 @@ Pan:
         Durability_Loss_Per_Hit: 1
         Sounds_Blocked: GLASS-2-2-0
         Sounds_Break: ITEM_BREAK-2-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 平底锅 拍死了!"
 
 Dao:
     Item_Information:
@@ -151,7 +153,7 @@ FHJ18:
         Item_Lore: "&eRocket launcher"
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> was boomed by <shooter>'s Rocket Launcher!"
+        Normal: "&e<victim> 被 <shooter> 使用火箭筒 狙杀 !"
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
@@ -203,7 +205,7 @@ FHJ18:
         Sounds_Explode: EXPLODE-1-4-0
     Potion_Effects:
         Activation: hit
-        Potion_Effect_Victim: BLINDNESS-20-20, WITHER-20-20
+        Potion_Effect_Victim: BLINDNESS-40-40, WITHER-40-40
 
 M32:
     Item_Information:
@@ -212,7 +214,7 @@ M32:
         Item_Lore: "&eSemi-Auto Grenade Launcher."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> was boomed by <shooter>'s M32!"
+        Normal: "&e<victim> 被 <shooter> 使用 M32 榴弹发射器 炸死了!"
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
@@ -273,7 +275,7 @@ M32:
         Sounds_Explode: EXPLODE-2-1-0
     Potion_Effects:
         Activation: hit
-        Potion_Effect_Victim: BLINDNESS-5-5, WITHER-5-5
+        Potion_Effect_Victim: BLINDNESS-40-40, WITHER-40-40
 
 M79:
     Item_Information:
@@ -282,7 +284,7 @@ M79:
         Item_Lore: "&eSingle-Shot Grenade Launcher."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> was boomed by <shooter>'s M79!"
+        Normal: "&e<victim> 被 <shooter> 使用 M79 榴弹发射器 炸死了!"
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
@@ -342,7 +344,7 @@ M79:
         Sounds_Explode: EXPLODE-2-1-0
     Potion_Effects:
         Activation: hit
-        Potion_Effect_Victim: BLINDNESS-5-5, WITHER-5-5
+        Potion_Effect_Victim: BLINDNESS-40-40, WITHER-40-40
 
 M134:
     Item_Information:
@@ -351,12 +353,12 @@ M134:
         Item_Lore: "&eHeavy Machine Gun with Extreme Fire Rate."
         Sounds_Acquired: BAT_TAKEOFF-1-1-1
     Custom_Death_Message:
-        Normal: "&e<victim> was shot by <shooter>'s M134!"
+        Normal: "&e<victim> 被 <shooter>'s 的 M134 加特林 打成了筛子!"
     Shooting:
         Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 2
+        Recoil_Amount: 1
         Delay_Between_Shots: 1
         Projectile_Amount: 3
         Bullet_Spread: 0.4

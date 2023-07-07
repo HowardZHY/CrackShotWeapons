@@ -46,6 +46,8 @@ m1911:
         Zoom_Amount: 2
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
         Zoom_Bullet_Spread: 0.05
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 M1911 手枪 打死了!"
 
 m92:
     Item_Information:
@@ -94,6 +96,8 @@ m92:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-82
         Particle_Hit: BLOCK_BREAK-82
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 M92 手枪 打死了!"
 
 g18:
     Item_Information:
@@ -145,6 +149,8 @@ g18:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-82
         Particle_Hit: BLOCK_BREAK-82
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 G18C 手枪 打死了!"
 
 vz61:
     Item_Information:
@@ -196,6 +202,8 @@ vz61:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-82
         Particle_Hit: BLOCK_BREAK-82
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 Vz 61 蝎式手枪 打死了!"
 
 Deagle:
     Item_Information:
@@ -295,6 +303,8 @@ de:
         Bonus_Damage: 60
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 沙漠之鹰 狙杀!"
 
 M1895:
     Item_Information:
@@ -350,6 +360,8 @@ M1895:
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 M1895 左轮手枪 打死了!"
 
 R45:
     Item_Information:
@@ -399,6 +411,8 @@ R45:
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 R45 左轮手枪 打死了!"
 
 Python:
     Item_Information:
@@ -489,6 +503,8 @@ Sawed:
         Enable: true
         Particle_Player_Shoot: SMOKE-1
         Particle_Impact_Anything: BLOCK_BREAK-51
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 短管霰弹枪 喷死了!"
 
 tmp:
     Item_Information:
@@ -540,3 +556,5 @@ tmp:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-82
         Particle_Hit: BLOCK_BREAK-82
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 TMP 9mm 冲锋手枪 射杀!"

@@ -20,7 +20,7 @@ AS50:
             Duration: 80
         Sounds_Shoot: NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-2-0,GHAST_FIREBALL-6-1-0,EXPLODE-6-4-0,WITHER_SHOOT-6-2-0,EXPLODE-6-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s Arctic 50!"
+        Normal: "&e<victim> 被 <shooter> 使用 Arctic 50 狙杀!"
     Reload:
         Enable: true
         Reload_Amount: 12
@@ -80,7 +80,7 @@ lynx:
         Projectile_Damage: 134
         Sounds_Shoot: EXPLODE-6-1-0,NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-2-1,GHAST_FIREBALL-6-1-1,WITHER_SHOOT-6-2-1
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s Lynx AMR!"
+        Normal: "&e<victim> 被 <shooter> 使用 Lynx AMR 狙杀 !"
     Reload:
         Enable: true
         Reload_Amount: 6
@@ -138,7 +138,7 @@ M200:
         Projectile_Damage: 114
         Sounds_Shoot: NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-2-1,BLAZE_HIT-6-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s M200 Sniper!"
+        Normal: "&e<victim> 被 <shooter> 使用 M200 狙杀!"
     Reload:
         Enable: true
         Starting_Amount: 6
@@ -194,7 +194,7 @@ AWM:
         Projectile_Damage: 132
         Sounds_Shoot: BLAZE_HIT-6-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s AWM Sniper!"
+        Normal: "&e<victim> 被 <shooter> 使用 AWM 狙杀!"
     Reload:
         Enable: true
         Starting_Amount: 8
@@ -250,7 +250,7 @@ M24:
         Projectile_Damage: 84
         Sounds_Shoot: BLAZE_HIT-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s M24 Sniper!"
+        Normal: "&e<victim> 被 <shooter> 使用 M24 狙杀!"
     Reload:
         Enable: true
         Starting_Amount: 8
@@ -311,7 +311,7 @@ m1891:
         Sounds_Shoot: BLAZE_HIT-5-1-0
         Bullet_Spread: 0.1
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s Mosin Nagant M1891 Rifle!"
+        Normal: "&e<victim> 被 <shooter> 使用 莫辛纳甘 M1891 狙杀!"
     Ammo:
         Enable: true
         Ammo_Item_ID: 351~11
@@ -373,7 +373,7 @@ kar98k:
         Sounds_Shoot: IRONGOLEM_DEATH-5-1-0,BLAZE_HIT-5-2-0,EXPLODE-5-2-0
         Bullet_Spread: 0.1
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s Kar 98K Rifle!"
+        Normal: "&e<victim> 被 <shooter> 使用 Kar 98K 狙杀!"
     Ammo:
         Enable: true
         Ammo_Item_ID: 351~11
@@ -435,7 +435,7 @@ win94:
         Sounds_Shoot: BLAZE_HIT-4-2-0
         Bullet_Spread: 0.1
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s Win94!"
+        Normal: "&e<victim> 被 <shooter> 使用 Win94 射杀!"
     Reload:
         Enable: true
         Reload_Amount: 8

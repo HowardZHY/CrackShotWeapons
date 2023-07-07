@@ -64,6 +64,8 @@ M4A1:
         Bonus_Damage: 60
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 使用 M4A1 步枪 射杀!"
 
 M16:
     Item_Information:
@@ -120,6 +122,8 @@ M16:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
         Particle_Critical: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 使用 M16 步枪 射杀!"
 
 MK12:
     Item_Information:
@@ -178,6 +182,8 @@ MK12:
         Bonus_Damage: 75
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 使用 MK12 狙击步枪 狙杀!"
 
 M416:
     Item_Information:
@@ -240,6 +246,8 @@ M416:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-52 
         Particle_Hit: BLOCK_BREAK-52
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 使用 HK M416 自动步枪 射杀!"
 
 ScarL:
     Item_Information:
@@ -294,6 +302,9 @@ ScarL:
         Bonus_Damage: 60
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 使用 Scar L 自动步枪 射杀!"
+
 
 g36:
     Item_Information:
@@ -410,6 +421,8 @@ aug:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 使用 AUG 自动步枪 打死了!"
 
 famas:
     Item_Information:
@@ -470,6 +483,8 @@ famas:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 使用 FAMAS 自动步枪 射杀!"
 
 Type95:
     Item_Information:
@@ -530,6 +545,8 @@ Type95:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
         Particle_Critical: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 使用 95式 突击步枪 打死了!"
 
 Mini14:
     Item_Information:
@@ -588,6 +605,8 @@ Mini14:
         Bonus_Damage: 69
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 使用 Mini 14 狙杀!"
 
 Type88:
     Item_Information:
@@ -640,6 +659,8 @@ Type88:
         Bonus_Damage: 81
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 使用 88式 狙击步枪 狙杀!"
 
 val:
     Item_Information:
@@ -659,7 +680,7 @@ val:
         Bullet_Spread: 0.1
         Sounds_Shoot: BLAZE_HIT-1-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s AS-VAL !"
+        Normal: "&e<victim> 被 <shooter>'s 的 VAL 偷袭狙杀!"
     Reload:
         Enable: true
         Reload_Amount: 36
@@ -710,7 +731,7 @@ vss:
         Bullet_Spread: 0.1
         Sounds_Shoot: BLAZE_HIT-1-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s VSS!"
+        Normal: "&e<victim> 被 <shooter>'s 的 VSS 偷袭狙杀!"
     Reload:
         Enable: true
         Reload_Amount: 24
@@ -797,3 +818,5 @@ m27:
         Zoom_Amount: 5
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.001
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter>'s 的 M27 轻机枪 狙杀!"

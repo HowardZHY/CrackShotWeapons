@@ -53,6 +53,8 @@ M1897:
         Enable: true
         Bonus_Damage: 10
         Sounds_Shooter: NOTE_PLING-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 M1897 霰弹枪 喷死了!"
 
 M1887:
     Item_Information:
@@ -95,6 +97,8 @@ M1887:
         Enable: true
         Bonus_Damage: 6
         Sounds_Shooter: NOTE_PLING-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 M1887 霰弹枪 终结了!"
 
 S686:
     Item_Information:
@@ -149,6 +153,8 @@ S686:
         Enable: true
         Particle_Player_Shoot: FLAMES-1
         Particle_Impact_Anything: BLOCK_BREAK-51
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 贝莱塔 S686 霰弹枪 喷死了!"
 
 s12k:
     Item_Information:
@@ -217,6 +223,8 @@ s12k:
         Enable: true
         Bonus_Damage_Per_Tick: -1
         Maximum_Damage: -4
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 S12K 喷成了筛子 !"
 
 SPAS12:
     Item_Information:
@@ -276,6 +284,8 @@ SPAS12:
         Enable: true
         Bonus_Damage_Per_Tick: -1
         Maximum_Damage: -2
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 SPAS 12 喷死了 !"
 
 AA12:
     Item_Information:
@@ -333,6 +343,8 @@ AA12:
         Enable: true
         Particle_Player_Shoot: FLAMES-1
         Particle_Impact_Anything: BLOCK_BREAK-51
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 AA12 喷成了筛子 !"
 
 dbs:
     Item_Information:
@@ -395,6 +407,8 @@ dbs:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
         Particle_Critical: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 DB12 霰弹枪 喷死了 !"
 
 O12:
     Item_Information:
@@ -450,3 +464,5 @@ O12:
         Zoom_Amount: 3
         Zoom_Bullet_Spread: 0.1
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 的 Origin 12 霰弹枪 活活打死 !"
