@@ -14,11 +14,11 @@ m249:
         Projectile_Speed: 800
         Projectile_Damage: 44
         Bullet_Spread: 0.5
-        Sounds_Shoot: NOTE_SNARE_DRUM-4-2-0,ZOMBIE_WOOD-4-2-0,NOTE_PLING-4-2-0,SHOOT_ARROW-4-2-0
+        Sounds_Shoot: NOTE_SNARE_DRUM-8-2-0,ZOMBIE_WOOD-8-2-0,NOTE_PLING-8-2-0,SHOOT_ARROW-8-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.05
+        Bullet_Spread: 0.02
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
@@ -54,7 +54,7 @@ m249:
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.05
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 的 M249 轻机枪 打成了筛子!"
+        Normal: "&e<victim> 被 <shooter> 的 M249 轻机枪 打成了筛子!"
 
 mg3:
     Item_Information:
@@ -71,11 +71,11 @@ mg3:
         Projectile_Speed: 720
         Projectile_Damage: 40
         Bullet_Spread: 0.5
-        Sounds_Shoot: NOTE_SNARE_DRUM-4-2-0,ZOMBIE_WOOD-4-2-0
+        Sounds_Shoot: NOTE_SNARE_DRUM-8-2-0,ZOMBIE_WOOD-8-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.05
+        Bullet_Spread: 0.02
     Fully_Automatic:
         Enable: true
         Fire_Rate: 16
@@ -118,7 +118,7 @@ mg3:
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.05
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 的 MG3 机枪 打成了筛子!"
+        Normal: "&e<victim> 被 <shooter> 的 MG3 机枪 打成了筛子!"
 
 dp28:
     Item_Information:
@@ -135,7 +135,7 @@ dp28:
         Projectile_Speed: 600
         Projectile_Damage: 49
         Bullet_Spread: 0.4
-        Sounds_Shoot: NOTE_PLING-4-2-0,ZOMBIE_WOOD-4-2-0
+        Sounds_Shoot: NOTE_PLING-8-2-0,ZOMBIE_WOOD-8-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -146,7 +146,7 @@ dp28:
     Scope:
         Enable: true
         Zoom_Amount: 5
-        Zoom_Bullet_Spread: 0.02
+        Zoom_Bullet_Spread: 0.01
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Particles:
         Enable: true
@@ -180,7 +180,7 @@ dp28:
         Bonus_Damage: 72
         Sounds_Shooter: NOTE_PLING-1-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 DP28 大盘鸡 狙杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 DP28 大盘鸡 狙杀!"
 
 pkm:
     Item_Information:
@@ -198,11 +198,11 @@ pkm:
         Projectile_Speed: 640
         Projectile_Damage: 43
         Bullet_Spread: 0.5
-        Sounds_Shoot: NOTE_SNARE_DRUM-4-2-0,IRONGOLEM_HIT-4-2-0,ZOMBIE_WOOD-4-2-0
+        Sounds_Shoot: NOTE_SNARE_DRUM-8-2-0,IRONGOLEM_HIT-8-2-0,ZOMBIE_WOOD-8-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.05
+        Bullet_Spread: 0.02
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8
@@ -245,4 +245,61 @@ pkm:
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.05
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 PKM 机枪 狙杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 PKM 机枪 狙杀!"
+
+RPK:
+    Item_Information:
+        Item_Name: "&eRPK"
+        Item_Type: 369
+        Item_Lore: "&eFull automatic LMG with high power.|&eEffective at every range.|&eControls are inverted."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 600
+        Projectile_Damage: 49
+        Bullet_Spread: 0.5
+        Sounds_Shoot: IRONGOLEM_HIT-8-2-0,SKELETON_HURT-8-2-0,ZOMBIE_WOOD-8-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 10
+    Reload:
+        Enable: true
+        Reload_Amount: 75
+        Reload_Duration: 50
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-44,HURT_FLESH-1-0-45,DOOR_CLOSE-1-2-48
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.02
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 72
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 RPK 轻机枪 打成了筛子!"

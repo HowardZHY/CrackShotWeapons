@@ -88,7 +88,7 @@ M762:
     Scope:
         Enable: true
         Zoom_Amount: 5
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
@@ -143,7 +143,7 @@ Groza:
     Scope:
         Enable: true
         Zoom_Amount: 5
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
@@ -198,7 +198,7 @@ AKM:
     Scope:
         Enable: true
         Zoom_Amount: 5
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
@@ -242,7 +242,7 @@ AK47:
     Scope:
         Enable: true
         Zoom_Amount: 5
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Fully_Automatic:
         Enable: true
@@ -733,7 +733,7 @@ mk47:
     Scope:
         Enable: true
         Zoom_Amount: 5
-        Zoom_Bullet_Spread: 0.01
+        Zoom_Bullet_Spread: 0.005
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
@@ -897,7 +897,7 @@ AAC:
     Scope:
         Enable: true
         Zoom_Amount: 3
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
@@ -951,7 +951,7 @@ ACE:
     Scope:
         Enable: true
         Zoom_Amount: 5
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true

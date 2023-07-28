@@ -1,4 +1,3 @@
-
 M4A1:
     Item_Information:
         Item_Name: "&eM4A1 Carbine"
@@ -27,7 +26,7 @@ M4A1:
         No_Recoil: true
         Zoom_Amount: 3
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
     Reload:
         Enable: true
         Take_Ammo_On_Reload: true
@@ -65,7 +64,7 @@ M4A1:
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 M4A1 步枪 射杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 M4A1 步枪 射杀!"
 
 M16:
     Item_Information:
@@ -123,7 +122,7 @@ M16:
         Particle_Impact_Anything: BLOCK_BREAK-80
         Particle_Critical: BLOCK_BREAK-55
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 M16 步枪 射杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 M16 步枪 射杀!"
 
 MK12:
     Item_Information:
@@ -150,7 +149,7 @@ MK12:
         Zoom_No_Recoil: true
         Zoom_Amount: 5
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-0-0
-        Zoom_Bullet_Spread: 0.02
+        Zoom_Bullet_Spread: 0.01
     Reload:
         Enable: true
         Take_Ammo_On_Reload: true
@@ -183,7 +182,7 @@ MK12:
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 MK12 狙击步枪 狙杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 MK12 狙击步枪 狙杀!"
 
 M416:
     Item_Information:
@@ -210,7 +209,7 @@ M416:
         No_Recoil: true
         Zoom_Amount: 5
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
     Sneak:
         Enable: true
         No_Recoil: true
@@ -247,7 +246,7 @@ M416:
         Particle_Impact_Anything: BLOCK_BREAK-52 
         Particle_Hit: BLOCK_BREAK-52
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 HK M416 自动步枪 射杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 HK M416 自动步枪 射杀!"
 
 ScarL:
     Item_Information:
@@ -278,7 +277,7 @@ ScarL:
         Night_Vision: true
         Zoom_Amount: 3
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
     Reload:
         Enable: true
         Reload_Amount: 44
@@ -303,12 +302,12 @@ ScarL:
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 Scar L 自动步枪 射杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 Scar-L 自动步枪 射杀!"
 
 
 g36:
     Item_Information:
-        Item_Name: "&eG36"
+        Item_Name: "&eG36C"
         Item_Type: 258
         Item_Lore: "&e5.56 Assault Rifle.|&2Right click to open night vision 4x scope."
     Shooting:
@@ -335,7 +334,64 @@ g36:
         Night_Vision: true
         Zoom_Amount: 5
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 40
+        Sounds_Reloading: FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-30,HURT_FLESH-1-0-33,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 10
+        Sound_Close: PISTON_RETRACT-1-2-5
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 G36C 自动步枪 射杀!"
+
+mg36:
+    Item_Information:
+        Item_Name: "&eMG36"
+        Item_Type: 258
+        Item_Lore: "&e5.56 Assault LMG.|&2Right click to open night vision 4x scope."
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 660
+        Projectile_Damage: 40
+        Bullet_Spread: 0.4
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,FIRE_IGNITE-1-1-1
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.02
     Reload:
         Enable: true
         Reload_Amount: 100
@@ -360,6 +416,8 @@ g36:
         Bonus_Damage: 60
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 MG36 轻机枪 射杀!"
 
 aug:
     Item_Information:
@@ -393,12 +451,12 @@ aug:
         Enable: true
         Night_Vision: true
         Zoom_Amount: 3
-        Zoom_Bullet_Spread: 0.02
+        Zoom_Bullet_Spread: 0.01
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0        
     Reload:
         Enable: true
-        Reload_Amount: 60
-        Reload_Duration: 45
+        Reload_Amount: 42
+        Reload_Duration: 40
         Take_Ammo_On_Reload: true
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,PISTON_RETRACT-1-2-10,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38,PISTON_RETRACT-1-2-40
@@ -422,7 +480,70 @@ aug:
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 AUG 自动步枪 打死了!"
+        Normal: "&e<victim> 被 <shooter> 使用 AUG 自动步枪 打死了!"
+
+aughbar:
+    Item_Information:
+        Item_Name: "&3AUG-H"
+        Item_Type: 279
+        Item_Lore: "&55.56 LMG with Scope."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 660
+        Projectile_Damage: 42
+        Bullet_Spread: 0.3
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,EXPLODE-1-2-0,ZOMBIE_WOOD-1-1-0,SKELETON_HURT-1-2-1
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Ammo:
+        Enable: false
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0   
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 3
+        Zoom_Bullet_Spread: 0.02
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0        
+    Reload:
+        Enable: true
+        Reload_Amount: 75
+        Reload_Duration: 45
+        Take_Ammo_On_Reload: false
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,PISTON_RETRACT-1-2-10,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38,PISTON_RETRACT-1-2-40
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 63
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-13
+        Particle_Hit: BLOCK_BREAK-13
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 AUG HBAR 轻机枪 打死了!"
 
 famas:
     Item_Information:
@@ -455,7 +576,7 @@ famas:
     Scope:
         Enable: true
         Zoom_Amount: 5
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.04
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0        
     Reload:
         Enable: true
@@ -484,7 +605,7 @@ famas:
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 FAMAS 自动步枪 射杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 FAMAS 自动步枪 射杀!"
 
 Type95:
     Item_Information:
@@ -546,7 +667,7 @@ Type95:
         Particle_Impact_Anything: BLOCK_BREAK-80
         Particle_Critical: BLOCK_BREAK-55
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 95式 突击步枪 打死了!"
+        Normal: "&e<victim> 被 <shooter> 使用 95式 突击步枪 打死了!"
 
 Mini14:
     Item_Information:
@@ -567,7 +688,7 @@ Mini14:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.02
+        Bullet_Spread: 0.01
     Scope:
         Enable: true
         Zoom_No_Recoil: true
@@ -606,7 +727,7 @@ Mini14:
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 Mini 14 狙杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 Mini 14 狙杀!"
 
 Type88:
     Item_Information:
@@ -660,7 +781,7 @@ Type88:
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 使用 88式 狙击步枪 狙杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 88式 狙击步枪 狙杀!"
 
 val:
     Item_Information:
@@ -680,7 +801,7 @@ val:
         Bullet_Spread: 0.1
         Sounds_Shoot: BLAZE_HIT-1-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 的 VAL 偷袭狙杀!"
+        Normal: "&e<victim> 被 <shooter> 的 VAL 偷袭狙杀!"
     Reload:
         Enable: true
         Reload_Amount: 36
@@ -731,7 +852,7 @@ vss:
         Bullet_Spread: 0.1
         Sounds_Shoot: BLAZE_HIT-1-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 的 VSS 偷袭狙杀!"
+        Normal: "&e<victim> 被 <shooter> 的 VSS 偷袭狙杀!"
     Reload:
         Enable: true
         Reload_Amount: 24
@@ -819,4 +940,4 @@ m27:
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.001
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 的 M27 轻机枪 狙杀!"
+        Normal: "&e<victim> 被 <shooter> 的 M27 轻机枪 狙杀!"

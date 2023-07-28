@@ -283,7 +283,7 @@ M24:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.01
+        Bullet_Spread: 0.001
     Scope:
         Enable: true
         Night_Vision: true
@@ -351,7 +351,7 @@ m1891:
         Enable: true
         Zoom_Amount: 4
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
-        Zoom_Bullet_Spread: 0.01
+        Zoom_Bullet_Spread: 0.001
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
