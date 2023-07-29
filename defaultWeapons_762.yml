@@ -11,7 +11,7 @@ Type81:
         Recoil_Amount: 3
         Projectile_Amount: 3
         Projectile_Type: arrow
-        Projectile_Speed: 540
+        Projectile_Speed: 500
         Projectile_Damage: 45
         Bullet_Spread: 0.5
         Sounds_Shoot: ITEM_BREAK-4-2-2,IRONGOLEM_HIT-4-2-0,SKELETON_HURT-4-2-0,ZOMBIE_WOOD-4-2-0
@@ -49,7 +49,9 @@ Type81:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 81 式 轻机枪 狙杀!"
 
 M762:
     Item_Information:
@@ -104,7 +106,9 @@ M762:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 M762 自动步枪 射杀!"
 
 Groza:
     Item_Information:
@@ -159,7 +163,9 @@ Groza:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 Groza 自动步枪 射杀!"
 
 AKM:
     Item_Information:
@@ -214,7 +220,9 @@ AKM:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 AKM 突击步枪 打死了!"
 
 AK47:
     Item_Information:
@@ -274,6 +282,8 @@ AK47:
         Enable: true
         Bonus_Damage: 72
         Sounds_Shooter: NOTE_PLING-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 AK47 突击步枪 打死了!"
 
 SKS:
     Item_Information:
@@ -400,7 +410,7 @@ SLR:
         Bullet_Spread: 0.3
         Sounds_Shoot: IRONGOLEM_HIT-5-2-0,SKELETON_HURT-5-2-0,ITEM_BREAK-5-2-0,BLAZE_HIT-5-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 SLR 射手步枪狙杀 !"
+        Normal: "&e<victim> 被 <shooter> 使用 SLR 射手步枪 狙杀 !"
     Sneak:
         Enable: true
         No_Recoil: true
@@ -438,7 +448,7 @@ SLR:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
 
 MK14EBRLMG:
     Item_Information:
@@ -489,6 +499,12 @@ MK14EBRLMG:
         Bonus_Damage: 90
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-13
+        Particle_Headshot: BLOCK_BREAK-87
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 MK14 EBR 轻机枪 狙杀!"
 
 MK14EBR:
     Item_Information:
@@ -539,6 +555,12 @@ MK14EBR:
         Bonus_Damage: 90
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-13
+        Particle_Headshot: BLOCK_BREAK-87
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 MK14 EBR 狙杀!"
 
 MK14:
     Item_Information:
@@ -589,6 +611,12 @@ MK14:
         Bonus_Damage: 90
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-13
+        Particle_Headshot: BLOCK_BREAK-87
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 MK14 狙杀!"
 
 M14EBR:
     Item_Information:
@@ -637,6 +665,12 @@ M14EBR:
         Bonus_Damage: 90
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 M14 EBR 狙杀!"
 
 M21EBR:
     Item_Information:
@@ -656,7 +690,7 @@ M21EBR:
         Bullet_Spread: 0.1
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
     Custom_Death_Message:
-        Normal: "&e<victim> was sniped by <shooter>'s M21-EBR !"
+        Normal: "&e<victim> 被 <shooter> 使用 M21-EBR 狙杀 !"
     Sneak:
         Enable: true
         No_Recoil: true
@@ -693,7 +727,7 @@ M21EBR:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
 
 mk47:
     Item_Information:
@@ -749,7 +783,9 @@ mk47:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 MK47 步枪 射杀!"
 
 mk17:
     Item_Information:
@@ -912,7 +948,9 @@ AAC:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 蜜獾 突击步枪 打死了!"
 
 ACE:
     Item_Information:
@@ -967,4 +1005,6 @@ ACE:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 ACE 32 自动步枪 射杀!"

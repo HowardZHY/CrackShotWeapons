@@ -17,7 +17,7 @@ crossbow:
         Sounds_Shoot: SHOOT_ARROW-1-2-0
         Bullet_Spread: 0.1
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 十字弩 狙杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 十字弩 偷袭狙杀!"
     Firearm_Action:
         Type: slide
         Open_Duration: 10
@@ -189,7 +189,7 @@ FHJ18:
         Enable: true
         Particle_Player_Shoot: SMOKE, BLOCK_BREAK-35
         Particle_Impact_Anything: SMOKE, BLOCK_BREAK-55
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Shrapnel:
         Enable: true
         Block_Type: 77
@@ -259,7 +259,7 @@ M32:
         Enable: true
         Particle_Player_Shoot: BLOCK_BREAK-35
         Particle_Impact_Anything: SMOKE, BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Shrapnel:
         Enable: true
         Block_Type: 77
@@ -328,7 +328,7 @@ M79:
         Enable: true
         Particle_Player_Shoot: BLOCK_BREAK-35
         Particle_Impact_Anything: SMOKE, BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Shrapnel:
         Enable: true
         Block_Type: 77
@@ -393,7 +393,7 @@ M134:
         Enable: true
         Particle_Player_Shoot: SMOKE, FLAMES-1
         Particle_Impact_Anything: SMOKE, BLOCK_BREAK-52
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Potion_Effects:
         Activation: shoot
         Potion_Effect_Shooter: SLOW-100-4

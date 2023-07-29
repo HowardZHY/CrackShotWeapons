@@ -49,7 +49,7 @@ M4A1:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -120,7 +120,14 @@ M16:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 2
+    Critical_hits:
+        Enable: true
+        Bonus_Damage: 2
+        Chance: 50
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 M16 步枪 射杀!"
 
@@ -136,7 +143,7 @@ MK12:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 640
         Projectile_Damage: 50
         Bullet_Spread: 0.3
         Sounds_Shoot: CLICK-1-1-0,IRONGOLEM_HIT-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
@@ -172,7 +179,7 @@ MK12:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -181,6 +188,13 @@ MK12:
         Bonus_Damage: 75
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 2
+    Critical_hits:
+        Enable: true
+        Bonus_Damage: 4
+        Chance: 50
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 MK12 狙击步枪 狙杀!"
 
@@ -241,6 +255,9 @@ M416:
         Enable: true
         Bonus_Damage: 60
         Sounds_Shooter: NOTE_PLING-1-2-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 1
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-52 
@@ -292,7 +309,7 @@ ScarL:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -301,6 +318,9 @@ ScarL:
         Bonus_Damage: 60
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 1
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Scar-L 自动步枪 射杀!"
 
@@ -350,7 +370,7 @@ g36:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -359,6 +379,9 @@ g36:
         Bonus_Damage: 60
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 1
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 G36C 自动步枪 射杀!"
 
@@ -407,7 +430,7 @@ mg36:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -416,6 +439,9 @@ mg36:
         Bonus_Damage: 60
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 1
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 MG36 轻机枪 射杀!"
 
@@ -475,6 +501,9 @@ aug:
         Enable: true
         Bonus_Damage: 63
         Sounds_Shooter: NOTE_PLING-1-2-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 2
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-13
@@ -538,6 +567,9 @@ aughbar:
         Enable: true
         Bonus_Damage: 63
         Sounds_Shooter: NOTE_PLING-1-2-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 2
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-13
@@ -665,7 +697,7 @@ Type95:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 95式 突击步枪 打死了!"
 
@@ -717,7 +749,7 @@ Mini14:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -726,6 +758,13 @@ Mini14:
         Bonus_Damage: 69
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 2
+    Critical_hits:
+        Enable: true
+        Bonus_Damage: 2
+        Chance: 50
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Mini 14 狙杀!"
 
@@ -771,7 +810,7 @@ Type88:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -780,6 +819,13 @@ Type88:
         Bonus_Damage: 81
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 2
+    Critical_hits:
+        Enable: true
+        Bonus_Damage: 2
+        Chance: 50
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 88式 狙击步枪 狙杀!"
 

@@ -300,6 +300,6 @@ RPK:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Critical: BLOCK_BREAK-55
+        Particle_Headshot: BLOCK_BREAK-55
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 RPK 轻机枪 打成了筛子!"
