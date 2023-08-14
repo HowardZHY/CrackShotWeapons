@@ -352,7 +352,7 @@ SVD:
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 720
-        Projectile_Damage: 80
+        Projectile_Damage: 75
         Recoil_Amount: 3
         Bullet_Spread: 0.3
         Sounds_Shoot: NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-1-0,BLAZE_HIT-1-1-0,EXPLODE-6-2-0

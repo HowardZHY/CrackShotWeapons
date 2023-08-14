@@ -126,7 +126,7 @@ M16:
         Bonus_Damage: 2
     Critical_hits:
         Enable: true
-        Bonus_Damage: 2
+        Bonus_Damage: 4
         Chance: 50
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 M16 步枪 射杀!"
@@ -190,11 +190,14 @@ MK12:
         Sounds_Victim: HURT_FLESH-1-1-0
     Backstabs:
         Enable: true
-        Bonus_Damage: 2
+        Bonus_Damage: 4
     Critical_hits:
         Enable: true
-        Bonus_Damage: 4
+        Bonus_Damage: 6
         Chance: 50
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: WITHER-10-10
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 MK12 狙击步枪 狙杀!"
 
@@ -726,7 +729,7 @@ Mini14:
         Zoom_No_Recoil: true
         Zoom_Amount: 5
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-0-0
-        Zoom_Bullet_Spread: 0.02
+        Zoom_Bullet_Spread: 0.01
     Reload:
         Enable: true
         Take_Ammo_On_Reload: true
@@ -760,13 +763,16 @@ Mini14:
         Sounds_Victim: HURT_FLESH-1-1-0
     Backstabs:
         Enable: true
-        Bonus_Damage: 2
+        Bonus_Damage: 4
     Critical_hits:
         Enable: true
-        Bonus_Damage: 2
-        Chance: 50
+        Bonus_Damage: 8
+        Chance: 80
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Mini 14 狙杀!"
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: WITHER-10-10
 
 Type88:
     Item_Information:
@@ -824,7 +830,7 @@ Type88:
         Bonus_Damage: 2
     Critical_hits:
         Enable: true
-        Bonus_Damage: 2
+        Bonus_Damage: 4
         Chance: 50
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 88式 狙击步枪 狙杀!"
@@ -933,9 +939,66 @@ vss:
 
 m27:
     Item_Information:
+        Item_Name: "&eM27"
+        Item_Type: 293
+        Item_Lore: "&eFull Auto DMR with 4x Scope and High Accuracy"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 0.2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 720
+        Projectile_Damage: 42
+        Bullet_Spread: 0.1
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.001
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-23,DOOR_CLOSE-1-2-25
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 1
+    Hit_Events:
+        Enable: true
+    Headshot:
+        Enable: true
+        Bonus_Damage: 64
+        Sounds_Shooter: NOTE_PLING-1-2-0    
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.001
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 的 M27 自动步枪 狙杀!"
+
+m27iar:
+    Item_Information:
         Item_Name: "&eM27-IAR"
-        Item_Type: 419
-        Item_Lore: "&eFull Auto LMG DMR Rifle with 4x Scope and High Accuracy"
+        Item_Type: 293
+        Item_Lore: "&eFull Auto LMG DMR with 4x Scope and High Accuracy"
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
         Right_Click_To_Shoot: false

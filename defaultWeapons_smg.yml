@@ -52,7 +52,9 @@ uzi:
     Particles:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-173 
-        Particle_Hit: BLOCK_BREAK-152 
+        Particle_Hit: BLOCK_BREAK-152
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 UZI 冲锋枪 打死了!"
 
 pp19:
     Item_Information:
@@ -115,6 +117,8 @@ pp19:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 PP19 野牛 冲锋枪 打死了!"
 
 vector:
     Item_Information:
@@ -177,6 +181,8 @@ vector:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 Vector 冲锋枪 突死了!"
 
 mp5:
     Item_Information:
@@ -239,6 +245,8 @@ mp5:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 MP5 冲锋枪 射杀!"
 
 ump9:
     Item_Information:
@@ -300,6 +308,8 @@ ump9:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 UMP 9 冲锋枪 射杀!"
 
 ump45:
     Item_Information:
@@ -356,6 +366,8 @@ ump45:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 UMP 45 冲锋枪 射杀!"
 
 tom:
     Item_Information:
@@ -406,6 +418,8 @@ tom:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-173 
         Particle_Hit: BLOCK_BREAK-152
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 汤姆逊 冲锋枪 打死了!"
 
 p90:
     Item_Information:
@@ -461,6 +475,8 @@ p90:
     Abilities:
         No_Vertical_Recoil: true
         Reset_Hit_Cooldown: true
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 P90 打成了筛子!"
 
 mp9:
     Item_Information:
@@ -512,3 +528,5 @@ mp9:
         Enable: true
         Particle_Impact_Anything: BLOCK_BREAK-82
         Particle_Hit: BLOCK_BREAK-82
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 MP9 冲锋枪 打死了!"

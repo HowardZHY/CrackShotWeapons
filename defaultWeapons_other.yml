@@ -71,24 +71,30 @@ Pan:
         Item_Type: 267
         Item_Lore: "&eLevel 4 Armor. Not for cooking."
         Melee_Mode: true
-        Sounds_Acquired: BLOCK_ANVIL_LAND-1-2-0
+        Sounds_Acquired: BLOCK_ANVIL_LAND-2-3-0
         Hidden_From_List: false
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Delay_Between_Shots: 20
         Projectile_Damage: 80
+        Sounds_Shoot: BLOCK_ANVIL_LAND-2-1-0
     Particles:
         Enable: true
         Particle_Hit: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
-        Sounds_Shooter: BLOCK_ANVIL_LAND-1-1-0
+        Sounds_Shooter: BLOCK_ANVIL_LAND-2-1-0
     Riot_Shield:
         Enable: true
-        Durability_Loss_Per_Hit: 1
+        Durability_Loss_Per_Hit: 2
         Sounds_Blocked: GLASS-2-2-0
         Sounds_Break: ITEM_BREAK-2-1-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 40
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 平底锅 拍死了!"
 
@@ -103,12 +109,20 @@ Dao:
         Cancel_Left_Click_Block_Damage: true
         Delay_Between_Shots: 15
         Projectile_Damage: 60
+        Sounds_Shoot: ITEM_BREAK-2-1-0
     Particles:
         Enable: true
         Particle_Hit: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
         Sounds_Shooter:  ITEM_BREAK-2-1-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 40
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 大砍刀 砍死了!"
 
 LianDao:
     Item_Information:
@@ -121,12 +135,20 @@ LianDao:
         Cancel_Left_Click_Block_Damage: true
         Delay_Between_Shots: 15
         Projectile_Damage: 60
+        Sounds_Shoot: ITEM_BREAK-2-1-0
     Particles:
         Enable: true
         Particle_Hit: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
         Sounds_Shooter:  ITEM_BREAK-2-1-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 40
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 镰刀 砍死了!"
 
 Crowbar:
     Item_Information:
@@ -139,12 +161,20 @@ Crowbar:
         Cancel_Left_Click_Block_Damage: true
         Delay_Between_Shots: 15
         Projectile_Damage: 60
+        Sounds_Shoot: ITEM_BREAK-2-1-0
     Particles:
         Enable: true
         Particle_Hit: BLOCK_BREAK-55
     Hit_Events:
         Enable: true
         Sounds_Shooter:  ITEM_BREAK-2-1-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 40
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 撬棍 敲死了!"
 
 FHJ18:
     Item_Information:

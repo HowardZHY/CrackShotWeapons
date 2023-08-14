@@ -18,7 +18,7 @@ AS50:
         Projectile_Incendiary:
             Enable: true
             Duration: 80
-        Sounds_Shoot: NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-2-0,GHAST_FIREBALL-6-1-0,EXPLODE-6-4-0,WITHER_SHOOT-6-2-0,EXPLODE-6-2-0
+        Sounds_Shoot: NOTE_SNARE_DRUM-8-2-0,IRONGOLEM_DEATH-8-2-0,GHAST_FIREBALL-8-1-0,EXPLODE-8-4-0,WITHER_SHOOT-8-2-0,EXPLODE-8-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Arctic 50 狙杀!"
     Reload:
@@ -29,6 +29,8 @@ AS50:
     Headshot:
         Enable: true
         Bonus_Damage: 256
+        Message_Shooter: "&cHead Shot !"
+        Message_Victim: "&4你发现你的脑袋爆炸了，然后就没有然后了"
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Abilities:
@@ -78,7 +80,7 @@ lynx:
         Projectile_Type: arrow
         Projectile_Speed: 1200
         Projectile_Damage: 134
-        Sounds_Shoot: EXPLODE-6-1-0,NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-2-1,GHAST_FIREBALL-6-1-1,WITHER_SHOOT-6-2-1
+        Sounds_Shoot: EXPLODE-8-1-0,NOTE_SNARE_DRUM-8-2-0,IRONGOLEM_DEATH-8-2-1,GHAST_FIREBALL-8-1-1,WITHER_SHOOT-8-2-1
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Lynx AMR 狙杀 !"
     Reload:
@@ -89,6 +91,8 @@ lynx:
     Headshot:
         Enable: true
         Bonus_Damage: 256
+        Message_Shooter: "&cHead Shot !"
+        Message_Victim: "&4你发现你的脑袋爆炸了，然后就没有然后了"
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Abilities:
@@ -156,6 +160,8 @@ M200:
     Headshot:
         Enable: true
         Bonus_Damage: 171
+        Message_Shooter: "&cHead Shot !"
+        Message_Victim: "&4你发现你的脑浆正在流出，然后眼前一黑..."
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: VILLAGER_DEATH-1-1-0
     Abilities:
@@ -192,7 +198,7 @@ AWM:
         Projectile_Type: arrow
         Projectile_Speed: 960
         Projectile_Damage: 132
-        Sounds_Shoot: BLAZE_HIT-6-1-0,EXPLODE-6-2-0
+        Sounds_Shoot: BLAZE_HIT-8-1-0,EXPLODE-8-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 AWM 狙杀!"
     Reload:
@@ -211,7 +217,9 @@ AWM:
         Sound_Close: PISTON_EXTEND-1-2-0
     Headshot:
         Enable: true
-        Bonus_Damage: 200
+        Bonus_Damage: 198
+        Message_Shooter: "&cHead Shot !"
+        Message_Victim: "&4你发现你的脑浆正在流出，然后眼前一黑..."
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: VILLAGER_DEATH-1-1-0
     Abilities:
@@ -248,7 +256,7 @@ M24:
         Projectile_Type: arrow
         Projectile_Speed: 840
         Projectile_Damage: 84
-        Sounds_Shoot: BLAZE_HIT-1-1-0
+        Sounds_Shoot: BLAZE_HIT-6-1-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 M24 狙杀!"
     Reload:
@@ -268,6 +276,8 @@ M24:
     Headshot:
         Enable: true
         Bonus_Damage: 90
+        Message_Shooter: "&cHead Shot !"
+        Message_Victim: "&4你被爆头了!"
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: VILLAGER_DEATH-1-1-0
     Abilities:
@@ -306,9 +316,9 @@ m1891:
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 720
-        Projectile_Damage: 78
+        Projectile_Damage: 83
         Recoil_Amount: 3
-        Sounds_Shoot: BLAZE_HIT-5-1-0
+        Sounds_Shoot: BLAZE_HIT-8-1-0
         Bullet_Spread: 0.1
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 莫辛纳甘 M1891 狙杀!"
@@ -335,6 +345,8 @@ m1891:
     Headshot:
         Enable: true
         Bonus_Damage: 88
+        Message_Shooter: "&cHead Shot !"
+        Message_Victim: "&4你被爆头了!"
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: VILLAGER_DEATH-1-1-0
     Abilities:
@@ -370,7 +382,7 @@ kar98k:
         Projectile_Speed: 640
         Projectile_Damage: 78
         Recoil_Amount: 3
-        Sounds_Shoot: IRONGOLEM_DEATH-5-1-0,BLAZE_HIT-5-2-0,EXPLODE-5-2-0
+        Sounds_Shoot: IRONGOLEM_DEATH-8-1-0,BLAZE_HIT-8-2-0,EXPLODE-8-2-0
         Bullet_Spread: 0.1
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Kar 98K 狙杀!"
@@ -397,6 +409,8 @@ kar98k:
     Headshot:
         Enable: true
         Bonus_Damage: 88
+        Message_Shooter: "&cHead Shot !"
+        Message_Victim: "&4你被爆头了!"
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: VILLAGER_DEATH-1-1-0
     Abilities:
@@ -432,7 +446,7 @@ win94:
         Projectile_Speed: 560
         Projectile_Damage: 66
         Recoil_Amount: 3
-        Sounds_Shoot: BLAZE_HIT-4-2-0
+        Sounds_Shoot: BLAZE_HIT-6-2-0
         Bullet_Spread: 0.1
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Win94 射杀!"
@@ -453,6 +467,8 @@ win94:
     Headshot:
         Enable: true
         Bonus_Damage: 66
+        Message_Shooter: "&cHead Shot !"
+        Message_Victim: "&4你被爆头了!"
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: VILLAGER_DEATH-1-1-0
     Abilities:
