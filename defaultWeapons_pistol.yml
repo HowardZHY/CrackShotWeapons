@@ -277,6 +277,58 @@ de:
         Bullet_Spread: 0.1
     Reload:
         Enable: true
+        Reload_Amount: 7
+        Reload_Duration: 25
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: DOOR_OPEN-1-2-2,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-18,DOOR_CLOSE-1-2-24
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Backstab:
+        Enable: true
+        Bonus_Damage: 4
+        Sounds_Shooter: ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Backstab: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Scope:
+        Enable: true
+        Zoom_Amount: 2
+        Sounds_Toggle_Zoom: CLICK-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 沙漠之鹰 打死了!"
+
+des:
+    Item_Information:
+        Item_Name: "&eScoped Desert Eagle"
+        Item_Type: 292
+        Item_Lore: "&eHigh damage pistol with scope. &eShoot enemies in the back|&efor bonus backstab damage."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 3
+        Recoil_Amount: 3
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 300
+        Projectile_Damage: 60
+        Bullet_Spread: 0.2
+        Sounds_Shoot: CLICK-4-2-0,ZOMBIE_WOOD-4-2-0,NOTE_SNARE_DRUM-4-2-0,IRONGOLEM_DEATH-4-1-0,GHAST_FIREBALL-4-1-0,WITHER_SHOOT-4-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Reload:
+        Enable: true
         Reload_Amount: 12
         Reload_Duration: 25
         Sounds_Out_Of_Ammo: CLICK-1-1-0
@@ -295,7 +347,7 @@ de:
         Sounds_Shooter: SHOOT_ARROW-1-2-0
     Scope:
         Enable: true
-        Zoom_Amount: 4
+        Zoom_Amount: 5
         Sounds_Toggle_Zoom: CLICK-1-1-0
         Zoom_Bullet_Spread: 0.05
     Headshot:
@@ -304,7 +356,7 @@ de:
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 沙漠之鹰 狙杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 沙漠之鹰+四倍镜 狙杀!"
 
 M1895:
     Item_Information:

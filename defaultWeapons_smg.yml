@@ -262,7 +262,7 @@ ump9:
         Projectile_Type: snowball
         Projectile_Speed: 40
         Projectile_Damage: 38
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: FIRE_IGNITE-1-1-0,CLICK-1-1-0,BLAZE_HIT-1-2-0
     Scope:
         Enable: true
@@ -325,7 +325,7 @@ ump45:
         Projectile_Type: snowball
         Projectile_Speed: 40
         Projectile_Damage: 40
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: CLICK-1-1-0,BLAZE_HIT-1-3-0
     Scope:
         Enable: true
@@ -435,7 +435,7 @@ p90:
         Projectile_Type: arrow
         Projectile_Speed: 200
         Projectile_Damage: 35
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.4
         Sounds_Shoot: BLAZE_HIT-1-2-0,CLICK-1-1-0,FIRE_IGNITE-1-1-0
     Sneak:
         Enable: true

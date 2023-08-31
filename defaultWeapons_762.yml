@@ -67,7 +67,7 @@ M762:
         Projectile_Type: arrow
         Projectile_Speed: 600
         Projectile_Damage: 46
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: IRONGOLEM_HIT-4-2-0,SKELETON_HURT-4-2-0,ZOMBIE_WOOD-4-2-0
     Sneak:
         Enable: true
@@ -124,7 +124,7 @@ Groza:
         Projectile_Type: arrow
         Projectile_Speed: 600
         Projectile_Damage: 49
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.6
         Sounds_Shoot: BLAZE_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
     Sneak:
         Enable: true
@@ -181,7 +181,7 @@ AKM:
         Projectile_Type: arrow
         Projectile_Speed: 600
         Projectile_Damage: 49
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.8
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
@@ -238,7 +238,7 @@ AK47:
         Projectile_Type: arrow
         Projectile_Speed: 600
         Projectile_Damage: 48
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.8
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Particles:
         Enable: true
@@ -297,10 +297,10 @@ SKS:
         Right_Click_To_Shoot: false
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 600
         Projectile_Damage: 55
         Recoil_Amount: 2
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.6
         Sounds_Shoot: BLAZE_HIT-6-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 SKS 狙杀 !"
@@ -351,10 +351,10 @@ SVD:
         Delay_Between_Shots: 6
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 660
         Projectile_Damage: 75
         Recoil_Amount: 3
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.6
         Sounds_Shoot: NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-1-0,BLAZE_HIT-1-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 SVD 狙击枪 狙杀!"
@@ -405,9 +405,9 @@ SLR:
         Recoil_Amount: 3
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 600
         Projectile_Damage: 59
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.6
         Sounds_Shoot: IRONGOLEM_HIT-5-2-0,SKELETON_HURT-5-2-0,ITEM_BREAK-5-2-0,BLAZE_HIT-5-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 SLR 射手步枪 狙杀 !"
@@ -462,7 +462,7 @@ MK14EBRLMG:
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 600
         Projectile_Damage: 60
         Bullet_Spread: 0.001
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
@@ -518,14 +518,14 @@ MK14EBR:
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 600
         Projectile_Damage: 60
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.4
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.01
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
@@ -574,14 +574,14 @@ MK14:
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 600
         Projectile_Damage: 60
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.8
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.01
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8
@@ -631,7 +631,7 @@ M14EBR:
         Delay_Between_Shots: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 600
         Projectile_Damage: 60
         Bullet_Spread: 0.2
         Sounds_Shoot: IRONGOLEM_HIT-5-2-0,SKELETON_HURT-5-2-0,ZOMBIE_WOOD-5-2-0
@@ -742,9 +742,9 @@ mk47:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 600
+        Projectile_Speed: 500
         Projectile_Damage: 49
-        Bullet_Spread: 0.2
+        Bullet_Spread: 0.5
         Sounds_Shoot:  IRONGOLEM_HIT-4-2-0,SKELETON_HURT-4-2-0,ITEM_BREAK-4-2-2,BLAZE_HIT-4-2-0,ZOMBIE_WOOD-4-2-0
     Burstfire:
         Enable: true
@@ -763,7 +763,7 @@ mk47:
         Type: slide
         Close_Duration: 10
         Close_Shoot_Delay: 12
-        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+        Sound_Close: PISTON_RETRACT-1-2-2
     Scope:
         Enable: true
         Zoom_Amount: 5
@@ -799,9 +799,9 @@ mk17:
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 45
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.5
         Sounds_Shoot: CHEST_CLOSE-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
     Sneak:
         Enable: true
@@ -855,9 +855,9 @@ mk20:
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 64
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.6
         Sounds_Shoot: BLAZE_HIT-2-2-0,ZOMBIE_WOOD-2-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 MK20 精确射手步枪 狙杀!"
@@ -910,7 +910,7 @@ AAC:
         Projectile_Type: arrow
         Projectile_Speed: 450
         Projectile_Damage: 43
-        Bullet_Spread: 0.25
+        Bullet_Spread: 0.4
         Sounds_Shoot: NOTE_PLING-1-2-0,FIRE_IGNITE-1-1-0,CLICK-1-1-0
     Sneak:
         Enable: true
@@ -929,7 +929,7 @@ AAC:
         Type: slide
         Close_Duration: 10
         Close_Shoot_Delay: 12
-        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+        Sound_Close: FIRE_IGNITE-1-1-0
     Scope:
         Enable: true
         Zoom_Amount: 3
@@ -966,7 +966,7 @@ ACE:
         Projectile_Type: arrow
         Projectile_Speed: 600
         Projectile_Damage: 44
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.5
         Sounds_Shoot: IRONGOLEM_HIT-4-2-0,IRONGOLEM_HIT-4-1-0,SKELETON_HURT-4-2-0,ZOMBIE_WOOD-4-2-0
     Sneak:
         Enable: true

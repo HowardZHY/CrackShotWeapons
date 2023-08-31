@@ -261,7 +261,7 @@ RPK:
         Projectile_Type: arrow
         Projectile_Speed: 600
         Projectile_Damage: 49
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.6
         Sounds_Shoot: IRONGOLEM_HIT-8-2-0,SKELETON_HURT-8-2-0,ZOMBIE_WOOD-8-2-0
     Sneak:
         Enable: true

@@ -10,9 +10,9 @@ M4A1:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 40
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: BLAZE_HIT-4-2-0,ZOMBIE_WOOD-4-2-0
     Sneak:
         Enable: true
@@ -79,9 +79,9 @@ M16:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 42
-        Bullet_Spread: 0.2
+        Bullet_Spread: 0.4
         Sounds_Shoot: ITEM_BREAK-4-2-0,BLAZE_HIT-4-2-0,ZOMBIE_WOOD-4-2-0
     Sneak:
         Enable: true
@@ -145,7 +145,7 @@ MK12:
         Projectile_Type: arrow
         Projectile_Speed: 640
         Projectile_Damage: 50
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.6
         Sounds_Shoot: CLICK-1-1-0,IRONGOLEM_HIT-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
     Sneak:
         Enable: true
@@ -214,9 +214,9 @@ M416:
         Projectile_Amount: 1
         Delay_Between_Shots: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 40
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.5
         Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
     Fully_Automatic:
         Enable: true
@@ -280,7 +280,7 @@ ScarL:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 40
         Bullet_Spread: 0.4
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-1-0
@@ -340,9 +340,9 @@ g36:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 40
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,FIRE_IGNITE-1-1-1
     Sneak:
         Enable: true
@@ -400,9 +400,9 @@ mg36:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 40
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,FIRE_IGNITE-1-1-1
     Sneak:
         Enable: true
@@ -460,9 +460,9 @@ aug:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 42
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.4
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,EXPLODE-1-2-0,ZOMBIE_WOOD-1-1-0,SKELETON_HURT-1-2-1
     Sneak:
         Enable: true
@@ -526,9 +526,9 @@ aughbar:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 42
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.4
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,EXPLODE-1-2-0,ZOMBIE_WOOD-1-1-0,SKELETON_HURT-1-2-1
     Sneak:
         Enable: true
@@ -592,9 +592,9 @@ famas:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 660
+        Projectile_Speed: 600
         Projectile_Damage: 40
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.4
         Sounds_Shoot: FIRE_IGNITE-1-1-0,CLICK-1-1-0
     Sneak:
         Enable: true
@@ -661,7 +661,7 @@ Type95:
         Projectile_Type: arrow
         Projectile_Speed: 600
         Projectile_Damage: 43
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.4
         Sounds_Shoot: ITEM_BREAK-1-2-2,NOTE_SNARE_DRUM-1-0-2
     Sneak:
         Enable: true
@@ -718,7 +718,7 @@ Mini14:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 46
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.5
         Sounds_Shoot: CLICK-1-1-0,NOTE_PLING-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
     Sneak:
         Enable: true
@@ -788,7 +788,7 @@ Type88:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 54
-        Bullet_Spread: 0.2
+        Bullet_Spread: 0.5
         Sounds_Shoot: ITEM_BREAK-1-2-0,NOTE_SNARE_DRUM-1-0-0,NOTE_PLING-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
     Sneak:
         Enable: true
@@ -850,7 +850,7 @@ val:
         Projectile_Speed: 300
         Projectile_Damage: 40
         Recoil_Amount: 0.5
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
         Sounds_Shoot: BLAZE_HIT-1-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 的 VAL 偷袭狙杀!"
@@ -901,7 +901,7 @@ vss:
         Projectile_Speed: 320
         Projectile_Damage: 40
         Recoil_Amount: 0.5
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.4
         Sounds_Shoot: BLAZE_HIT-1-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 的 VSS 偷袭狙杀!"
@@ -976,7 +976,7 @@ m27:
         Type: slide
         Close_Duration: 10
         Close_Shoot_Delay: 12
-        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+        Sound_Close: PISTON_RETRACT-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
         Knockback: 1
@@ -1033,7 +1033,7 @@ m27iar:
         Type: slide
         Close_Duration: 10
         Close_Shoot_Delay: 12
-        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+        Sound_Close: PISTON_RETRACT-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
         Knockback: 1
