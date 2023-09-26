@@ -12,7 +12,7 @@ AS50:
         Delay_Between_Shots: 12
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 900
         Projectile_Damage: 296
         Projectile_Flames: true
         Projectile_Incendiary:
@@ -78,7 +78,7 @@ lynx:
         Delay_Between_Shots: 10
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 1200
+        Projectile_Speed: 900
         Projectile_Damage: 134
         Sounds_Shoot: EXPLODE-8-1-0,NOTE_SNARE_DRUM-8-2-0,IRONGOLEM_DEATH-8-2-1,GHAST_FIREBALL-8-1-1,WITHER_SHOOT-8-2-1
     Custom_Death_Message:
@@ -315,7 +315,7 @@ m1891:
         Cancel_Right_Click_Interactions: true
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 840
         Projectile_Damage: 83
         Recoil_Amount: 3
         Sounds_Shoot: BLAZE_HIT-8-1-0
@@ -379,7 +379,7 @@ kar98k:
         Cancel_Right_Click_Interactions: true
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 640
+        Projectile_Speed: 720
         Projectile_Damage: 78
         Recoil_Amount: 3
         Sounds_Shoot: IRONGOLEM_DEATH-8-1-0,BLAZE_HIT-8-2-0,EXPLODE-8-2-0
@@ -443,7 +443,7 @@ win94:
         Cancel_Right_Click_Interactions: true
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 560
+        Projectile_Speed: 720
         Projectile_Damage: 66
         Recoil_Amount: 3
         Sounds_Shoot: BLAZE_HIT-6-2-0

@@ -433,7 +433,7 @@ p90:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 200
+        Projectile_Speed: 300
         Projectile_Damage: 35
         Bullet_Spread: 0.4
         Sounds_Shoot: BLAZE_HIT-1-2-0,CLICK-1-1-0,FIRE_IGNITE-1-1-0

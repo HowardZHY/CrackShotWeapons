@@ -371,7 +371,7 @@ M1895:
         Delay_Between_Shots: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 200
+        Projectile_Speed: 240
         Projectile_Damage: 46
         Bullet_Spread: 0.2
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-1-0,ZOMBIE_WOOD-1-1-0
@@ -428,7 +428,7 @@ R45:
         Delay_Between_Shots: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 200
+        Projectile_Speed: 240
         Projectile_Damage: 50
         Bullet_Spread: 0.2
         Sounds_Shoot: IRONGOLEM_HIT-3-2-0,ZOMBIE_METAL-3-1-0,ZOMBIE_WOOD-3-1-0

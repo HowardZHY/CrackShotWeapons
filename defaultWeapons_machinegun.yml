@@ -11,7 +11,7 @@ m249:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 840
         Projectile_Damage: 44
         Bullet_Spread: 0.5
         Sounds_Shoot: NOTE_SNARE_DRUM-8-2-0,ZOMBIE_WOOD-8-2-0,NOTE_PLING-8-2-0,SHOOT_ARROW-8-2-0
@@ -68,7 +68,7 @@ mg3:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 720
+        Projectile_Speed: 750
         Projectile_Damage: 40
         Bullet_Spread: 0.5
         Sounds_Shoot: NOTE_SNARE_DRUM-8-2-0,ZOMBIE_WOOD-8-2-0
@@ -132,7 +132,7 @@ dp28:
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 600
+        Projectile_Speed: 660
         Projectile_Damage: 49
         Bullet_Spread: 0.4
         Sounds_Shoot: NOTE_PLING-8-2-0,ZOMBIE_WOOD-8-2-0
@@ -195,7 +195,7 @@ pkm:
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 640
+        Projectile_Speed: 750
         Projectile_Damage: 43
         Bullet_Spread: 0.5
         Sounds_Shoot: NOTE_SNARE_DRUM-8-2-0,IRONGOLEM_HIT-8-2-0,ZOMBIE_WOOD-8-2-0
@@ -240,7 +240,7 @@ pkm:
         Sounds_Shooter: NOTE_PLING-1-2-0    
     Scope:
         Enable: true
-        Zoom_Amount: 6
+        Zoom_Amount: 5
         Night_Vision: true
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.05
@@ -259,7 +259,7 @@ RPK:
         Recoil_Amount: 2
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 600
+        Projectile_Speed: 750
         Projectile_Damage: 49
         Bullet_Spread: 0.6
         Sounds_Shoot: IRONGOLEM_HIT-8-2-0,SKELETON_HURT-8-2-0,ZOMBIE_WOOD-8-2-0
@@ -269,7 +269,7 @@ RPK:
         Bullet_Spread: 0.1
     Fully_Automatic:
         Enable: true
-        Fire_Rate: 10
+        Fire_Rate: 8
     Reload:
         Enable: true
         Reload_Amount: 75
