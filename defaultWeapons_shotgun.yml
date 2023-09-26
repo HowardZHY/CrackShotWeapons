@@ -26,8 +26,14 @@ M1897:
         No_Recoil: true
         Zoom_Amount: 2
         Bullet_Spread: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 6
         Reload_Bullets_Individually: true
         Reload_Duration: 8
@@ -72,8 +78,14 @@ M1887:
         Projectile_Speed: 32
         Bullet_Spread: 1
         Sounds_Shoot: WITHER_SHOOT-3-2-0,EXPLODE-3-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 8
         Reload_Bullets_Individually: true
         Reload_Duration: 10
@@ -102,7 +114,7 @@ M1887:
 
 S686:
     Item_Information:
-        Item_Name: "&eS686"
+        Item_Name: "&eBeretta Shotgun 686"
         Item_Type: 417
         Item_Lore: "&eDouble-barreled shotgun.|&eDeadly at close range.|&eIneffective at longer ranges.|&eFires incendiary ammo."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
@@ -127,8 +139,14 @@ S686:
         Enable: true
         No_Recoil: true
         Bullet_Spread: 0.6
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 2
         Reload_Bullets_Individually: true
         Reload_Duration: 15
@@ -154,7 +172,7 @@ S686:
         Particle_Player_Shoot: FLAMES-1
         Particle_Impact_Anything: BLOCK_BREAK-51
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 贝莱塔 S686 霰弹枪 喷死了!"
+        Normal: "&e<victim> 被 <shooter> 使用 伯莱塔 S686 霰弹枪 喷死了!"
 
 s12k:
     Item_Information:
@@ -253,8 +271,14 @@ SPAS12:
         Enable: true
         No_Recoil: true
         Bullet_Spread: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 7
         Reload_Bullets_Individually: true
         Reload_Duration: 12
@@ -285,7 +309,7 @@ SPAS12:
         Bonus_Damage_Per_Tick: -1
         Maximum_Damage: -2
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 SPAS 12 喷死了 !"
+        Normal: "&e<victim> 被 <shooter> 使用 SPAS-12 喷死了 !"
 
 AA12:
     Item_Information:
@@ -319,7 +343,6 @@ AA12:
     Reload:
         Enable: true
         Reload_Amount: 8
-        Reload_Bullets_Individually: false
         Reload_Duration: 20
         Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
     Firearm_Action:
@@ -355,14 +378,14 @@ dbs:
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Delay_Between_Shots: 8
+        Delay_Between_Shots: 20
         Recoil_Amount: 4
         Projectile_Amount: 10
         Projectile_Type: egg
         Projectile_Speed: 40
         Projectile_Damage: 14
         Bullet_Spread: 1.5
-        Sounds_Shoot: EXPLODE-3-2-0,ITEM_BREAK-3-0-1,BLAZE_HIT-3-1-2,ZOMBIE_WOOD-3-1-2,GHAST_FIREBALL-3-1-2
+        Sounds_Shoot: EXPLODE-4-2-0,ITEM_BREAK-4-0-1,BLAZE_HIT-4-1-2,ZOMBIE_WOOD-4-1-2,GHAST_FIREBALL-4-1-2,NOTE_STICKS-1-2-12,PISTON_RETRACT-1-2-12
     Sneak:
         Enable: true
         No_Recoil: true
@@ -370,19 +393,25 @@ dbs:
     Burstfire:
         Enable: true
         Shots_Per_Burst: 2
-        Delay_Between_Shots_In_Burst: 2
+        Delay_Between_Shots_In_Burst: 3
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Reload_Amount: 7
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 14
         Reload_Bullets_Individually: true
-        Reload_Duration: 20
-        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_STICKS-1-1-10
+        Reload_Duration: 10
+        Sounds_Reloading: NOTE_STICKS-1-1-0
     Firearm_Action:
-        Type: pump
+        Type: slide
         Open_Duration: 10
         Close_Duration: 10
-        Sound_Open: NOTE_STICKS-1-2-4,PISTON_RETRACT-1-2-4
-        Sound_Close: NOTE_STICKS-1-1-0,PISTON_RETRACT-1-4-0
+        Sound_Open: NOTE_STICKS-1-2-4,PISTON_RETRACT-1-1-4
+        Sound_Close: NOTE_STICKS-1-1-0,PISTON_RETRACT-1-4-2
     Scope:
         Enable: true
         Zoom_Amount: 3
@@ -426,7 +455,7 @@ O12:
         Projectile_Speed: 40
         Projectile_Damage: 100
         Bullet_Spread: 0.4
-        Sounds_Shoot: WITHER_SHOOT-1-2-0,ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
+        Sounds_Shoot: WITHER_SHOOT-6-2-0,ZOMBIE_WOOD-6-1-0,EXPLODE-6-2-0,GHAST_FIREBALL-6-1-0
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8
