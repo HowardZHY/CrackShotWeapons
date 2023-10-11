@@ -43,7 +43,7 @@ Type81:
         Sounds_Shooter: SHOOT_ARROW-1-2-0
     Headshot:
         Enable: true
-        Bonus_Damage: 70
+        Bonus_Damage: 75
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Particles:
@@ -1022,7 +1022,7 @@ m110:
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 810
-        Projectile_Damage: 82
+        Projectile_Damage: 80
         Bullet_Spread: 0.6
         Sounds_Shoot: BLAZE_HIT-8-2-0,IRONGOLEM_HIT-8-2-0
     Custom_Death_Message:

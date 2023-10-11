@@ -2,7 +2,7 @@ AS50:
     Item_Information:
         Item_Name: "&eArctic .50 BMG"
         Item_Type: 369
-        Item_Lore: "&eSemi-auto rifle with very high damage.|&eEquipped with a night vision scope."
+        Item_Lore: "&eSemi-Auto Sniper with VERY high damage.|&eEquipped with a night vision scope."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
         Bullet_Spread: 0.1
@@ -13,7 +13,7 @@ AS50:
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 900
-        Projectile_Damage: 296
+        Projectile_Damage: 144
         Projectile_Flames: true
         Projectile_Incendiary:
             Enable: true
@@ -28,7 +28,7 @@ AS50:
         Sounds_Reloading: ZOMBIE_METAL-1-2-0,FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-8,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-30
     Headshot:
         Enable: true
-        Bonus_Damage: 256
+        Bonus_Damage: 216
         Message_Shooter: "&cHead Shot !"
         Message_Victim: "&4你发现你的脑袋爆炸了，然后就没有然后了"
         Sounds_Shooter: NOTE_PLING-1-2-0
@@ -42,7 +42,73 @@ AS50:
         Particle_Player_Shoot: BLOCK_BREAK-1
         Particle_Terrain: true
         Particle_Impact_Anything: BLOCK_BREAK-173 
-        Particle_Hit: BLOCK_BREAK-152
+        Particle_Hit: SMOKE
+        Particle_Headshot: BLOCK_BREAK-87
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 1
+        Delay_Between_Shots_In_Burst: 10
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.001
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: PISTON_RETRACT-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: EXPLODE-1-2-0
+
+M82:
+    Item_Information:
+        Item_Name: "&eBarrett M82A1"
+        Item_Type: 369
+        Item_Lore: "&eSemi-Auto Sniper with VERY high damage.|&eEquipped with a night vision scope."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Bullet_Spread: 0.1
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 6
+        Delay_Between_Shots: 12
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 800
+        Projectile_Damage: 150
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Sounds_Shoot: NOTE_SNARE_DRUM-8-2-0,IRONGOLEM_DEATH-8-2-0,GHAST_FIREBALL-8-1-0,EXPLODE-8-4-0,WITHER_SHOOT-8-2-0,EXPLODE-8-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 巴雷特 M82A1 狙杀!"
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 40
+        Sounds_Reloading: CLICK-1-2-0,FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-8,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-32
+    Headshot:
+        Enable: true
+        Bonus_Damage: 225
+        Message_Shooter: "&cHead Shot !"
+        Message_Victim: "&4你发现你的脑袋爆炸了，然后就没有然后了"
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: SMOKE
         Particle_Headshot: BLOCK_BREAK-87
     Burstfire:
         Enable: true

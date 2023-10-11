@@ -327,7 +327,6 @@ ScarL:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Scar-L 自动步枪 射杀!"
 
-
 g36:
     Item_Information:
         Item_Name: "&eG36C"
@@ -936,6 +935,65 @@ vss:
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+acr:
+    Item_Information:
+        Item_Name: "&eRemington ACR"
+        Item_Type: 286
+        Item_Lore: "&e5.56 Advanced Combat Rifle.|&2Right click to open night vision 4x scope."
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 810
+        Projectile_Damage: 41
+        Bullet_Spread: 0.4
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.02
+    Reload:
+        Enable: true
+        Reload_Amount: 45
+        Reload_Duration: 30
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-6,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-23,DOOR_CLOSE-1-2-25
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 2
+        Sound_Close: CLICK-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 62
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 1
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 ACR 自动步枪 射杀!"
 
 m27:
     Item_Information:
