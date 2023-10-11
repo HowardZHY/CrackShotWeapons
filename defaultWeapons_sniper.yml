@@ -5,11 +5,11 @@ AS50:
         Item_Lore: "&eSemi-Auto Sniper with VERY high damage.|&eEquipped with a night vision scope."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.8
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 6
-        Delay_Between_Shots: 12
+        Delay_Between_Shots: 10
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 900
@@ -71,20 +71,17 @@ M82:
         Item_Lore: "&eSemi-Auto Sniper with VERY high damage.|&eEquipped with a night vision scope."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Bullet_Spread: 0.1
+        Right_Click_To_Shoot: true
+        Bullet_Spread: 0.8
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 6
-        Delay_Between_Shots: 12
+        Recoil_Amount: 8
+        Delay_Between_Shots: 10
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 800
+        Projectile_Speed: 810
         Projectile_Damage: 150
-        Projectile_Flames: true
-        Projectile_Incendiary:
-            Enable: true
-            Duration: 80
-        Sounds_Shoot: NOTE_SNARE_DRUM-8-2-0,IRONGOLEM_DEATH-8-2-0,GHAST_FIREBALL-8-1-0,EXPLODE-8-4-0,WITHER_SHOOT-8-2-0,EXPLODE-8-2-0
+        Sounds_Shoot: NOTE_SNARE_DRUM-8-2-0,IRONGOLEM_HIT-8-1-0,GHAST_FIREBALL-8-1-0,EXPLODE-8-4-0,WITHER_SHOOT-8-2-0,EXPLODE-8-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 巴雷特 M82A1 狙杀!"
     Reload:
@@ -137,7 +134,7 @@ lynx:
         Item_Lore: "&eSemi-auto Sniper Rifle with high damage.|&eEquipped with a 5x scope."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Bullet_Spread: 0.001
+        Bullet_Spread: 0.4
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 4
@@ -199,6 +196,7 @@ M200:
         Item_Lore: "&eBolt-action Sniper with very high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
+        Bullet_Spread: 0.4
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 1
@@ -257,6 +255,7 @@ AWM:
         Item_Lore: "&eBolt-action Sniper with high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
+        Bullet_Spread: 0.4
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 1
@@ -315,6 +314,7 @@ M24:
         Item_Lore: "&eBolt-action Sniper Rifle.|&eEquipped with night vision scope.|&eDeals more damage on headshots."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
+        Bullet_Spread: 0.2
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 1
