@@ -41,7 +41,7 @@ AS50:
         Enable: true
         Particle_Player_Shoot: BLOCK_BREAK-1
         Particle_Terrain: true
-        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Impact_Anything: BLOCK_BREAK-49
         Particle_Hit: SMOKE
         Particle_Headshot: BLOCK_BREAK-87
     Burstfire:
@@ -104,7 +104,7 @@ M82:
         Enable: true
         Particle_Player_Shoot: BLOCK_BREAK-1
         Particle_Terrain: true
-        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Impact_Anything: BLOCK_BREAK-49
         Particle_Hit: SMOKE
         Particle_Headshot: BLOCK_BREAK-87
     Burstfire:

@@ -297,9 +297,9 @@ SPAS12:
         Sounds_Shooter: SHOOT_ARROW-1-2-0
     Particles:
         Enable: true
-        Particle_Impact_Anything: BLOCK_BREAK-173 
-        Particle_Hit: BLOCK_BREAK-152 
-        Particle_Player_Shoot: FLAMES-1      
+        Particle_Impact_Anything: BLOCK_BREAK-1
+        Particle_Hit: BLOCK_BREAK-87
+        Particle_Player_Shoot: FLAMES-1
     Headshot:
         Enable: true
         Bonus_Damage: 10
@@ -309,7 +309,81 @@ SPAS12:
         Bonus_Damage_Per_Tick: -1
         Maximum_Damage: -2
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 SPAS-12 喷死了 !"
+        Normal: "&e<victim> 被 <shooter> 使用 SPAS-12 喷成了筛子 !"
+
+M1014:
+    Item_Information:
+        Item_Name: "&eBenelli M1014 Shotgun"
+        Item_Type: 256
+        Item_Lore: "&fSemi-Auto Modern Shotgun.|&cNeeds Shotgun Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Right_Click_To_Shoot: false
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 2
+        Projectile_Amount: 12
+        Projectile_Type: egg
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 32
+        Projectile_Damage: 12
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 1
+        Bullet_Spread: 1.2
+        Reset_Fall_Distance: true
+        Sounds_Shoot: EXPLODE-3-2-0, BLAZE_HIT-3-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Scope:
+        Enable: true
+        Zoom_Amount: 2
+        Zoom_Bullet_Spread: 0.8
+        Sounds_Toggle_Zoom: CLICK-1-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 8
+        Reload_Bullets_Individually: true
+        Reload_Duration: 10
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Fully_Automatic:
+        Enable: false
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 12
+        Close_Duration: 12
+        Sound_Open: CLICK-1-1-0
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_EXTEND-1-2-4
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-1
+        Particle_Hit: BLOCK_BREAK-87
+        Particle_Player_Shoot: FLAMES-1
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+        Maximum_Damage: -2
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 M1014 喷成了筛子 !"
 
 AA12:
     Item_Information:
