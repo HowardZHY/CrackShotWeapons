@@ -51,7 +51,7 @@ AS50:
     Scope:
         Enable: true
         Night_Vision: true
-        Zoom_Amount: 10
+        Zoom_Amount: 12
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.001
     Firearm_Action:
@@ -86,7 +86,7 @@ M82:
         Normal: "&e<victim> 被 <shooter> 使用 巴雷特 M82A1 狙杀!"
     Reload:
         Enable: true
-        Reload_Amount: 10
+        Reload_Amount: 12
         Reload_Duration: 40
         Sounds_Reloading: CLICK-1-2-0,FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-8,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-32
     Headshot:
@@ -241,7 +241,7 @@ M200:
     Scope:
         Enable: true
         Night_Vision: true
-        Zoom_Amount: 10
+        Zoom_Amount: 12
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.001
     Hit_Events:
@@ -300,7 +300,7 @@ AWM:
     Scope:
         Enable: true
         Night_Vision: true
-        Zoom_Amount: 10
+        Zoom_Amount: 8
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.001
     Hit_Events:

@@ -1,11 +1,11 @@
 m249:
     Item_Information:
         Item_Name: "&eM249"
-        Item_Type: 419
+        Item_Type: 293
         Item_Lore: "&eFull Auto LMG with 4x scope"
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Right_Click_To_Shoot: false
+        Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 1
@@ -28,15 +28,21 @@ m249:
         Particle_Hit: BLOCK_BREAK-152
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 100
         Reload_Duration: 80
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
         Sounds_Reloading: FIRE_IGNITE-1-1-8,DOOR_OPEN-1-2-10,CHEST_OPEN-1-2-20,FIRE_IGNITE-1-1-40,HURT_FLESH-1-0-50,DOOR_CLOSE-1-2-60,NOTE_STICKS-1-0-70,PISTON_RETRACT-1-2-72,PISTON_EXTEND-1-2-78
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0      
     Firearm_Action:
         Type: slide
         Close_Duration: 10
         Close_Shoot_Delay: 12
-        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+        Sound_Close: PISTON_RETRACT-1-2-0
     Abilities:
         No_Vertical_Recoil: true
         Reset_Hit_Cooldown: true
