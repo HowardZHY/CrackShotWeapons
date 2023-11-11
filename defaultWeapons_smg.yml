@@ -1,4 +1,4 @@
-uzi:
+UZI:
     Item_Information:
         Item_Name: "&eUZI"
         Item_Type: 292
@@ -54,9 +54,9 @@ uzi:
         Particle_Impact_Anything: BLOCK_BREAK-173 
         Particle_Hit: BLOCK_BREAK-152
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 UZI 冲锋枪 打死了!"
+        Normal: "&e<victim> 被 <shooter> 使用 UZI 冲锋枪 突死了!"
 
-pp19:
+PP19:
     Item_Information:
         Item_Name: "&ePP19-Bison"
         Item_Type: 293
@@ -72,7 +72,7 @@ pp19:
         Projectile_Speed: 40
         Projectile_Damage: 34
         Bullet_Spread: 0.3
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-4-2-0,SKELETON_HURT-4-2-0,ZOMBIE_WOOD-4-2-0
     Scope:
         Enable: true
         No_Recoil: true
@@ -120,7 +120,7 @@ pp19:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 PP19 野牛 冲锋枪 打死了!"
 
-vector:
+Vector:
     Item_Information:
         Item_Name: "&eVector"
         Item_Type: 293
@@ -136,7 +136,7 @@ vector:
         Projectile_Speed: 40
         Projectile_Damage: 32
         Bullet_Spread: 0.3
-        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,IRONGOLEM_HIT-1-2-0,ITEM_BREAK-1-1-0
+        Sounds_Shoot: ZOMBIE_WOOD-4-1-0,IRONGOLEM_HIT-4-2-0,ITEM_BREAK-4-1-0
     Scope:
         Enable: true
         No_Recoil: true
@@ -182,9 +182,67 @@ vector:
         Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-13
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 Vector 冲锋枪 突死了!"
+        Normal: "&e<victim> 被 <shooter> 使用 Vector 冲锋枪 突成了筛子!"
 
-mp5:
+Vector45:
+    Item_Information:
+        Item_Name: "&eVector (.45)"
+        Item_Type: 293
+        Item_Lore: "&5Submachine Gun with extreme fire rate.|&cUses .45 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 32
+        Bullet_Spread: 0.3
+        Sounds_Shoot: ZOMBIE_WOOD-4-1-0,IRONGOLEM_HIT-4-2-0,ITEM_BREAK-4-1-0
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: NOTE_PLING-1-2-0    
+    Abilities:
+        No_Vertical_Recoil: true 
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-13
+        Particle_Hit: BLOCK_BREAK-13
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 Vector 冲锋枪 突成了筛子!"
+
+MP5:
     Item_Information:
         Item_Name: "&eMP5"
         Item_Type: 293
@@ -200,7 +258,7 @@ mp5:
         Projectile_Speed: 40
         Projectile_Damage: 30
         Bullet_Spread: 0.4
-        Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ORB_PICKUP-1-2-0
+        Sounds_Shoot: ZOMBIE_WOOD-4-2-0,ORB_PICKUP-4-2-0
     Scope:
         Enable: true
         No_Recoil: true
@@ -248,11 +306,11 @@ mp5:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 MP5 冲锋枪 射杀!"
 
-ump9:
+UMP9:
     Item_Information:
         Item_Name: "&eUMP9"
         Item_Type: 293
-        Item_Lore: "&aStable Submachine Gun. &cRequires Ammo For Shooting."
+        Item_Lore: "&aStable Submachine Gun. &cRequires 9mm Ammo For Shooting."
     Shooting:
         Right_Click_To_Shoot: false
         Cancel_Left_Click_Block_Damage: true
@@ -263,7 +321,7 @@ ump9:
         Projectile_Speed: 40
         Projectile_Damage: 38
         Bullet_Spread: 0.5
-        Sounds_Shoot: FIRE_IGNITE-1-1-0,CLICK-1-1-0,BLAZE_HIT-1-2-0
+        Sounds_Shoot: FIRE_IGNITE-4-1-0,CLICK-4-1-0,BLAZE_HIT-4-2-0
     Scope:
         Enable: true
         No_Recoil: true
@@ -311,7 +369,7 @@ ump9:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 UMP 9 冲锋枪 射杀!"
 
-ump45:
+UMP45:
     Item_Information:
         Item_Name: "&eUMP45"
         Item_Type: 293
@@ -326,7 +384,7 @@ ump45:
         Projectile_Speed: 40
         Projectile_Damage: 40
         Bullet_Spread: 0.5
-        Sounds_Shoot: CLICK-1-1-0,BLAZE_HIT-1-3-0
+        Sounds_Shoot: CLICK-4-1-0,BLAZE_HIT-4-3-0
     Scope:
         Enable: true
         No_Recoil: true
@@ -385,7 +443,7 @@ tom:
         Projectile_Speed: 40
         Projectile_Damage: 38
         Bullet_Spread: 0.4
-        Sounds_Shoot: FIRE_IGNITE-1-1-0,CLICK-1-1-0
+        Sounds_Shoot: FIRE_IGNITE-4-1-0,CLICK-4-1-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -421,7 +479,7 @@ tom:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 汤姆逊 冲锋枪 打死了!"
 
-p90:
+P90:
     Item_Information:
         Item_Name: "&eP90"
         Item_Type: 279
@@ -478,7 +536,7 @@ p90:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 P90 打成了筛子!"
 
-mp9:
+MP9:
     Item_Information:
         Item_Name: "&eMP9"
         Item_Type: 294

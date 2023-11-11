@@ -1,4 +1,4 @@
-m249:
+M249:
     Item_Information:
         Item_Name: "&eM249"
         Item_Type: 293
@@ -18,7 +18,7 @@ m249:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.02
+        Bullet_Spread: 0.08
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12

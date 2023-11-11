@@ -174,7 +174,7 @@ S686:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 伯莱塔 S686 霰弹枪 喷死了!"
 
-s12k:
+S12K:
     Item_Information:
         Item_Name: "&eSAIGA-12K"
         Item_Type: 284
@@ -443,7 +443,7 @@ AA12:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 AA12 喷成了筛子 !"
 
-dbs:
+DBS:
     Item_Information:
         Item_Name: "&eDP-12 Shotgun"
         Item_Type: 277

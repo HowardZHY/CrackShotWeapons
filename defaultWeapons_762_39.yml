@@ -297,7 +297,7 @@ SKS:
         Right_Click_To_Shoot: false
         Projectile_Amount: 1
         Projectile_Type: arrow
-        Projectile_Speed: 810
+        Projectile_Speed: 800
         Projectile_Damage: 55
         Recoil_Amount: 2
         Bullet_Spread: 0.6
@@ -308,8 +308,14 @@ SKS:
         Enable: true
         Reload_Amount: 20
         Reload_Duration: 36
+        Take_Ammo_On_Reload: true
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
-        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-25,DOOR_CLOSE-1-2-28
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-25,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-32
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
     Firearm_Action:
         Type: slide
         Open_Duration: 10
@@ -337,6 +343,11 @@ SKS:
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Crafting:
+        Enable: true
+        Quantity: 1
+        Shaped: true
+        Ingredients: 265,369,0,0,369,0,0,369,265
 
 mk47:
     Item_Information:

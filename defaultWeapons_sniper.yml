@@ -341,7 +341,7 @@ M24:
         Sound_Close: PISTON_EXTEND-1-3-2
     Headshot:
         Enable: true
-        Bonus_Damage: 90
+        Bonus_Damage: 126
         Message_Shooter: "&cHead Shot !"
         Message_Victim: "&4你被爆头了!"
         Sounds_Shooter: NOTE_PLING-1-2-0
@@ -410,7 +410,7 @@ m1891:
         Sound_Close: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-2,PISTON_EXTEND-1-2-5,PISTON_RETRACT-1-2-8
     Headshot:
         Enable: true
-        Bonus_Damage: 88
+        Bonus_Damage: 124
         Message_Shooter: "&cHead Shot !"
         Message_Victim: "&4你被爆头了!"
         Sounds_Shooter: NOTE_PLING-1-2-0
@@ -474,7 +474,7 @@ kar98k:
         Sound_Close: PISTON_EXTEND-1-2-0
     Headshot:
         Enable: true
-        Bonus_Damage: 88
+        Bonus_Damage: 117
         Message_Shooter: "&cHead Shot !"
         Message_Victim: "&4你被爆头了!"
         Sounds_Shooter: NOTE_PLING-1-2-0
@@ -532,7 +532,7 @@ win94:
         Sound_Close: PISTON_RETRACT-1-2-0
     Headshot:
         Enable: true
-        Bonus_Damage: 66
+        Bonus_Damage: 99
         Message_Shooter: "&cHead Shot !"
         Message_Victim: "&4你被爆头了!"
         Sounds_Shooter: NOTE_PLING-1-2-0
