@@ -416,7 +416,71 @@ AA12:
         Bullet_Spread: 0.6
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 8
+        Reload_Duration: 30
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-15-1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~1
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+        Super_Effective: ZOMBIE-2
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -2
+        Maximum_Damage: -6
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: FLAMES-1
+        Particle_Impact_Anything: BLOCK_BREAK-51
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 AA12 喷成了筛子 !"
+
+AA12-G:
+    Item_Information:
+        Item_Name: "&eAA-12 Drum Mag"
+        Item_Type: 418
+        Item_Lore: "&eFull Automatic Shotgun."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Delay_Between_Shots: 1
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 4
+        Projectile_Amount: 12
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 16
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 100
+        Bullet_Spread: 1.5
+        Sounds_Shoot: WITHER_SHOOT-4-2-0,IRONGOLEM_HIT-4-2-0,ZOMBIE_WOOD-4-1-0,EXPLODE-4-2-0,GHAST_FIREBALL-4-1-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 4
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.6
+    Reload:
+        Enable: true
+        Reload_Amount: 20
         Reload_Duration: 20
         Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
     Firearm_Action:
@@ -441,7 +505,7 @@ AA12:
         Particle_Player_Shoot: FLAMES-1
         Particle_Impact_Anything: BLOCK_BREAK-51
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 AA12 喷成了筛子 !"
+        Normal: "&e<victim> 被 <shooter> 使用 AA12 弹鼓版 喷成了筛子 !"
 
 DBS:
     Item_Information:

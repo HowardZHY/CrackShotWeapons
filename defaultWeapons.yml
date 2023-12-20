@@ -132,76 +132,6 @@ M16:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 M16 步枪 射杀!"
 
-MK12:
-    Item_Information:
-        Item_Name: "&eMK12 DMR"
-        Item_Type: 275
-        Item_Lore: "&aCarbine DMR Rifle|&eRight click to open 4x scope.|&cUse 5.56 Ammo"
-    Shooting:
-        Cancel_Left_Click_Block_Damage: true
-        Cancel_Right_Click_Interactions: true
-        Delay_Between_Shots: 1
-        Recoil_Amount: 1
-        Projectile_Amount: 1
-        Projectile_Type: arrow
-        Projectile_Speed: 750
-        Projectile_Damage: 50
-        Bullet_Spread: 0.6
-        Sounds_Shoot: CLICK-6-1-0,IRONGOLEM_HIT-6-2-0,BLAZE_HIT-6-2-0,ZOMBIE_WOOD-6-2-0
-    Sneak:
-        Enable: true
-        No_Recoil: true
-        Bullet_Spread: 0.02
-    Scope:
-        Enable: true
-        Zoom_No_Recoil: true
-        Zoom_Amount: 5
-        Sounds_Toggle_Zoom: FIRE_IGNITE-1-0-0
-        Zoom_Bullet_Spread: 0.01
-    Reload:
-        Enable: true
-        Take_Ammo_On_Reload: true
-        Reload_Amount: 30
-        Reload_Duration: 36
-        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-7,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-32
-        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~2
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0      
-    Firearm_Action:
-        Type: slide
-        Close_Duration: 4
-        Sound_Close: CLICK-1-1-0
-    Abilities:
-        Reset_Hit_Cooldown: true
-        No_Vertical_Recoil: true
-    Particles:
-        Enable: true
-        Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Headshot: BLOCK_BREAK-55
-    Hit_Events:
-        Enable: true
-        Sounds_Shooter: SHOOT_ARROW-1-2-0
-    Headshot:
-        Enable: true
-        Bonus_Damage: 75
-        Sounds_Shooter: NOTE_PLING-1-2-0
-        Sounds_Victim: HURT_FLESH-1-1-0
-    Backstabs:
-        Enable: true
-        Bonus_Damage: 4
-    Critical_hits:
-        Enable: true
-        Bonus_Damage: 6
-        Chance: 50
-    Potion_Effects:
-        Activation: hit
-        Potion_Effect_Victim: WITHER-10-10
-    Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 MK12 狙击步枪 狙杀!"
-
 M416:
     Item_Information:
         Item_Name: "&eHK M416"
@@ -269,7 +199,7 @@ M416:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 HK M416 自动步枪 射杀!"
 
-ScarL:
+SCARL:
     Item_Information:
         Item_Name: "&eSCAR-L"
         Item_Type: 286
@@ -299,9 +229,15 @@ ScarL:
         Zoom_Amount: 3
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
         Zoom_Bullet_Spread: 0.02
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0       
     Reload:
         Enable: true
-        Reload_Amount: 44
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 40
         Reload_Duration: 30
         Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-23,DOOR_CLOSE-1-2-25
     Firearm_Action:
@@ -326,9 +262,68 @@ ScarL:
         Enable: true
         Bonus_Damage: 1
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 Scar-L 自动步枪 射杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 SCAR-L 自动步枪 射杀!"
 
-g36:
+SCARL_S:
+    Item_Information:
+        Item_Name: "&eSCAR-L SV"
+        Item_Type: 286
+        Item_Lore: "&e5.56 Light Assault Rifle.|&2Right click to open night vision 2x scope."
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 870
+        Projectile_Damage: 40
+        Bullet_Spread: 0.4
+        Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.02
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 30
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-23,DOOR_CLOSE-1-2-25
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 3
+        Sound_Close: CLICK-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 1
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 SCAR-L 自动步枪 射杀!"
+
+G36:
     Item_Information:
         Item_Name: "&eG36C"
         Item_Type: 258
@@ -358,6 +353,12 @@ g36:
         Zoom_Amount: 5
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
         Zoom_Bullet_Spread: 0.02
+    Ammo:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0    
     Reload:
         Enable: true
         Reload_Amount: 40
@@ -388,7 +389,7 @@ g36:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 G36C 自动步枪 射杀!"
 
-mg36:
+MG36:
     Item_Information:
         Item_Name: "&eMG36"
         Item_Type: 258
@@ -448,7 +449,7 @@ mg36:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 MG36 轻机枪 射杀!"
 
-aug:
+AUG:
     Item_Information:
         Item_Name: "&eAUG"
         Item_Type: 279
@@ -514,7 +515,7 @@ aug:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 AUG 自动步枪 打死了!"
 
-aughbar:
+AUGHBAR:
     Item_Information:
         Item_Name: "&3AUG-H"
         Item_Type: 279
@@ -580,7 +581,7 @@ aughbar:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 AUG HBAR 轻机枪 打死了!"
 
-famas:
+FAMAS:
     Item_Information:
         Item_Name: "&eFAMAS"
         Item_Type: 279
@@ -642,302 +643,7 @@ famas:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 FAMAS 自动步枪 射杀!"
 
-Type95:
-    Item_Information:
-        Item_Name: "&eType 95"
-        Item_Type: 293
-        Item_Lore: "QBZ-95 &eFull-automatic LMG/AR. With 3x night vision scope"
-        Sounds_Acquired: BAT_TAKEOFF-1-1-0
-    SignShops:
-        Enable: true
-        Price: 266-10
-        Sign_Gun_ID: 95
-    Shooting:
-        Cancel_Left_Click_Block_Damage: true
-        Cancel_Right_Click_Interactions: true
-        Delay_Between_Shots: 1
-        Recoil_Amount: 1
-        Projectile_Amount: 1
-        Projectile_Type: arrow
-        Projectile_Speed: 780
-        Projectile_Damage: 43
-        Bullet_Spread: 0.4
-        Sounds_Shoot: ITEM_BREAK-2-2-2,NOTE_SNARE_DRUM-2-0-2
-    Sneak:
-        Enable: true
-        No_Recoil: true
-        Bullet_Spread: 0.1
-    Fully_Automatic:
-        Enable: true
-        Fire_Rate: 12
-    Ammo:
-        Enable: false
-        Ammo_Item_ID: 370
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
-    Reload:
-        Enable: true
-        Reload_Amount: 50
-        Take_Ammo_On_Reload: false
-        Reload_Duration: 40
-        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
-    Scope:
-        Enable: true
-        Zoom_Amount: 4
-        Zoom_Bullet_Spread: 0.01
-        Night_Vision: true
-        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
-    Abilities:
-        Reset_Hit_Cooldown: true
-    Hit_Events:
-        Enable: true
-        Sounds_Shooter: SHOOT_ARROW-1-2-0
-    Headshot:
-        Enable: true
-        Bonus_Damage: 64
-        Sounds_Shooter: NOTE_PLING-1-2-0
-        Sounds_Victim: HURT_FLESH-1-1-0
-    Particles:
-        Enable: true
-        Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Headshot: BLOCK_BREAK-55
-    Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 95式 突击步枪 打死了!"
-
-Mini14:
-    Item_Information:
-        Item_Name: "&eMini-14"
-        Item_Type: 275
-        Item_Lore: "&aLight DMR Rifle|&eRight click to open 4x scope.|&cUse 5.56 Ammo"
-    Shooting:
-        Cancel_Left_Click_Block_Damage: true
-        Cancel_Right_Click_Interactions: true
-        Delay_Between_Shots: 1
-        Recoil_Amount: 1
-        Projectile_Amount: 1
-        Projectile_Type: arrow
-        Projectile_Speed: 960
-        Projectile_Damage: 46
-        Bullet_Spread: 0.5
-        Sounds_Shoot: CLICK-2-1-0,NOTE_PLING-2-2-0,BLAZE_HIT-2-2-0,ZOMBIE_WOOD-2-2-0
-    Sneak:
-        Enable: true
-        No_Recoil: true
-        Bullet_Spread: 0.01
-    Scope:
-        Enable: true
-        Zoom_No_Recoil: true
-        Zoom_Amount: 5
-        Sounds_Toggle_Zoom: FIRE_IGNITE-1-0-0
-        Zoom_Bullet_Spread: 0.01
-    Reload:
-        Enable: true
-        Take_Ammo_On_Reload: true
-        Reload_Amount: 30
-        Reload_Duration: 36
-        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-7,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-32
-        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~2
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0      
-    Firearm_Action:
-        Type: slide
-        Close_Duration: 4
-        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
-    Abilities:
-        Reset_Hit_Cooldown: true
-        No_Vertical_Recoil: true
-    Particles:
-        Enable: true
-        Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Headshot: BLOCK_BREAK-55
-    Hit_Events:
-        Enable: true
-        Sounds_Shooter: SHOOT_ARROW-1-2-0
-    Headshot:
-        Enable: true
-        Bonus_Damage: 69
-        Sounds_Shooter: NOTE_PLING-1-2-0
-        Sounds_Victim: HURT_FLESH-1-1-0
-    Backstabs:
-        Enable: true
-        Bonus_Damage: 4
-    Critical_hits:
-        Enable: true
-        Bonus_Damage: 8
-        Chance: 80
-    Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 Mini 14 狙杀!"
-    Potion_Effects:
-        Activation: hit
-        Potion_Effect_Victim: WITHER-10-10
-
-Type88:
-    Item_Information:
-        Item_Name: "&eType 88"
-        Item_Type: 293
-        Item_Lore: "QBU-88 &eSemi Auto Sniper/DMR.|&eWith 4x night vision scope"
-    Shooting:
-        Cancel_Left_Click_Block_Damage: true
-        Cancel_Right_Click_Interactions: true
-        Delay_Between_Shots: 1
-        Recoil_Amount: 1
-        Projectile_Amount: 1
-        Projectile_Type: arrow
-        Projectile_Speed: 990
-        Projectile_Damage: 54
-        Bullet_Spread: 0.5
-        Sounds_Shoot: ITEM_BREAK-6-2-0,NOTE_SNARE_DRUM-6-0-0,NOTE_PLING-6-2-0,BLAZE_HIT-6-2-0,ZOMBIE_WOOD-6-2-0
-    Sneak:
-        Enable: true
-        No_Recoil: true
-        Bullet_Spread: 0.01
-    Scope:
-        Enable: true
-        Zoom_No_Recoil: true
-        Zoom_Amount: 5
-        Sounds_Toggle_Zoom: FIRE_IGNITE-1-0-0
-        Zoom_Bullet_Spread: 0.01
-    Reload:
-        Enable: true
-        Reload_Amount: 20
-        Reload_Duration: 36
-        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-7,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-32
-        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
-    Firearm_Action:
-        Type: slide
-        Close_Duration: 6
-        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
-    Abilities:
-        Reset_Hit_Cooldown: true
-        No_Vertical_Recoil: true
-    Particles:
-        Enable: true
-        Particle_Impact_Anything: BLOCK_BREAK-80
-        Particle_Headshot: BLOCK_BREAK-55
-    Hit_Events:
-        Enable: true
-        Sounds_Shooter: SHOOT_ARROW-1-2-0
-    Headshot:
-        Enable: true
-        Bonus_Damage: 81
-        Sounds_Shooter: NOTE_PLING-1-2-0
-        Sounds_Victim: HURT_FLESH-1-1-0
-    Backstabs:
-        Enable: true
-        Bonus_Damage: 2
-    Critical_hits:
-        Enable: true
-        Bonus_Damage: 4
-        Chance: 50
-    Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 88式 狙击步枪 狙杀!"
-
-val:
-    Item_Information:
-        Item_Name: "&eAS-VAL"
-        Item_Type: 294
-        Item_Lore: "Full Auto Slient AR with 4X Scope"
-        Sounds_Acquired: BAT_TAKEOFF-1-1-0
-    Shooting:
-        Cancel_Left_Click_Block_Damage: true
-        Cancel_Right_Click_Interactions: true
-        Right_Click_To_Shoot: false
-        Projectile_Amount: 1
-        Projectile_Type: arrow
-        Projectile_Speed: 300
-        Projectile_Damage: 40
-        Recoil_Amount: 0.5
-        Bullet_Spread: 0.2
-        Sounds_Shoot: BLAZE_HIT-1-2-0
-    Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 的 VAL 偷袭狙杀!"
-    Reload:
-        Enable: true
-        Reload_Amount: 36
-        Take_Ammo_On_Reload: true
-        Reload_Duration: 25
-        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
-        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-18,HURT_FLESH-1-0-20,DOOR_CLOSE-1-2-23
-    Firearm_Action:
-        Type: slide
-        Close_Duration: 1
-        Close_Shoot_Delay: 1
-    Fully_Automatic:
-        Enable: true
-        Fire_Rate: 12
-    Headshot:
-        Enable: true
-        Bonus_Damage: 60
-        Sounds_Shooter: NOTE_PLING-1-2-0
-        Sounds_Victim: VILLAGER_DEATH-1-1-0
-    Abilities:
-        Reset_Hit_Cooldown: true
-        No_Vertical_Recoil: true
-    Scope:
-        Enable: true
-        Night_Vision: true
-        Zoom_Amount: 5
-        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
-        Zoom_Bullet_Spread: 0.01
-    Hit_Events:
-        Enable: true
-        Sounds_Shooter: SHOOT_ARROW-1-2-0
-
-vss:
-    Item_Information:
-        Item_Name: "&eVSS"
-        Item_Type: 294
-        Item_Lore: "Full Auto Slient Sniper with 4X Scope"
-        Sounds_Acquired: BAT_TAKEOFF-1-1-0
-    Shooting:
-        Cancel_Left_Click_Block_Damage: true
-        Cancel_Right_Click_Interactions: true
-        Right_Click_To_Shoot: false
-        Projectile_Amount: 1
-        Projectile_Type: arrow
-        Projectile_Speed: 360
-        Projectile_Damage: 40
-        Recoil_Amount: 0.5
-        Bullet_Spread: 0.4
-        Sounds_Shoot: BLAZE_HIT-1-2-0
-    Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 的 VSS 偷袭狙杀!"
-    Reload:
-        Enable: true
-        Reload_Amount: 24
-        Take_Ammo_On_Reload: true
-        Reload_Duration: 25
-        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
-        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-18,HURT_FLESH-1-0-20,DOOR_CLOSE-1-2-23
-    Firearm_Action:
-        Type: slide
-        Close_Duration: 1
-        Close_Shoot_Delay: 1
-    Fully_Automatic:
-        Enable: true
-        Fire_Rate: 12
-    Headshot:
-        Enable: true
-        Bonus_Damage: 60
-        Sounds_Shooter: NOTE_PLING-1-2-0
-        Sounds_Victim: VILLAGER_DEATH-1-1-0
-    Abilities:
-        Reset_Hit_Cooldown: true
-        No_Vertical_Recoil: true
-    Scope:
-        Enable: true
-        Night_Vision: true
-        Zoom_Amount: 5
-        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
-        Zoom_Bullet_Spread: 0.01
-    Hit_Events:
-        Enable: true
-        Sounds_Shooter: SHOOT_ARROW-1-2-0
-
-acr:
+ACR:
     Item_Information:
         Item_Name: "&eRemington ACR"
         Item_Type: 286
@@ -996,7 +702,7 @@ acr:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 ACR 自动步枪 射杀!"
 
-m27:
+M27:
     Item_Information:
         Item_Name: "&eM27"
         Item_Type: 293
@@ -1006,7 +712,7 @@ m27:
         Right_Click_To_Shoot: false
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 0.2
+        Recoil_Amount: 0
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 900
@@ -1053,7 +759,7 @@ m27:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 的 M27 自动步枪 狙杀!"
 
-m27iar:
+M27IAR:
     Item_Information:
         Item_Name: "&eM27-IAR"
         Item_Type: 293
@@ -1063,7 +769,7 @@ m27iar:
         Right_Click_To_Shoot: false
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 0.2
+        Recoil_Amount: 0
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 900
@@ -1109,3 +815,191 @@ m27iar:
         Zoom_Bullet_Spread: 0.001
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 的 M27 轻机枪 狙杀!"
+
+K2:
+    Item_Information:
+        Item_Name: "&eK2"
+        Item_Type: 292
+        Item_Lore: "&e5.56 Assault Rifle with higher bullet speed."
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 900
+        Projectile_Damage: 41
+        Bullet_Spread: 0.4
+        Sounds_Shoot: IRONGOLEM_HIT-6-3-0,FIRE_IGNITE-6-1-0,CLICK-6-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 2
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.04
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 30
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-6,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-23,DOOR_CLOSE-1-2-25
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 2
+        Sound_Close: CLICK-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 62
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Backstabs:
+        Enable: true
+        Bonus_Damage: 1
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用棒子的 K2 自动步枪 打死了!"
+
+AN94:
+    Item_Information:
+        Item_Name: "&eAN-94 Abakan"
+        Item_Type: 369
+        Item_Lore: "&eSpecial Fully Automatic with medium power.|&eEffective at every range.|&cUse 5.56 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 870
+        Projectile_Damage: 45
+        Bullet_Spread: 0.5
+        Sounds_Shoot: IRONGOLEM_HIT-4-2-0,SKELETON_HURT-4-2-0,ZOMBIE_WOOD-4-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 8
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0      
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 40
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.02
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 67
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 AN 94 突击步枪 射杀!"
+
+AK117:
+    Item_Information:
+        Item_Name: "&eAK117"
+        Item_Type: 369
+        Item_Lore: "&eFully Automatic AK with medium power.|&eEffective at closed range.|&cUse 5.56 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 810
+        Projectile_Damage: 33
+        Bullet_Spread: 0.5
+        Sounds_Shoot: BLAZE_HIT-4-2-0,SKELETON_HURT-4-2-0,ZOMBIE_WOOD-4-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0      
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 48
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.02
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 50
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 AK117 射杀!"

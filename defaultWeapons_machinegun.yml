@@ -58,11 +58,11 @@ M249:
         Enable: true
         Zoom_Amount: 5
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 的 M249 轻机枪 打成了筛子!"
 
-mg3:
+MG3:
     Item_Information:
         Item_Name: "&eMG3"
         Item_Type: 278
@@ -81,7 +81,7 @@ mg3:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.02
+        Bullet_Spread: 0.05
     Fully_Automatic:
         Enable: true
         Fire_Rate: 16
@@ -122,11 +122,11 @@ mg3:
         Zoom_Amount: 4
         Night_Vision: true
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.02
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 的 MG3 机枪 打成了筛子!"
 
-dp28:
+DP28:
     Item_Information:
         Item_Name: "&eDP-28 Machine Gun"
         Item_Type: 285
@@ -188,7 +188,7 @@ dp28:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 DP28 大盘鸡 狙杀!"
 
-pkm:
+PKM:
     Item_Information:
         Item_Name: "&ePKM"
         Item_Type: 257
@@ -208,7 +208,7 @@ pkm:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.02
+        Bullet_Spread: 0.05
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8
@@ -249,7 +249,7 @@ pkm:
         Zoom_Amount: 5
         Night_Vision: true
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.04
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 PKM 机枪 狙杀!"
 
@@ -278,10 +278,16 @@ RPK:
         Fire_Rate: 8
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 75
         Reload_Duration: 50
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-44,HURT_FLESH-1-0-45,DOOR_CLOSE-1-2-48
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0   
     Firearm_Action:
         Type: slide
         Close_Duration: 10

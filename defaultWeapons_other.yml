@@ -426,4 +426,4 @@ M134:
         Particle_Headshot: BLOCK_BREAK-55
     Potion_Effects:
         Activation: shoot
-        Potion_Effect_Shooter: SLOW-100-4
+        Potion_Effect_Shooter: SLOW-100-2

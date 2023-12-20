@@ -212,7 +212,7 @@ M200:
         Starting_Amount: 6
         Reload_Amount: 6
         Reload_Bullets_Individually: false
-        Reload_Duration: 10
+        Reload_Duration: 30
         Sounds_Reloading: NOTE_STICKS-1-1-0
     Firearm_Action:
         Type: bolt
@@ -271,7 +271,7 @@ AWM:
         Starting_Amount: 8
         Reload_Amount: 8
         Reload_Bullets_Individually: false
-        Reload_Duration: 10
+        Reload_Duration: 30
         Sounds_Reloading: NOTE_STICKS-1-1-0
     Firearm_Action:
         Type: bolt
@@ -327,11 +327,17 @@ M24:
         Normal: "&e<victim> 被 <shooter> 使用 M24 狙杀!"
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Starting_Amount: 8
         Reload_Amount: 8
         Reload_Bullets_Individually: false
-        Reload_Duration: 10
-        Sounds_Reloading: FIRE_IGNITE-1-1-0,NOTE_STICKS-1-1-4,FIRE_IGNITE-1-1-8
+        Reload_Duration: 20
+        Sounds_Reloading: FIRE_IGNITE-1-1-0,NOTE_STICKS-1-1-8,FIRE_IGNITE-1-1-16
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
     Firearm_Action:
         Type: bolt
         Open_Duration: 6
@@ -353,7 +359,7 @@ M24:
         Enable: true
         Particle_Player_Shoot: BLOCK_BREAK-1
         Particle_Terrain: true
-        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Impact_Anything: BLOCK_BREAK-13
         Particle_Hit: BLOCK_BREAK-152
         Particle_Headshot: BLOCK_BREAK-87
     Sneak:
@@ -422,7 +428,7 @@ m1891:
         Enable: true
         Particle_Player_Shoot: BLOCK_BREAK-1
         Particle_Terrain: true
-        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Impact_Anything: BLOCK_BREAK-13 
         Particle_Hit: BLOCK_BREAK-152
         Particle_Headshot: BLOCK_BREAK-87
     Scope:
@@ -486,7 +492,7 @@ kar98k:
         Enable: true
         Particle_Player_Shoot: BLOCK_BREAK-1
         Particle_Terrain: true
-        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Impact_Anything: BLOCK_BREAK-13 
         Particle_Hit: BLOCK_BREAK-152
         Particle_Headshot: BLOCK_BREAK-87
     Scope:
@@ -544,7 +550,7 @@ win94:
         Enable: true
         Particle_Player_Shoot: BLOCK_BREAK-1
         Particle_Terrain: true
-        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Impact_Anything: BLOCK_BREAK-13 
         Particle_Hit: BLOCK_BREAK-152
         Particle_Headshot: BLOCK_BREAK-87
     Scope:

@@ -4,12 +4,16 @@ Type81:
         Item_Type: 369
         Item_Lore: "QBZ-81 &e3-Burst-Automatic LMG/AR. With 3x scope"
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 0
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Delay_Between_Shots: 4
         Recoil_Amount: 3
-        Projectile_Amount: 3
+        Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 45
@@ -21,7 +25,7 @@ Type81:
         Bullet_Spread: 0.1
     Reload:
         Enable: true
-        Reload_Amount: 25
+        Reload_Amount: 30
         Take_Ammo_On_Reload: false
         Reload_Duration: 40
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
@@ -38,6 +42,7 @@ Type81:
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Abilities:
         Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
@@ -135,10 +140,10 @@ Groza:
         Fire_Rate: 12
     Reload:
         Enable: true
-        Reload_Amount: 50
-        Reload_Duration: 40
+        Reload_Amount: 40
+        Reload_Duration: 50
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
-        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-40
     Firearm_Action:
         Type: slide
         Close_Duration: 10
@@ -192,7 +197,7 @@ AKM:
         Fire_Rate: 8
     Reload:
         Enable: true
-        Reload_Amount: 50
+        Reload_Amount: 40
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
@@ -250,7 +255,7 @@ AK47:
     Scope:
         Enable: true
         Zoom_Amount: 3
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.04
         Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
     Fully_Automatic:
         Enable: true
@@ -259,11 +264,11 @@ AK47:
         Enable: true
         Ammo_Item_ID: 351~11
         Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Reload_Amount: 40
         Take_Ammo_On_Reload: true
+        Reload_Amount: 40
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
@@ -349,7 +354,7 @@ SKS:
         Shaped: true
         Ingredients: 265,369,0,0,369,0,0,369,265
 
-mk47:
+MK47:
     Item_Information:
         Item_Name: "&eMK47 Mutant"
         Item_Type: 369
@@ -377,8 +382,8 @@ mk47:
     Reload:
         Enable: true
         Reload_Amount: 30
-        Reload_Duration: 40
-        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Reload_Duration: 36
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-34,HURT_FLESH-1-0-35,DOOR_CLOSE-1-2-36
     Firearm_Action:
         Type: slide
         Close_Duration: 10
@@ -433,9 +438,9 @@ ACE:
     Reload:
         Enable: true
         Reload_Amount: 40
-        Reload_Duration: 40
+        Reload_Duration: 36
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
-        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-33,HURT_FLESH-1-0-34,DOOR_CLOSE-1-2-35
     Firearm_Action:
         Type: slide
         Close_Duration: 10
