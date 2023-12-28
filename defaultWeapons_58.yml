@@ -13,7 +13,7 @@ Type25:
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 780
-        Projectile_Damage: 43
+        Projectile_Damage: 35
         Bullet_Spread: 0.4
         Sounds_Shoot: ITEM_BREAK-2-2-2,NOTE_SNARE_DRUM-2-0-2
     Sneak:
@@ -249,7 +249,7 @@ Type83:
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 780
-        Projectile_Damage: 43
+        Projectile_Damage: 35
         Bullet_Spread: 0.4
         Sounds_Shoot: ITEM_BREAK-2-2-2,NOTE_SNARE_DRUM-2-0-2
     Sneak:

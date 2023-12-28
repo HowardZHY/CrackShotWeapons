@@ -23,10 +23,15 @@ Type81:
         Enable: true
         No_Recoil: true
         Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 30
-        Take_Ammo_On_Reload: false
         Reload_Duration: 40
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
     Firearm_Action:
@@ -56,7 +61,7 @@ Type81:
         Particle_Impact_Anything: BLOCK_BREAK-80
         Particle_Headshot: BLOCK_BREAK-55
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 81 式 轻机枪 狙杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 81 式 步枪 狙杀!"
 
 M762:
     Item_Information:
@@ -81,8 +86,14 @@ M762:
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 40
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -138,8 +149,14 @@ Groza:
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 40
         Reload_Duration: 50
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -195,8 +212,14 @@ AKM:
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 40
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
