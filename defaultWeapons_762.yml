@@ -164,7 +164,7 @@ SVD:
 
 FAL:
     Item_Information:
-        Item_Name: "&bSLR"
+        Item_Name: "&bFAL"
         Item_Type: 369
         Item_Lore: "&eFull automatic battle rifle with high power.|&eControls are inverted."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
@@ -178,7 +178,7 @@ FAL:
         Projectile_Speed: 840
         Projectile_Damage: 59
         Bullet_Spread: 0.6
-        Sounds_Shoot: IRONGOLEM_HIT-5-2-0,SKELETON_HURT-5-2-0,ITEM_BREAK-5-2-0,BLAZE_HIT-5-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ITEM_BREAK-6-2-0,BLAZE_HIT-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 FAL 自动步枪 狙杀 !"
     Sneak:
@@ -236,7 +236,7 @@ SLR:
         Projectile_Speed: 840
         Projectile_Damage: 59
         Bullet_Spread: 0.6
-        Sounds_Shoot: IRONGOLEM_HIT-5-2-0,SKELETON_HURT-5-2-0,ITEM_BREAK-5-2-0,BLAZE_HIT-5-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ITEM_BREAK-6-2-0,BLAZE_HIT-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 SLR 射手步枪 狙杀 !"
     Sneak:
@@ -397,6 +397,7 @@ MK14:
         Item_Lore: "&eFully automatic with high power.|&eEffective at far range.|&eControls are inverted."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
+        Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 2
@@ -405,7 +406,7 @@ MK14:
         Projectile_Speed: 840
         Projectile_Damage: 60
         Bullet_Spread: 0.8
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -462,7 +463,7 @@ M14EBR:
         Projectile_Speed: 840
         Projectile_Damage: 60
         Bullet_Spread: 0.2
-        Sounds_Shoot: IRONGOLEM_HIT-5-2-0,SKELETON_HURT-5-2-0,ZOMBIE_WOOD-5-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -572,7 +573,7 @@ mk17:
         Projectile_Speed: 840
         Projectile_Damage: 45
         Bullet_Spread: 0.5
-        Sounds_Shoot: CHEST_CLOSE-1-2-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+        Sounds_Shoot: CHEST_CLOSE-6-2-0,BLAZE_HIT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
