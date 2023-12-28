@@ -21,14 +21,8 @@ AAC:
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~11
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Take_Ammo_On_Reload: true
         Reload_Amount: 40
         Reload_Duration: 30
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -62,7 +56,7 @@ AAC:
 
 Type85:
     Item_Information:
-        Item_Name: "&eType 85"
+        Item_Name: "&eType 85 Evolution"
         Item_Type: 369
         Item_Lore: "QBU85 &1Semi-Auto Sniper with 4x scope"
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
@@ -134,14 +128,8 @@ SVD:
         Sounds_Shoot: NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-1-0,BLAZE_HIT-1-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 SVD 狙击枪 狙杀!"
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~11
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Take_Ammo_On_Reload: true
         Reload_Amount: 20
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -178,7 +166,7 @@ FAL:
     Item_Information:
         Item_Name: "&bSLR"
         Item_Type: 369
-        Item_Lore: "&eSemi automatic battle rifle with high power.|&eControls are inverted."
+        Item_Lore: "&eFull automatic battle rifle with high power.|&eControls are inverted."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
         Right_Click_To_Shoot: true
@@ -188,7 +176,7 @@ FAL:
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 840
-        Projectile_Damage: 58
+        Projectile_Damage: 59
         Bullet_Spread: 0.6
         Sounds_Shoot: IRONGOLEM_HIT-5-2-0,SKELETON_HURT-5-2-0,ITEM_BREAK-5-2-0,BLAZE_HIT-5-2-0
     Custom_Death_Message:
@@ -258,14 +246,8 @@ SLR:
     Fully_Automatic:
         Enable: false
         Fire_Rate: 8
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~11
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Take_Ammo_On_Reload: true
         Reload_Amount: 20
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -375,14 +357,8 @@ MK14EBR:
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~11
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Take_Ammo_On_Reload: true
         Reload_Amount: 32
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -437,14 +413,8 @@ MK14:
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~11
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Take_Ammo_On_Reload: true
         Reload_Amount: 20
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -497,14 +467,8 @@ M14EBR:
         Enable: true
         No_Recoil: true
         Bullet_Spread: 0.01
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~11
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Take_Ammo_On_Reload: true
         Reload_Amount: 30
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -623,14 +587,8 @@ mk17:
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.01
         Night_Vision: true
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~11
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Take_Ammo_On_Reload: true
         Reload_Amount: 45
         Reload_Duration: 25
         Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-6,NOTE_STICKS-1-2-12,FIRE_IGNITE-1-1-18,HURT_FLESH-1-0-22,DOOR_CLOSE-1-2-24
@@ -684,14 +642,8 @@ mk20:
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.01
         Night_Vision: true
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~11
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Take_Ammo_On_Reload: true
         Reload_Amount: 20
         Reload_Duration: 30
         Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-6,NOTE_STICKS-1-2-12,FIRE_IGNITE-1-1-18,HURT_FLESH-1-0-22,DOOR_CLOSE-1-2-24
@@ -743,14 +695,8 @@ m110:
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.01
         Night_Vision: true
-    Ammo:
-        Enable: true
-        Ammo_Item_ID: 351~11
-        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
-        Take_Ammo_On_Reload: true
         Reload_Amount: 20
         Reload_Duration: 40
         Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-6,NOTE_STICKS-1-2-22,FIRE_IGNITE-1-1-28,HURT_FLESH-1-0-32,DOOR_CLOSE-1-2-35
