@@ -92,10 +92,15 @@ M16:
         Enable: true
         Shots_Per_Burst: 3
         Delay_Between_Shots_In_Burst: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0      
     Reload:
         Enable: true
-        Reload_Amount: 30
         Take_Ammo_On_Reload: true
+        Reload_Amount: 30
         Reload_Duration: 30
         Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-20,HURT_FLESH-1-0-23,DOOR_CLOSE-1-2-25
     Firearm_Action:
@@ -130,7 +135,7 @@ M16:
         Bonus_Damage: 4
         Chance: 50
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 M16 步枪 射杀!"
+        Normal: "&e<victim> 被 <shooter> 使用 M16A4 步枪 射杀!"
 
 M416:
     Item_Information:

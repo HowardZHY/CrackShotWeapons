@@ -251,14 +251,14 @@ M200:
 AWM:
     Item_Information:
         Item_Name: "&eAWM Sniper Rifle"
-        Item_Type: 356
+        Item_Type: 293
         Item_Lore: "&eBolt-action Sniper with high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 1
+        Recoil_Amount: 3
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 960
@@ -268,11 +268,17 @@ AWM:
         Normal: "&e<victim> 被 <shooter> 使用 AWM 狙杀!"
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Starting_Amount: 8
         Reload_Amount: 8
         Reload_Bullets_Individually: false
         Reload_Duration: 30
         Sounds_Reloading: NOTE_STICKS-1-1-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 265
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
     Firearm_Action:
         Type: bolt
         Open_Duration: 8
@@ -289,18 +295,18 @@ AWM:
         Sounds_Victim: VILLAGER_DEATH-1-1-0
     Abilities:
         Reset_Hit_Cooldown: true
-        Knockback: 3
+        Knockback: 2
     Particles:
         Enable: true
         Particle_Player_Shoot: BLOCK_BREAK-1
         Particle_Terrain: true
-        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Impact_Anything: BLOCK_BREAK-49
         Particle_Hit: BLOCK_BREAK-152
         Particle_Headshot: BLOCK_BREAK-87
     Scope:
         Enable: true
         Night_Vision: true
-        Zoom_Amount: 8
+        Zoom_Amount: 9
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
         Zoom_Bullet_Spread: 0.001
     Hit_Events:
@@ -310,14 +316,14 @@ AWM:
 M24:
     Item_Information:
         Item_Name: "&eM24 Sniper Rifle"
-        Item_Type: 419
+        Item_Type: 292
         Item_Lore: "&eBolt-action Sniper Rifle.|&eEquipped with night vision scope.|&eDeals more damage on headshots."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
         Bullet_Spread: 0.2
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 1
+        Recoil_Amount: 3
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 840
@@ -354,7 +360,7 @@ M24:
         Sounds_Victim: VILLAGER_DEATH-1-1-0
     Abilities:
         Reset_Hit_Cooldown: true
-        Knockback: 4
+        Knockback: 2
     Particles:
         Enable: true
         Particle_Player_Shoot: BLOCK_BREAK-1
@@ -517,7 +523,7 @@ win94:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 66
-        Recoil_Amount: 3
+        Recoil_Amount: 2
         Sounds_Shoot: BLAZE_HIT-6-2-0
         Bullet_Spread: 0.1
     Custom_Death_Message:

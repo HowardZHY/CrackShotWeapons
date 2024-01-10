@@ -227,7 +227,7 @@ FHJ18:
         Speed: 6
     Explosions:
         Enable: true
-        Knockback: 5
+        Knockback: 3
         Damage_Multiplier: 50
         Explosion_No_Grief: true
         Explosion_Radius: 10
@@ -244,7 +244,7 @@ M32:
         Item_Lore: "&eSemi-Auto Grenade Launcher."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter> 使用 M32 榴弹发射器 炸死了!"
+        Normal: "&e<victim> 被 <shooter> 使用 M32 MGL 榴弹发射器 炸死了!"
     Shooting:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
@@ -297,7 +297,7 @@ M32:
         Speed: 3
     Explosions:
         Enable: true
-        Knockback: 5
+        Knockback: 3
         Damage_Multiplier: 50
         Explosion_No_Grief: true
         Explosion_Radius: 8
@@ -366,7 +366,7 @@ M79:
         Speed: 3
     Explosions:
         Enable: true
-        Knockback: 5
+        Knockback: 3
         Damage_Multiplier: 50
         Explosion_No_Grief: true
         Explosion_Radius: 8

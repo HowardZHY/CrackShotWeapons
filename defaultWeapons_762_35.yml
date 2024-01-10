@@ -1,0 +1,124 @@
+AAC:
+    Item_Information:
+        Item_Name: "&eAAC Honey Badger"
+        Item_Type: 369
+        Item_Lore: "&eFully automatic with medium power.|&eEffective at close range.|&cUse 7.62 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 450
+        Projectile_Damage: 43
+        Bullet_Spread: 0.4
+        Sounds_Shoot: NOTE_PLING-1-2-0,FIRE_IGNITE-1-1-0,CLICK-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Ammo:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 30
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,DOOR_CLOSE-1-2-28
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: FIRE_IGNITE-1-1-0
+    Scope:
+        Enable: true
+        Zoom_Amount: 3
+        Zoom_Bullet_Spread: 0.02
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+    Headshot:
+        Enable: true
+        Bonus_Damage: 64
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 蜜獾 突击步枪 打死了!"
+
+MCX:
+    Item_Information:
+        Item_Name: "&eMCX"
+        Item_Type: 369
+        Item_Lore: "&eFully automatic Blackout AR.|&eEffective at medium range.|&cUse 7.62 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 450
+        Projectile_Damage: 24
+        Bullet_Spread: 0.5
+        Sounds_Shoot: FIRE_IGNITE-1-1-0,CLICK-1-1-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Ammo:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 50
+        Reload_Duration: 30
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,DOOR_CLOSE-1-2-28
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: FIRE_IGNITE-1-1-0
+    Scope:
+        Enable: true
+        Zoom_Amount: 3
+        Zoom_Bullet_Spread: 0.02
+        Sounds_Toggle_Zoom: CLICK-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+    Headshot:
+        Enable: true
+        Bonus_Damage: 36
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 MCX 自动步枪 打死了!"
