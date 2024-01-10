@@ -23,12 +23,12 @@ AAC:
         Fire_Rate: 12
     Ammo:
         Enable: true
-        Take_Ammo_On_Reload: true
         Ammo_Item_ID: 351~11
         Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
         Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 40
         Reload_Duration: 30
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -63,7 +63,7 @@ AAC:
 MCX:
     Item_Information:
         Item_Name: "&eMCX"
-        Item_Type: 369
+        Item_Type: 292
         Item_Lore: "&eFully automatic Blackout AR.|&eEffective at medium range.|&cUse 7.62 Ammo."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
@@ -86,12 +86,12 @@ MCX:
         Fire_Rate: 16
     Ammo:
         Enable: true
-        Take_Ammo_On_Reload: true
         Ammo_Item_ID: 351~11
         Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
         Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 50
         Reload_Duration: 30
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
