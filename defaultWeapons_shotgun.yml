@@ -388,7 +388,7 @@ M1014:
 AA12:
     Item_Information:
         Item_Name: "&eAA-12"
-        Item_Type: 418
+        Item_Type: 284
         Item_Lore: "&eFull Automatic Shotgun."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
@@ -452,7 +452,7 @@ AA12:
 AA12-G:
     Item_Information:
         Item_Name: "&eAA-12 Drum Mag"
-        Item_Type: 418
+        Item_Type: 284
         Item_Lore: "&eFull Automatic Shotgun."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:

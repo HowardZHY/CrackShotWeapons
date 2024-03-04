@@ -1,0 +1,101 @@
+VAL:
+    Item_Information:
+        Item_Name: "&eAS VAL"
+        Item_Type: 294
+        Item_Lore: "Full Auto Slient AR with 4X Scope"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: false
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 300
+        Projectile_Damage: 40
+        Recoil_Amount: 0.5
+        Bullet_Spread: 0.2
+        Sounds_Shoot: BLAZE_HIT-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 VAL 偷袭狙杀!"
+    Reload:
+        Enable: true
+        Reload_Amount: 36
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 25
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-18,HURT_FLESH-1-0-20,DOOR_CLOSE-1-2-23
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 1
+        Close_Shoot_Delay: 1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.01
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+VSS:
+    Item_Information:
+        Item_Name: "&eVSS"
+        Item_Type: 294
+        Item_Lore: "Full Auto Slient Sniper with 4X Scope"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: false
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 360
+        Projectile_Damage: 40
+        Recoil_Amount: 0.5
+        Bullet_Spread: 0.4
+        Sounds_Shoot: BLAZE_HIT-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 VSS 偷袭狙杀!"
+    Reload:
+        Enable: true
+        Reload_Amount: 24
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 25
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-18,HURT_FLESH-1-0-20,DOOR_CLOSE-1-2-23
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 1
+        Close_Shoot_Delay: 1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Headshot:
+        Enable: true
+        Bonus_Damage: 60
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.01
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0

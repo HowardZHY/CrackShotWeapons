@@ -129,7 +129,7 @@ Airstrike:
         Projectile_Speed: 10
         Sounds_Shoot: FIRE_IGNITE-2-0-0,FIZZ-2-0-0
     Airstrikes:
-        Enable: false
+        Enable: true
         Flare_Activation_Delay: 60
         Particle_Call_Airstrike: lightning
         Message_Call_Airstrike: "&eFriendly airstrike on the way."

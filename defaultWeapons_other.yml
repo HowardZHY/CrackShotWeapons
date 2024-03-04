@@ -383,7 +383,7 @@ M134:
         Item_Lore: "&eHeavy Machine Gun with Extreme Fire Rate."
         Sounds_Acquired: BAT_TAKEOFF-1-1-1
     Custom_Death_Message:
-        Normal: "&e<victim> 被 <shooter>'s 的 M134 加特林 打成了筛子!"
+        Normal: "&e<victim> 被 <shooter> 的 M134 加特林 打成了筛子!"
     Shooting:
         Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
