@@ -896,3 +896,63 @@ K2:
         Bonus_Damage: 1
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用棒子的 K2 自动步枪 打死了!"
+
+Type97:
+    Item_Information:
+        Item_Name: "&eType 97"
+        Item_Type: 293
+        Item_Lore: "QBZ-97 &eFull-automatic bullpup AR. With 3x night vision scope"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 810
+        Projectile_Damage: 41
+        Bullet_Spread: 0.7
+        Sounds_Shoot: ITEM_BREAK-6-2-2,NOTE_SNARE_DRUM-6-0-2
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 36
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Scope:
+        Enable: true
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0.01
+        Night_Vision: true
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 64
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 97式 突击步枪 打死了!"

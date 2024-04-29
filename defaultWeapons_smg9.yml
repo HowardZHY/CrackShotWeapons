@@ -63,15 +63,15 @@ PP19:
         Item_Lore: "&eSubmachine Gun with big magazine.|&cRequires 9mm Ammo For Shooting."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Right_Click_To_Shoot: false
+        Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: snowball
-        Projectile_Speed: 40
+        Projectile_Speed: 150
         Projectile_Damage: 34
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.4
         Sounds_Shoot: IRONGOLEM_HIT-4-2-0,SKELETON_HURT-4-2-0,ZOMBIE_WOOD-4-2-0
     Scope:
         Enable: true
@@ -127,15 +127,15 @@ Vector:
         Item_Lore: "&5Submachine Gun with extreme fire rate.|&cRequires 9mm Ammo For Shooting."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Right_Click_To_Shoot: false
+        Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: snowball
-        Projectile_Speed: 40
+        Projectile_Speed: 120
         Projectile_Damage: 32
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.4
         Sounds_Shoot: ZOMBIE_WOOD-4-1-0,IRONGOLEM_HIT-4-2-0,ITEM_BREAK-4-1-0
     Scope:
         Enable: true
@@ -191,15 +191,15 @@ MP5:
         Item_Lore: "&1Normal Submachine Gun. Requires Ammo For Shooting."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Right_Click_To_Shoot: false
+        Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: snowball
-        Projectile_Speed: 40
+        Projectile_Speed: 120
         Projectile_Damage: 30
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: ZOMBIE_WOOD-4-2-0,ORB_PICKUP-4-2-0
     Scope:
         Enable: true
@@ -383,7 +383,7 @@ JS9:
         Projectile_Type: snowball
         Projectile_Speed: 40
         Projectile_Damage: 34
-        Bullet_Spread: 0.3
+        Bullet_Spread: 0.4
         Sounds_Shoot: BLAZE_HIT-4-2-0,CLICK-4-1-0,FIRE_IGNITE-4-1-0,ZOMBIE_WOOD-4-2-0,ORB_PICKUP-4-2-0
     Sneak:
         Enable: true

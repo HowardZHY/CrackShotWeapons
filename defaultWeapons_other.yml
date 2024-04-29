@@ -391,7 +391,7 @@ M134:
         Recoil_Amount: 1
         Delay_Between_Shots: 1
         Projectile_Amount: 3
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Projectile_Type: arrow
         Projectile_Speed: 40
         Projectile_Damage: 20

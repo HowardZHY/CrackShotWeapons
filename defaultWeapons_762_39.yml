@@ -77,7 +77,7 @@ AKALPHA:
         Projectile_Type: arrow
         Projectile_Speed: 660
         Projectile_Damage: 48
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.6
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
@@ -140,7 +140,7 @@ M762:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 46
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.6
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
@@ -203,7 +203,7 @@ Groza:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 49
-        Bullet_Spread: 0.6
+        Bullet_Spread: 0.7
         Sounds_Shoot: BLAZE_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
@@ -266,7 +266,7 @@ AKM:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 49
-        Bullet_Spread: 0.8
+        Bullet_Spread: 0.9
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
@@ -329,7 +329,7 @@ AK47:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 48
-        Bullet_Spread: 0.8
+        Bullet_Spread: 1.0
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Particles:
         Enable: true
@@ -391,7 +391,7 @@ SKS:
         Projectile_Speed: 800
         Projectile_Damage: 55
         Recoil_Amount: 2
-        Bullet_Spread: 0.6
+        Bullet_Spread: 0.8
         Sounds_Shoot: BLAZE_HIT-6-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 SKS 狙杀 !"
@@ -455,7 +455,7 @@ MK47:
         Projectile_Type: arrow
         Projectile_Speed: 750
         Projectile_Damage: 49
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.6
         Sounds_Shoot:  IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ITEM_BREAK-6-2-2,BLAZE_HIT-6-2-0,ZOMBIE_WOOD-6-2-0
     Burstfire:
         Enable: true
@@ -518,7 +518,7 @@ ACE:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 44
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.7
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,IRONGOLEM_HIT-6-1-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true

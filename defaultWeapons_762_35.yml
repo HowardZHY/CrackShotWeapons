@@ -12,7 +12,7 @@ AAC:
         Projectile_Type: arrow
         Projectile_Speed: 450
         Projectile_Damage: 43
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: NOTE_PLING-1-2-0,FIRE_IGNITE-1-1-0,CLICK-1-1-0
     Sneak:
         Enable: true
@@ -75,7 +75,7 @@ MCX:
         Projectile_Type: arrow
         Projectile_Speed: 450
         Projectile_Damage: 24
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.6
         Sounds_Shoot: FIRE_IGNITE-1-1-0,CLICK-1-1-0,BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
     Sneak:
         Enable: true

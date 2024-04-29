@@ -14,7 +14,7 @@ Type85:
         Projectile_Speed: 840
         Projectile_Damage: 95
         Recoil_Amount: 3
-        Bullet_Spread: 0.6
+        Bullet_Spread: 0.8
         Sounds_Shoot: NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-1-0,BLAZE_HIT-1-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 85式 狙击步枪 狙杀!"
@@ -68,7 +68,7 @@ SVD:
         Projectile_Speed: 840
         Projectile_Damage: 75
         Recoil_Amount: 3
-        Bullet_Spread: 0.6
+        Bullet_Spread: 0.8
         Sounds_Shoot: NOTE_SNARE_DRUM-6-2-0,IRONGOLEM_DEATH-6-1-0,BLAZE_HIT-1-1-0,EXPLODE-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 SVD 狙击枪 狙杀!"
@@ -127,7 +127,7 @@ FAL:
         Projectile_Type: arrow
         Projectile_Speed: 840
         Projectile_Damage: 59
-        Bullet_Spread: 0.6
+        Bullet_Spread: 0.8
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ITEM_BREAK-6-2-0,BLAZE_HIT-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 FAL 自动步枪 狙杀 !"
@@ -186,7 +186,7 @@ SLR:
         Projectile_Type: arrow
         Projectile_Speed: 840
         Projectile_Damage: 59
-        Bullet_Spread: 0.6
+        Bullet_Spread: 0.8
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ITEM_BREAK-6-2-0,BLAZE_HIT-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 SLR 射手步枪 狙杀 !"
@@ -306,7 +306,7 @@ MK14EBR:
         Projectile_Type: arrow
         Projectile_Speed: 840
         Projectile_Damage: 60
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.6
         Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
     Sneak:
         Enable: true
@@ -369,7 +369,7 @@ MK14:
         Projectile_Type: arrow
         Projectile_Speed: 840
         Projectile_Damage: 60
-        Bullet_Spread: 0.8
+        Bullet_Spread: 1.0
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
@@ -432,12 +432,12 @@ M14EBR:
         Projectile_Type: arrow
         Projectile_Speed: 840
         Projectile_Damage: 60
-        Bullet_Spread: 0.2
+        Bullet_Spread: 0.4
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.01
+        Bullet_Spread: 0.1
     Ammo:
         Enable: true
         Ammo_Item_ID: 351~11
@@ -548,7 +548,7 @@ MK17:
         Projectile_Type: arrow
         Projectile_Speed: 840
         Projectile_Damage: 45
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.6
         Sounds_Shoot: CHEST_CLOSE-6-2-0,BLAZE_HIT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
