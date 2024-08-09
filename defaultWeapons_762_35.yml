@@ -17,7 +17,7 @@ AAC:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
@@ -80,7 +80,7 @@ MCX:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 16

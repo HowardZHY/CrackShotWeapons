@@ -81,7 +81,7 @@ MG3:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.05
+        Bullet_Spread: 0.1
     Fully_Automatic:
         Enable: true
         Fire_Rate: 16
@@ -208,7 +208,7 @@ PKM:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.05
+        Bullet_Spread: 0.1
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8
@@ -272,7 +272,7 @@ RPK:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.15
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8

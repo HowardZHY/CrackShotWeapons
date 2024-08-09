@@ -14,24 +14,24 @@ Type25:
         Projectile_Type: arrow
         Projectile_Speed: 780
         Projectile_Damage: 35
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.6
         Sounds_Shoot: ITEM_BREAK-2-2-2,NOTE_SNARE_DRUM-2-0-2
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 16
     Ammo:
-        Enable: false
-        Ammo_Item_ID: 370
+        Enable: true
+        Ammo_Item_ID: 351~2
         Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
         Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
         Reload_Amount: 40
-        Take_Ammo_On_Reload: false
+        Take_Ammo_On_Reload: true
         Reload_Duration: 40
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
     Scope:
@@ -73,24 +73,24 @@ Type19:
         Projectile_Type: arrow
         Projectile_Speed: 840
         Projectile_Damage: 28
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: ITEM_BREAK-2-2-2,NOTE_SNARE_DRUM-2-0-2
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
     Ammo:
-        Enable: false
-        Ammo_Item_ID: 370
+        Enable: true
+        Ammo_Item_ID: 351~2
         Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
         Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
         Reload_Amount: 40
-        Take_Ammo_On_Reload: false
+        Take_Ammo_On_Reload: true
         Reload_Duration: 36
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-32,HURT_FLESH-1-0-33,DOOR_CLOSE-1-2-34
     Scope:
@@ -136,14 +136,20 @@ Type05:
         Projectile_Type: snowball
         Projectile_Speed: 40
         Projectile_Damage: 37
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: BLAZE_HIT-1-2-0
     Sneak:
         Enable: true
         No_Recoil: true
         Bullet_Spread: 0.1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 50
         Reload_Duration: 40
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
@@ -191,19 +197,19 @@ Type03:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
     Ammo:
-        Enable: false
-        Ammo_Item_ID: 370
+        Enable: true
+        Ammo_Item_ID: 351~2
         Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
         Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
         Reload_Amount: 40
-        Take_Ammo_On_Reload: false
+        Take_Ammo_On_Reload: true
         Reload_Duration: 40
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,DOOR_CLOSE-1-2-28
     Scope:
@@ -254,19 +260,19 @@ Type95:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
     Ammo:
-        Enable: false
-        Ammo_Item_ID: 370
+        Enable: true
+        Ammo_Item_ID: 351~2
         Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
         Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
         Reload_Amount: 50
-        Take_Ammo_On_Reload: false
+        Take_Ammo_On_Reload: true
         Reload_Duration: 40
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
     Scope:
@@ -307,22 +313,28 @@ Type88:
         Projectile_Type: arrow
         Projectile_Speed: 990
         Projectile_Damage: 54
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.6
         Sounds_Shoot: ITEM_BREAK-6-2-0,NOTE_SNARE_DRUM-6-0-0,NOTE_PLING-6-2-0,BLAZE_HIT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.01
+        Bullet_Spread: 0.1
     Scope:
         Enable: true
         Zoom_No_Recoil: true
         Zoom_Amount: 5
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-0-0
         Zoom_Bullet_Spread: 0.01
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 20
-        Reload_Duration: 36
+        Reload_Duration: 50
         Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-5,DOOR_OPEN-1-2-7,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-28,DOOR_CLOSE-1-2-32
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
     Firearm_Action:
@@ -369,24 +381,24 @@ Type83:
         Projectile_Type: arrow
         Projectile_Speed: 780
         Projectile_Damage: 35
-        Bullet_Spread: 0.4
-        Sounds_Shoot: ITEM_BREAK-2-2-2,NOTE_SNARE_DRUM-2-0-2
+        Bullet_Spread: 0.5
+        Sounds_Shoot: ITEM_BREAK-6-2-2,NOTE_SNARE_DRUM-6-0-2
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
     Ammo:
-        Enable: false
-        Ammo_Item_ID: 370
+        Enable: true
+        Ammo_Item_ID: 351~2
         Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
         Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
         Reload_Amount: 50
-        Take_Ammo_On_Reload: false
+        Take_Ammo_On_Reload: true
         Reload_Duration: 40
         Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
     Scope:

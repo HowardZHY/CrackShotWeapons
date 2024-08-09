@@ -20,7 +20,7 @@ Vector45:
         No_Recoil: true
         Zoom_Amount: 3
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.04
     Sneak:
         Enable: true
         No_Recoil: true
@@ -77,7 +77,7 @@ UMP45:
         No_Recoil: true
         Zoom_Amount: 3
         Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
-        Zoom_Bullet_Spread: 0.05
+        Zoom_Bullet_Spread: 0.04
     Sneak:
         Enable: true
         No_Recoil: true
@@ -185,7 +185,7 @@ P90:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 16
@@ -222,3 +222,61 @@ P90:
         Reset_Hit_Cooldown: true
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 P90 打成了筛子!"
+
+MP7:
+    Item_Information:
+        Item_Name: "&eMP7"
+        Item_Type: 292
+        Item_Lore: "&5PDW SMG with 2x scope."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Right_Click_To_Shoot: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 450
+        Projectile_Damage: 34
+        Bullet_Spread: 0.4
+        Sounds_Shoot: BLAZE_HIT-1-2-0,CLICK-1-1-0,FIRE_IGNITE-1-1-0,ZOMBIE_WOOD-1-2-0,ORB_PICKUP-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 12
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-4,FIRE_IGNITE-1-2-38,DOOR_CLOSE-1-2-39
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-173 
+        Particle_Hit: BLOCK_BREAK-152
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.02
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 MP7 冲锋枪射杀!"

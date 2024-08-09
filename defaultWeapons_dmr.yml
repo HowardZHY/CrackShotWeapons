@@ -17,7 +17,7 @@ MK12:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.02
+        Bullet_Spread: 0.1
     Scope:
         Enable: true
         Zoom_No_Recoil: true
@@ -87,7 +87,7 @@ Mini14:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.01
+        Bullet_Spread: 0.2
     Scope:
         Enable: true
         Zoom_No_Recoil: true

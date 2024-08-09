@@ -13,7 +13,7 @@ VAL:
         Projectile_Speed: 300
         Projectile_Damage: 40
         Recoil_Amount: 0.5
-        Bullet_Spread: 0.2
+        Bullet_Spread: 0.3
         Sounds_Shoot: BLAZE_HIT-1-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 VAL 偷袭狙杀!"
@@ -64,7 +64,7 @@ VSS:
         Projectile_Speed: 360
         Projectile_Damage: 40
         Recoil_Amount: 0.5
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: BLAZE_HIT-1-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 VSS 偷袭狙杀!"

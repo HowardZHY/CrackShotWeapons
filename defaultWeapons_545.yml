@@ -13,12 +13,12 @@ AKS74U:
         Projectile_Type: arrow
         Projectile_Speed: 540
         Projectile_Damage: 40
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.6
         Sounds_Shoot: IRONGOLEM_HIT-6-3-0,FIRE_IGNITE-6-1-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
@@ -76,7 +76,7 @@ AN94:
         Projectile_Type: arrow
         Projectile_Speed: 870
         Projectile_Damage: 45
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
@@ -141,7 +141,7 @@ AK117:
         Projectile_Type: arrow
         Projectile_Speed: 810
         Projectile_Damage: 33
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.6
         Sounds_Shoot: BLAZE_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true

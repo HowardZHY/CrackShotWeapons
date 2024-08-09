@@ -126,20 +126,26 @@ FAL:
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 840
-        Projectile_Damage: 59
-        Bullet_Spread: 0.8
+        Projectile_Damage: 65
+        Bullet_Spread: 1.0
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ITEM_BREAK-6-2-0,BLAZE_HIT-6-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 FAL 自动步枪 狙杀 !"
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
+        Take_Ammo_On_Reload: true
         Reload_Amount: 20
         Reload_Duration: 40
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
@@ -163,7 +169,7 @@ FAL:
         Sounds_Shooter: SHOOT_ARROW-1-2-0
     Headshot:
         Enable: true
-        Bonus_Damage: 88
+        Bonus_Damage: 90
         Sounds_Shooter: NOTE_PLING-1-2-0
         Sounds_Victim: HURT_FLESH-1-1-0
     Particles:
@@ -193,7 +199,7 @@ SLR:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: false
         Fire_Rate: 8
@@ -201,7 +207,7 @@ SLR:
         Enable: true
         Ammo_Item_ID: 351~11
         Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
         Take_Ammo_On_Reload: true

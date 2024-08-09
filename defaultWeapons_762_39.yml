@@ -77,12 +77,12 @@ AKALPHA:
         Projectile_Type: arrow
         Projectile_Speed: 660
         Projectile_Damage: 48
-        Bullet_Spread: 0.6
+        Bullet_Spread: 0.8
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8
@@ -140,12 +140,12 @@ M762:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 46
-        Bullet_Spread: 0.6
+        Bullet_Spread: 0.7
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
@@ -203,12 +203,12 @@ Groza:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 49
-        Bullet_Spread: 0.7
+        Bullet_Spread: 0.8
         Sounds_Shoot: BLAZE_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
@@ -271,7 +271,7 @@ AKM:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 8
@@ -337,7 +337,7 @@ AK47:
         Particle_Hit: BLOCK_BREAK-1
     Sneak:
         Enable: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Scope:
         Enable: true
         Zoom_Amount: 3
@@ -464,7 +464,7 @@ MK47:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Reload:
         Enable: true
         Reload_Amount: 30
@@ -518,12 +518,12 @@ ACE:
         Projectile_Type: arrow
         Projectile_Speed: 720
         Projectile_Damage: 44
-        Bullet_Spread: 0.7
+        Bullet_Spread: 0.8
         Sounds_Shoot: IRONGOLEM_HIT-6-2-0,IRONGOLEM_HIT-6-1-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.2
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
