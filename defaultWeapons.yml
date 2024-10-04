@@ -362,7 +362,7 @@ G36:
         Enable: true
         Ammo_Item_ID: 351~2
         Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
-        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0    
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Reload:
         Enable: true
         Take_Ammo_On_Reload: true
@@ -429,6 +429,12 @@ MG36:
         Reload_Amount: 100
         Reload_Duration: 45
         Sounds_Reloading: FIRE_IGNITE-1-1-7,DOOR_OPEN-1-2-8,FIRE_IGNITE-1-1-40,HURT_FLESH-1-0-43,DOOR_CLOSE-1-2-45
+        Take_Ammo_On_Reload: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~2
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
     Firearm_Action:
         Type: slide
         Close_Duration: 10
