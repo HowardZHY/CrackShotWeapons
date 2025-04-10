@@ -1,4 +1,4 @@
 # CrackShotWeapons
 Weapon examples for Crack Shot plugin.
 
-License under AGPLv3. You must be open source and same lisence if you modify them. Please use github forks.
+License under AGPLv3. You MUST be open source and same license if you modify them. Please use GitHub forks.
