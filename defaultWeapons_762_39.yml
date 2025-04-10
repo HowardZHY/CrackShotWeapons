@@ -1,3 +1,123 @@
+Type56:
+    Item_Information:
+        Item_Name: "&eType 56"
+        Item_Type: 369
+        Item_Lore: "&eSemi Auto Rifle with high power.|&eEffective at medium range.|&cUse 7.62 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 720
+        Projectile_Damage: 56
+        Bullet_Spread: 0.8
+        Sounds_Shoot: BLAZE_HIT-6-1-0,EXPLODE-6-2-0,ZOMBIE_WOOD-6-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-1
+        Particle_Hit: BLOCK_BREAK-1
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.02
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 10
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 84
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 56 式 半自动步枪 狙杀!"
+
+Type63:
+    Item_Information:
+        Item_Name: "&eType 63"
+        Item_Type: 369
+        Item_Lore: "&eAR/DMR with high power.|&eEffective at medium range.|&cUse 7.62 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 720
+        Projectile_Damage: 63
+        Bullet_Spread: 0.8
+        Sounds_Shoot: BLAZE_HIT-6-1-0,EXPLODE-6-2-0,ZOMBIE_WOOD-6-2-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-1
+        Particle_Hit: BLOCK_BREAK-1
+    Sneak:
+        Enable: true
+        Bullet_Spread: 0.2
+    Scope:
+        Enable: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 0.04
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 4
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 30
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Vertical_Recoil: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0    
+    Headshot:
+        Enable: true
+        Bonus_Damage: 94
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 63 式 自动步枪 狙杀!"
+
 Type81:
     Item_Information:
         Item_Name: "&eType 81"

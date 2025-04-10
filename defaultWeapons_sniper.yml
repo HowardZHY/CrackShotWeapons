@@ -127,14 +127,14 @@ M82:
         Enable: true
         Sounds_Shooter: EXPLODE-1-2-0
 
-lynx:
+Lynx:
     Item_Information:
         Item_Name: "&eLynx GM6 AMR"
         Item_Type: 419
         Item_Lore: "&eSemi-auto Sniper Rifle with high damage.|&eEquipped with a 5x scope."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Bullet_Spread: 0.4
+        Bullet_Spread: 0.5
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 4
@@ -255,7 +255,7 @@ AWM:
         Item_Lore: "&eBolt-action Sniper with high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Bullet_Spread: 0.5
+        Bullet_Spread: 0.6
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 3
@@ -313,6 +313,75 @@ AWM:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
 
+CSLR4:
+    Item_Information:
+        Item_Name: "&eCS / LR 4 Sniper"
+        Item_Type: 292
+        Item_Lore: "&eBolt-action Sniper Rifle.|&eEquipped with night vision scope.|&eDeals high damage on headshots."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Bullet_Spread: 0.4
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 840
+        Projectile_Damage: 100
+        Sounds_Shoot: BLAZE_HIT-8-1-0,BLAZE_HIT-8-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 CS/LR 4 狙击系统 狙杀!"
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Starting_Amount: 10
+        Reload_Amount: 10
+        Reload_Bullets_Individually: false
+        Reload_Duration: 20
+        Sounds_Reloading: FIRE_IGNITE-1-1-0,NOTE_STICKS-1-1-8,FIRE_IGNITE-1-1-16
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 6
+        Close_Duration: 6
+        Close_Shoot_Delay: 6
+        Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-3-2
+        Sound_Close: PISTON_EXTEND-1-3-2
+    Headshot:
+        Enable: true
+        Bonus_Damage: 150
+        Message_Shooter: "&cHead Shot !"
+        Message_Victim: "&4你被爆头了!"
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 2
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+        Particle_Impact_Anything: BLOCK_BREAK-49
+        Particle_Hit: BLOCK_BREAK-152
+        Particle_Headshot: BLOCK_BREAK-87
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.1
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+        Zoom_Bullet_Spread: 0.001
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
 M24:
     Item_Information:
         Item_Name: "&eM24 Sniper Rifle"
@@ -320,7 +389,7 @@ M24:
         Item_Lore: "&eBolt-action Sniper Rifle.|&eEquipped with night vision scope.|&eDeals more damage on headshots."
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
     Shooting:
-        Bullet_Spread: 0.2
+        Bullet_Spread: 0.4
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Recoil_Amount: 3
@@ -371,7 +440,7 @@ M24:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.001
+        Bullet_Spread: 0.1
     Scope:
         Enable: true
         Night_Vision: true
@@ -382,7 +451,7 @@ M24:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
 
-m1891:
+M1891:
     Item_Information:
         Item_Name: "&eMosin Nagant M1891"
         Item_Type: 280
@@ -397,7 +466,7 @@ m1891:
         Projectile_Damage: 83
         Recoil_Amount: 3
         Sounds_Shoot: BLAZE_HIT-8-1-0
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.4
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 莫辛纳甘 M1891 狙杀!"
     Ammo:
@@ -441,12 +510,12 @@ m1891:
         Enable: true
         Zoom_Amount: 4
         Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
-        Zoom_Bullet_Spread: 0.001
+        Zoom_Bullet_Spread: 0.01
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
 
-kar98k:
+Kar98k:
     Item_Information:
         Item_Name: "&eKar 98k"
         Item_Type: 280
@@ -461,7 +530,7 @@ kar98k:
         Projectile_Damage: 78
         Recoil_Amount: 3
         Sounds_Shoot: IRONGOLEM_DEATH-8-1-0,BLAZE_HIT-8-2-0,EXPLODE-8-2-0
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.5
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Kar 98K 狙杀!"
     Ammo:
@@ -510,7 +579,7 @@ kar98k:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
 
-win94:
+Win94:
     Item_Information:
         Item_Name: "&eWinchester M1894"
         Item_Type: 280
@@ -525,7 +594,7 @@ win94:
         Projectile_Damage: 66
         Recoil_Amount: 2
         Sounds_Shoot: BLAZE_HIT-6-2-0
-        Bullet_Spread: 0.1
+        Bullet_Spread: 0.3
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Win94 射杀!"
     Reload:

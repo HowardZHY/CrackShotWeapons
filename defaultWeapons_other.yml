@@ -1,4 +1,4 @@
-crossbow:
+Crossbow:
     Item_Information:
         Item_Name: "&eCrossbow"
         Item_Type: 261
@@ -61,9 +61,14 @@ Shield:
         Remove_Unused_Tag: false
     Riot_Shield:
         Enable: true
-        Durability_Loss_Per_Hit: 2
+        Durability_Loss_Per_Hit: 3
         Sounds_Blocked: GLASS-2-2-0
         Sounds_Break: ITEM_BREAK-2-1-0
+    Crafting:
+        Enable: true
+        Quantity: 1
+        Shaped: true
+        Ingredients: 5,265,5,5,5,5,0,5,0
 
 Pan:
     Item_Information:
@@ -350,7 +355,6 @@ M79:
         Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
     Scope:
         Enable: true
-        Night_Vision: true
         Zoom_Amount: 2
         Sounds_Toggle_Zoom: CLICK-1-1-0
         Zoom_Bullet_Spread: 0.01
@@ -427,3 +431,28 @@ M134:
     Potion_Effects:
         Activation: shoot
         Potion_Effect_Shooter: SLOW-100-2
+
+Ban:
+    Item_Information:
+        Item_Name: "&eBan Stick"
+        Item_Type: 280
+        Item_Lore: "&eOP WEAPON"
+        Melee_Mode: true
+        Hidden_From_List: true
+    Shooting:
+        Delay_Between_Shots: 5
+        Projectile_Damage: 10
+        Sounds_Shoot: BLOCK_ANVIL_LAND-2-1-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: BLOCK_ANVIL_LAND-2-1-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 打死了!"
+    Lightning:
+        Enable: true
+        No_Damage: true
+        On_Impact_With_Anything: false
+    Extras:
+        Run_Command:
+            - "@say <victim> 被踢出游戏!"
+            - "@kick <victim> You have been BANNED from the server"

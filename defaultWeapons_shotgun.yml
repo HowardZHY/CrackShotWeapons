@@ -188,7 +188,7 @@ S12K:
         Projectile_Type: egg
         Projectile_Speed: 40
         Projectile_Damage: 16
-        Recoil_Amount: 5
+        Recoil_Amount: 3
         Bullet_Spread: 2
         Projectile_Incendiary:
             Enable: true
@@ -396,7 +396,7 @@ AA12:
         Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 4
+        Recoil_Amount: 2
         Projectile_Amount: 12
         Projectile_Type: snowball
         Projectile_Speed: 40
@@ -460,7 +460,7 @@ AA12-G:
         Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 4
+        Recoil_Amount: 2
         Projectile_Amount: 12
         Projectile_Type: snowball
         Projectile_Speed: 40
@@ -517,7 +517,7 @@ DBS:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Delay_Between_Shots: 20
-        Recoil_Amount: 4
+        Recoil_Amount: 2
         Projectile_Amount: 10
         Projectile_Type: egg
         Projectile_Speed: 40
@@ -587,7 +587,7 @@ O12:
         Delay_Between_Shots: 1
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Recoil_Amount: 6
+        Recoil_Amount: 4
         Projectile_Amount: 1
         Projectile_Type: egg
         Projectile_Speed: 40

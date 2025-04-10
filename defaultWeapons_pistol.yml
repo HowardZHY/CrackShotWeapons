@@ -1,4 +1,4 @@
-m1911:
+M1911:
     Item_Information:
         Item_Name: "&eM1911 Pistol"
         Item_Type: 292
@@ -14,7 +14,7 @@ m1911:
         Projectile_Speed: 40
         Projectile_Damage: 35
         Bullet_Spread: 0.2
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-1-0,ZOMBIE_WOOD-1-1-0 
+        Sounds_Shoot: IRONGOLEM_HIT-3-2-0,ZOMBIE_METAL-3-1-0,ZOMBIE_WOOD-3-1-0 
     Reload:
         Enable: true
         Reload_Amount: 12
@@ -49,7 +49,7 @@ m1911:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 M1911 手枪 打死了!"
 
-m92:
+M92:
     Item_Information:
         Item_Name: "&eBeretta Pistol M92" 
         Item_Type: 294
@@ -66,7 +66,7 @@ m92:
         Projectile_Speed: 40
         Projectile_Damage: 30
         Bullet_Spread: 0.2
-        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-1-0 
+        Sounds_Shoot: BLAZE_HIT-2-2-0,ZOMBIE_WOOD-2-1-0 
     Sneak:
         Enable: true
         No_Recoil: true
@@ -99,7 +99,7 @@ m92:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 M92 手枪 打死了!"
 
-g18:
+G18:
     Item_Information:
         Item_Name: "&eGlock Pistol 18C" 
         Item_Type: 294
@@ -110,7 +110,7 @@ g18:
         Fire_Rate: 16
     Shooting:
         Recoil_Amount: 1
-        Right_Click_To_Shoot: false
+        Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Delay_Between_Shots: 1
@@ -119,7 +119,7 @@ g18:
         Projectile_Speed: 40
         Projectile_Damage: 20
         Bullet_Spread: 0.5
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
+        Sounds_Shoot: IRONGOLEM_HIT-4-2-0,ZOMBIE_METAL-4-2-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -152,7 +152,7 @@ g18:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 G18C 手枪 打死了!"
 
-vz61:
+VZ61:
     Item_Information:
         Item_Name: "&eVz.61 Scorpion" 
         Item_Type: 294
@@ -172,7 +172,7 @@ vz61:
         Projectile_Speed: 40
         Projectile_Damage: 22
         Bullet_Spread: 0.5
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-1-0
+        Sounds_Shoot: IRONGOLEM_HIT-4-2-0,ZOMBIE_METAL-4-1-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -190,7 +190,7 @@ vz61:
         Zoom_Bullet_Spread: 0.05
     Headshot:
         Enable: true
-        Bonus_Damage: 20
+        Bonus_Damage: 22
         Sounds_Shooter: NOTE_PLING-1-2-0
     Abilities:
         No_Vertical_Recoil: true
@@ -205,7 +205,7 @@ vz61:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 Vz 61 蝎式手枪 打死了!"
 
-Deagle:
+DEagle:
     Item_Information:
         Item_Name: "&eDual Desert Eagle"
         Item_Type: 417
@@ -222,7 +222,7 @@ Deagle:
         Projectile_Speed: 40
         Projectile_Damage: 60
         Bullet_Spread: 0.5
-        Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ZOMBIE_WOOD-1-0-0
+        Sounds_Shoot: ZOMBIE_WOOD-4-2-0,ZOMBIE_WOOD-4-0-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -251,10 +251,12 @@ Deagle:
         Sounds_Shooter: SHOOT_ARROW-1-2-0
     Headshot:
         Enable: true
-        Bonus_Damage: 50
+        Bonus_Damage: 45
         Sounds_Shooter: NOTE_PLING-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 双持 沙漠之鹰 打死了!"
 
-de:
+DE:
     Item_Information:
         Item_Name: "&eDesert Eagle"
         Item_Type: 292
@@ -306,7 +308,7 @@ de:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 沙漠之鹰 打死了!"
 
-des:
+DES:
     Item_Information:
         Item_Name: "&eScoped Desert Eagle"
         Item_Type: 292
@@ -374,7 +376,7 @@ M1895:
         Projectile_Speed: 240
         Projectile_Damage: 46
         Bullet_Spread: 0.2
-        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-1-0,ZOMBIE_WOOD-1-1-0
+        Sounds_Shoot: IRONGOLEM_HIT-3-2-0,ZOMBIE_METAL-3-1-0,ZOMBIE_WOOD-3-1-0
     Ammo:
         Enable: true
         Ammo_Item_ID: 351~11
@@ -558,7 +560,7 @@ Sawed:
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 短管霰弹枪 喷死了!"
 
-tmp:
+TMP:
     Item_Information:
         Item_Name: "&eSteyr TMP 9mm"
         Item_Type: 294
@@ -578,7 +580,7 @@ tmp:
         Projectile_Speed: 40
         Projectile_Damage: 24
         Bullet_Spread: 0.4
-        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-1-0,IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-1-0
+        Sounds_Shoot: BLAZE_HIT-4-2-0,ZOMBIE_WOOD-4-1-0,IRONGOLEM_HIT-4-2-0,ZOMBIE_METAL-4-1-0
     Sneak:
         Enable: true
         No_Recoil: true
@@ -610,3 +612,56 @@ tmp:
         Particle_Hit: BLOCK_BREAK-82
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 TMP 9mm 冲锋手枪 射杀!"
+
+FN57:
+    Item_Information:
+        Item_Name: "&eFN57"
+        Item_Type: 294
+        Item_Lore: "Modern Pistol with long range"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Recoil_Amount: 1
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 240
+        Projectile_Damage: 29
+        Bullet_Spread: 0.4
+        Sounds_Shoot: ZOMBIE_WOOD-2-2-0,CLICK-2-2-0
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 4
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Duration: 25
+        Sounds_Reloading: CLICK-1-1-5,FIRE_IGNITE-1-2-22
+    Scope:
+        Enable: true
+        No_Recoil: true
+        Zoom_Amount: 3
+        Sounds_Toggle_Zoom: FIRE_IGNITE-1-1-0
+        Zoom_Bullet_Spread: 0.05
+    Headshot:
+        Enable: true
+        Bonus_Damage: 29
+        Sounds_Shooter: NOTE_PLING-1-2-0
+    Abilities:
+        No_Vertical_Recoil: true
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0  
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-82
+        Particle_Hit: BLOCK_BREAK-82
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 FN57 手枪 打死了!"

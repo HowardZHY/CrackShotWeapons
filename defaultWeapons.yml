@@ -739,7 +739,7 @@ M27:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.001
+        Bullet_Spread: 0.1
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12
@@ -802,7 +802,7 @@ M27IAR:
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.001
+        Bullet_Spread: 0.01
     Fully_Automatic:
         Enable: true
         Fire_Rate: 12

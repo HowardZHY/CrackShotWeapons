@@ -540,6 +540,67 @@ M21EBR:
         Particle_Impact_Anything: BLOCK_BREAK-80
         Particle_Headshot: BLOCK_BREAK-55
 
+M1:
+    Item_Information:
+        Item_Name: "&eM1 Garand"
+        Item_Type: 369
+        Item_Lore: "&e8-Round Semi automatic with high power.|&cUse 7.62 Ammo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Delay_Between_Shots: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 840
+        Projectile_Damage: 56
+        Bullet_Spread: 0.5
+        Sounds_Shoot: IRONGOLEM_HIT-6-2-0,SKELETON_HURT-6-2-0,ZOMBIE_WOOD-6-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 351~11
+        Sounds_Out_Of_Ammo: NOTE_PLING-1-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-1-2-0        
+    Reload:
+        Enable: true
+        Take_Ammo_On_Reload: true
+        Reload_Amount: 8
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: BLOCK_ANVIL_LAND-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Scope:
+        Enable: true
+        Zoom_Amount: 3
+        Zoom_Bullet_Spread: 0.01
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 84
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: HURT_FLESH-1-1-0
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Headshot: BLOCK_BREAK-55
+    Custom_Death_Message:
+        Normal: "&e<victim> 被 <shooter> 使用 M1 Garand 狙杀!"
+
 MK17:
     Item_Information:
         Item_Name: "&eMK17-CQC"
@@ -670,19 +731,19 @@ M110:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
         Delay_Between_Shots: 3
-        Recoil_Amount: 2
+        Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 810
         Projectile_Damage: 80
-        Bullet_Spread: 0.6
+        Bullet_Spread: 0.2
         Sounds_Shoot: BLAZE_HIT-8-2-0,IRONGOLEM_HIT-8-2-0
     Custom_Death_Message:
         Normal: "&e<victim> 被 <shooter> 使用 M110 狙击步枪 狙杀!"
     Sneak:
         Enable: true
         No_Recoil: true
-        Bullet_Spread: 0.01
+        Bullet_Spread: 0.05
     Scope:
         Enable: true
         No_Recoil: true
